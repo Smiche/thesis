@@ -1,0 +1,215 @@
+\documentclass[12pt, a4paper,oneside, nocenter]{thesis}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{graphicx}%package for imges
+
+\usepackage[hyphens]{url}
+\def\UrlBreaks{\do\/\do-}
+\usepackage[hyphenbreaks]{breakurl}
+\urlstyle{same}
+
+\usepackage{xcolor}
+\usepackage{etoolbox}
+\usepackage{setspace}
+\usepackage{wallpaper}
+\usepackage{lipsum}
+\usepackage[none]{hyphenat}
+\usepackage[document]{ragged2e}
+\usepackage[font=small,labelfont=normal,figurename=Figure,labelsep=period]{caption} % Required for specifying captions to tables and figures
+\captionsetup{justification=raggedright,singlelinecheck=false}
+
+\usepackage[margin=1in,top=0.5in,includehead=true]{geometry}
+
+\usepackage{cleveref}%setting figure referencing
+\crefname{figure}{(Figure}{(Figure}
+\creflabelformat{figure}{#2\textup{#1}#3)}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{titlesec}
+\assignpagestyle{\chapter}{fancy}
+
+% \ignore command for inline comments
+\newcommand{\ignore}[2]{\hspace{0in}#2}
+
+%Setting new line margins
+\renewcommand{\baselinestretch}{1.5}
+
+\usepackage{tocloft}%changing table of contents to dots
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+\renewcommand\cftchapfont{\normalfont\fontsize{12}{12}\selectfont} % chapter font to 12\12
+\renewcommand\cftchappagefont{\normalfont\fontsize{12}{12}\selectfont} %chapter page number font to 12\12
+
+%headheight resetting error
+\setlength{\headheight}{15pt}% ...at least 51.60004pt
+%disabling identation for paragraphs
+\setlength{\parindent}{0cm}
+%increasing space before chapter
+\setlength{\cftbeforechapskip}{2.5pt}
+
+%style for chapters
+\titleformat{\chapter}
+[hang]
+{\normalfont\fontsize{12}{12}\selectfont\bfseries}
+{\thechapter}
+{1em}{}
+
+\titlespacing*{\chapter}{0pt}{-0.2cm}{0.3cm}
+\titleformat*{\section}{\normalfont\fontsize{12}{12}\selectfont\bfseries}
+\titleformat*{\subsection}{\normalfont\fontsize{12}{12}\selectfont\bfseries}
+\titleformat*{\subsubsection}{\normalfont\fontsize{12}{12}\selectfont\bfseries}
+\setlength{\parskip}{1em}
+
+\usepackage{fancyhdr}%fancy headers/footers
+
+\fancyhf{} % sets both header and footer to nothing
+\fancyhead[C]{\thepage}
+
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyhead[C]{\thepage} %RO=right odd, RE=right even
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+\setcounter{section}{1}%start table of contents at 1
+
+%-----------------------------------References------------------------------%
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage[comma]{natbib}
+\bibliographystyle{dcu}
+
+%move left
+\setlength{\bibhang}{0pt}
+
+\renewcommand\harvardurl[1]{\RaggedRight\textbf{URL:}
+\url{#1}}
+
+\renewcommand{\bibname}{REFERENCES}
+%-------------------------------------------------------------------------------%
+
+
+% used in title page
+\author{Aleksandar Ivanov}
+\title{Educational AR/VR Systems for military projects}
+
+\AtBeginDocument{% setting contents name to uppercase
+  \let\mtcontentsname\contentsname
+  \renewcommand\contentsname{\MakeUppercase\mtcontentsname}
+}
+
+\newcommand\blankpage{% used for adding an empty page
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\pagestyle{plain}
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%% BEGINNING OF DOCUMENT
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagenumbering{gobble}%removing page counter
+% Set the right side of the footer to be the page number\fancyhead[R]{\thepage}
+
+\makeatletter
+\begin{titlepage}
+	\begin{center}
+	\ThisLRCornerWallPaper{1}{background.png}
+		\vspace*{2cm}
+		{\fontsize{16}{16}{\selectfont\@author}}\par
+		\vspace{1cm}
+		
+		{ \setstretch{2.0}
+			\fontsize{24}{24}{\selectfont\MakeUppercase{\@title}}
+			
+		}
+		
+		\vspace{1.5cm}
+		{\setstretch{1.2}
+			\fontsize{16}{16}\selectfont Bachelor's thesis \\ Information Technology
+			
+		}
+        	
+		\vspace{1.5cm}
+        
+		\fontsize{16}{16}\selectfont\the\year
+        
+		\vfill
+		\includegraphics{xamklogo}	
+		\vspace{0.8cm}
+	\end{center}
+\end{titlepage}
+\makeatother
+
+\blankpage
+
+\newpage%TOC page
+{\setstretch{1.2}
+\tableofcontents
+}
+
+\newpage%first page with content
+
+\newgeometry{top=1.25cm,left=4.0cm,right=2cm,bottom=1.25cm, head=14.5pt, includehead,includefoot,
+  heightrounded,headsep=1cm}
+\pagenumbering{arabic}%starting page counter
+
+
+%make title bold from outside so TOC stays the same
+\chapter{\MakeUppercase{Introduction}}
+Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital educational systems. \par
+In this thesis project I will be comparing the difference between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to prototype an educational application for Observis Oy related to the company’s Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools.
+\\
+\chapter{\MakeUppercase{Augmenter Reality and Virtual Reality}}
+Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{Virtuality_Continuum_2}
+\caption{Reality-Virtuality Continuum (Paul Milgram et al. 2007)}
+\label{fig:reality-virtuality}
+\end{figure}
+
+\section{Augmented Reality}%ref http://kjcomps.6te.net/upload/paper1%20.pdf
+Augmented Reality can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR(Augmented Reality) are the ability to run in real time, be interactive, three dimensional and combine real with virtual information. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. Augmented Reality can be considered as the next step in graphical user interfaces(GUI) evolution\citep{prototyping-ar}. Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.\par
+Augmented Reality has higher technological requirements compared to VR which has lead to the slower maturity of AR. AR enabling technologies have been developed throughout the history of which the Optical see-through has become the most popular(Microsoft HoloLens, Google Glass, Intel's Vaunt). Optical see-through is achieved by using opaque displays on which virtual overlays can be rendered. The resolution of the real world is left intact as it passes through the screen. Benefits of this approach include power fail safety, which allows users to still see the real world even during a power outage, cheaper production costs of the used displays, no parallax effect that irritates the user's eyes. Disadvantages are the reduced visibility and brightness through the opaque lenses, limitation of the field-of-view, requirement of additional tracking sensors such as cameras, gyroscopes and accelerometers. Due to the lack of maturity of other AR enabling technologies only Optical see-through techniques will be considered throughout this work\citep{vrjournal}.
+\subsection{AR for training and education}%ref https://files.eric.ed.gov/fulltext/ED510220.pdf
+Augmented Reality provides new paths to conveying information. Learning experiences are more contextual by connecting and embedding information with the real world in real time. These approaches are already being utilised by Boeing. Mechanics in the company use AR goggles that aid repairs with embedded textual instructions, illustrate different steps of the repair and help users identify the required tools for a repair. Consequently training resources are reduced and transfer of information between workers is greatly improved\citep{horizon-report}.\par
+\section{Virtual Reality}
+\par
+\subsection{VR for education and training}
+\cite{wikibook}
+\par
+\chapter{\MakeUppercase{Project use case}}
+\section{Comparing VR and AR in the project context}
+\section{Researching mixed reality implementation}
+\section{Risks and challenges to the mixed reality approach}
+\cite{wikibook}
+\par
+\chapter{\MakeUppercase{Project implementation}}
+\section{Defining the application specs}
+\section{Implementing basic scene with objects}
+\section{Tracking and interacting with the virtual environment}
+\section{Creating a context for training}
+
+\par
+\chapter{\MakeUppercase{Analyzing the mixed reality training application}}
+
+\section{Future possibilities for development and improvement}
+
+
+\newpage
+
+\nocite{*}
+\bibliography{references}
+
+\end{document}
