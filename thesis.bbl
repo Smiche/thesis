@@ -1,0 +1,36 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{{\em Generating Bibliographies with biblatex and
+  biber}}{n.d.}{wikibook}
+{\em Generating Bibliographies with biblatex and biber}  \harvardyearleft
+  n.d.\harvardyearright .
+\newline\harvardurl{https://en.wikibooks.org/wiki/LaTeX/Generating_Bibliographies_with_biblatex_and_biber}
+
+\harvarditem[Johnson et~al.]{Johnson, Levine, Smith \harvardand\
+  Stone}{2010}{horizon-report}
+Johnson, L., Levine, A., Smith, R. \harvardand\ Stone, S.  \harvardyearleft
+  2010\harvardyearright .
+\newblock {\em The Horizon Report}, Educause Learning Initiative.
+
+\harvarditem[Kipper et~al.]{Kipper, Rampolla \harvardand\
+  Kipper}{2013}{augmented-reality}
+Kipper, G., Rampolla, J. \harvardand\ Kipper, G.  \harvardyearleft
+  2013\harvardyearright .
+\newblock {\em Augmented Reality}, Syngress.
+
+\harvarditem{Mullen \harvardand\ Mullen}{2011}{prototyping-ar}
+Mullen, T. \harvardand\ Mullen, T.  \harvardyearleft 2011\harvardyearright .
+\newblock {\em Prototyping Augmented Reality}, Wiley.
+
+\harvarditem{van Krevelen \harvardand\ Poelman}{2010}{vrjournal}
+van Krevelen, D. \harvardand\ Poelman, R.  \harvardyearleft
+  2010\harvardyearright .
+\newblock A survey of augmented reality technologies, applications and
+  limitations, {\em The International Journal of Virtual Reality} pp.~1--6.
+
+\harvarditem{Wang \harvardand\ Dunston}{2007}{ar-design}
+Wang, X. \harvardand\ Dunston, P.~S.  \harvardyearleft 2007\harvardyearright .
+\newblock Design, strategies, and issues towards an augmented reality-based
+  construction training platform, {\em ITcon Vol. 12} pp.~1--8.
+
+\end{thebibliography}

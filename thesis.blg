@@ -1,5 +1,6 @@
-[0] Config.pm:302> INFO - This is Biber 2.10
-[0] Config.pm:305> INFO - Logfile is 'thesis.blg'
-[34] biber-MSWIN64:313> INFO - === 
-[683] Utils.pm:209> ERROR - Cannot find control file 'thesis.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[683] Biber.pm:114> INFO - ERRORS: 1
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+The style file: dcu.bst
+Database file #1: references.bib
+Warning--entry type for "wikibook" isn't style-file defined
+--line 30 of file references.bib
+(There was 1 warning)
