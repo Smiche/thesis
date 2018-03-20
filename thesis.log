@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  19 MAR 2018 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAR 2018 13:19
 entering extended mode
 **"c:/Users/smich/Google Drive/University 2018/thesis_alex/thesis.tex"
 ("c:/Users/smich/Google Drive/University 2018/thesis_alex/thesis.tex"
@@ -27,8 +27,15 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip45
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
-Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arial\uarial.sty"
+Package: uarial 2006/03/21 1.0 (WaS)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -156,11 +163,6 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count96
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyphenat\hyphenat.sty"
-Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language76
-LaTeX Info: Redefining \_ on input line 43.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -346,24 +348,26 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 128.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+("C:\Program Files\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 128.
+
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
@@ -420,10 +424,10 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box30
-Package ragged2e Info: ABD: executing \RaggedRight on input line 120.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 128.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 120.
+LaTeX Info: Redefining \selectfont on input line 128.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -461,23 +465,31 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 15.19995pt on input line 138.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 22.79993pt on input line 142.
 <xamklogo.png, id=1, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
-Package pdftex.def Info: xamklogo.png  used on input line 149.
+Package pdftex.def Info: xamklogo.png  used on input line 157.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
 <background.png, id=2, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 152.
+Package pdftex.def Info: background.png  used on input line 160.
 (pdftex.def)             Requested size: 597.41231pt x 845.04933pt.
 [1
 
 
 {C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./backgroun
 d.png> <./xamklogo.png>] [1]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 159.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 167.
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 167.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 167.
  (thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1.
@@ -525,157 +537,56 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Chapter 1
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
-170.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 170.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
-Overfull \hbox (20.09438pt too wide) in paragraph at lines 172--172
-\OT1/phv/m/n/12 and a tech-nol-ogy will be cho-sen to pro-to-type an ed-u-ca-ti
-onal ap-pli-ca-tion for Ob-servis 
- []
-
+178.
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 178.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 178.
 Chapter 2
-
-Overfull \hbox (3.84694pt too wide) in paragraph at lines 175--176
-\OT1/phv/m/n/12 they have dif-fer-ent goals and are es-sen-tially dif-fer-ent i
-n terms of user ex-pe-ri-ence.  
- []
-
 <Virtuality_Continuum_2.jpg, id=17, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 178.
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 186.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
-
-Overfull \hbox (8.41823pt too wide) in paragraph at lines 184--184
-\OT1/phv/m/n/12 as-pects of AR(Augmented Re-al-ity) are the abil-ity to run in 
-real time, be in-ter-ac-tive, 
- []
-
-
-Overfull \hbox (9.88272pt too wide) in paragraph at lines 184--184
-\OT1/phv/m/n/12 three di-men-sional and com-bine real with vir-tual in-for-ma-t
-ion. AR is most com-monly 
- []
-
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 187.
 [1
 
- <./Virtuality_Continuum_2.jpg>]
-Overfull \hbox (11.94737pt too wide) in paragraph at lines 185--186
-\OT1/phv/m/n/12 Op-ti-cal see-through is achieved by us-ing opaque dis-plays on
- which vir-tual over-lays 
- []
-
-
-Overfull \hbox (6.92981pt too wide) in paragraph at lines 185--186
-\OT1/phv/m/n/12 can be ren-dered. The res-o-lu-tion of the real world is left i
-n-tact as it passes through 
- []
-
-
-Overfull \hbox (43.1464pt too wide) in paragraph at lines 185--186
-\OT1/phv/m/n/12 costs of the used dis-plays, no par-al-lax ef-fect that ir-ri-t
-ates the user's eyes. Dis-ad-van-tages 
- []
-
-
-Overfull \hbox (2.37071pt too wide) in paragraph at lines 185--186
-\OT1/phv/m/n/12 gy-ro-scopes and ac-celerom-e-ters. Due to the lack of ma-tu-ri
-ty of other AR en-abling 
- []
-
-
-Overfull \hbox (35.37094pt too wide) in paragraph at lines 187--191
-\OT1/phv/m/n/12 Augmented Re-al-ity pro-vides new paths to con-vey-ing in-for-m
-a-tion. Learn-ing ex-pe-ri-ences 
- []
-
-
-Overfull \hbox (28.61455pt too wide) in paragraph at lines 187--191
-\OT1/phv/m/n/12 world in real time. These ap-proaches are al-ready be-ing utili
-sed by Boe-ing. Me-chan-ics 
- []
-
-
-Overfull \hbox (15.53462pt too wide) in paragraph at lines 187--191
-\OT1/phv/m/n/12 in the com-pany use AR gog-gles that aid re-pairs with em-bed-d
-ed tex-tual in-struc-tions, 
- []
-
-
-Overfull \hbox (2.92268pt too wide) in paragraph at lines 187--191
-\OT1/phv/m/n/12 a re-pair. Con-se-quently train-ing re-sources are re-duced and
- trans-fer of in-for-ma-tion 
- []
-
-[2]
+ <./Virtuality_Continuum_2.jpg>] [2]
 <ar-framework.png, id=24, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 206.
+Package pdftex.def Info: ar-framework.png  used on input line 214.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
-
-Overfull \hbox (14.52625pt too wide) in paragraph at lines 198--209
-\OT1/phv/m/n/12 real and vir-tual world. The four main re-quire-ments are sens-
-ing, track-ing, in-ter-ac-tion 
- []
-
-
-Overfull \hbox (31.42268pt too wide) in paragraph at lines 198--209
-\OT1/phv/m/n/12 and dis-play(Figure 2). Sens-ing refers to cap-tur-ing en-vi-ro
-n-ment events and recog-nis-ing 
- []
-
-
-Overfull \hbox (16.74652pt too wide) in paragraph at lines 198--209
-\OT1/phv/m/n/12 mark-ers or other ob-jects of in-ter-est. Track-ing han-dles up
--dat-ing the view-ing di-rec-tion 
- []
-
-
-Overfull \hbox (25.30173pt too wide) in paragraph at lines 198--209
-\OT1/phv/m/n/12 and po-si-tion of the user rel-a-tive to the real world. Track-
-ing is an im-por-tant com-po-nent 
- []
-
-
-Overfull \hbox (13.13432pt too wide) in paragraph at lines 198--209
-\OT1/phv/m/n/12 in-for-ma-tion is be-ing de-liv-ered to the user. The reg-is-tr
-a-tion can be achieved through 
- []
-
-
-Overfull \hbox (22.77116pt too wide) in paragraph at lines 210--212
-[]\OT1/phv/m/n/12 As most de-vel-op-ing tech-nolo-gies AR has many chal-lenges 
-that need to be over-come 
- []
-
+<ar-challenges.png, id=25, 890.9536pt x 239.01797pt>
+File: ar-challenges.png Graphic file (type png)
+<use ar-challenges.png>
+Package pdftex.def Info: ar-challenges.png  used on input line 221.
+(pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
+ [3 <./ar-framework.png>]
 Chapter 3
 Chapter 4
 Chapter 5
-[3 <./ar-framework.png>] [4] (thesis.bbl
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 5.
-) [5] (thesis.aux) ) 
+[4 <./ar-challenges.png>] [5] (thesis.bbl
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 5.
+) [6] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 8150 strings out of 493303
- 132383 string characters out of 3138856
- 303304 words of memory out of 3000000
- 11568 multiletter control sequences out of 15000+200000
- 19174 words of font info for 38 fonts, out of 3000000 for 9000
+ 8267 strings out of 493303
+ 133144 string characters out of 3138856
+ 303650 words of memory out of 3000000
+ 11682 multiletter control sequences out of 15000+200000
+ 54393 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,14n,92p,1147b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,14n,92p,1147b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/helvetic/uhvro8a.pfb>
-Output written on thesis.pdf (8 pages, 285916 bytes).
+m Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (9 pages, 358711 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

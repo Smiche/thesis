@@ -1,7 +1,9 @@
 \documentclass[12pt, a4paper,oneside, nocenter]{thesis}
 
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
+%setting font to Arial
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{uarial}
+\renewcommand*\familydefault{\sfdefault} 
 
 \usepackage{graphicx}%package for imges
 \usepackage{float}
@@ -16,7 +18,13 @@
 \usepackage{setspace}
 \usepackage{wallpaper}
 \usepackage{lipsum}
-\usepackage[none]{hyphenat}
+%\usepackage[none]{hyphenat}
+%remove hyphenation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
 \usepackage[document]{ragged2e}
 \usepackage[font=small,labelfont=normal,figurename=Figure,labelsep=period]{caption} % Required for specifying captions to tables and figures
 \captionsetup{justification=raggedright,singlelinecheck=false}
@@ -204,11 +212,24 @@ Registration refers to how the digital information is being delivered to the use
 through different methods for different senses: videos, audio, haptic feedback, scent, etc.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{ar-framework}
-\caption{Reality-Virtuality Continuum \citep{vrjournal}}
+\caption{Augmented Reality framework\citep{vrjournal}}
 \label{fig:ar-framework}
 \end{figure}
 As most developing technologies AR has many challenges that need to be overcome or improved.
-The challenges of AR arise from the framework requirements.
+The challenges of AR arise from the framework requirements and they can be separated in five groups\Cref{fig:ar-challenges}.
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{ar-challenges}
+\caption{Augmented Reality challenges\citep{Acta-Graphica}}
+\label{fig:ar-challenges}
+\end{figure}
+Performance challenges arise from the need of real time processing. AR tasks such as marker detection
+and virtual object rendering are computationally intensive and this slows down performance.
+Alignment challenges come from the complexity of tracking the users movement and registration of real
+life objects. Any errors in those methods can cause misalignment between the rendered objects and
+real view.\par
+Interaction challenges are concerned with the interaction between users and virtual or real objects.
+User interfaces need to be intuitive and unobstructive for the best experience. Mobility challenges refer
+to the need of portability for AR systems. 
 
 \section{Virtual Reality}
 \par
@@ -228,7 +249,7 @@ The challenges of AR arise from the framework requirements.
 \par
 \chapter{\MakeUppercase{Analyzing the mixed reality training application}}
 
-\section{Future possibilities for development and improvement hoe hoe}
+\section{Future possibilities for development and improvement}
 
 
 \newpage
