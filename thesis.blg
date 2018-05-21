@@ -3,4 +3,6 @@ The style file: dcu.bst
 Database file #1: references.bib
 Warning--entry type for "wikibook" isn't style-file defined
 --line 30 of file references.bib
-(There was 1 warning)
+Warning--entry type for "hp-vrbackpack" isn't style-file defined
+--line 69 of file references.bib
+(There were 2 warnings)

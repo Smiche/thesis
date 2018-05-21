@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAR 2018 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  21 MAY 2018 11:40
 entering extended mode
-**"c:/Users/smich/Google Drive/University 2018/thesis_alex/thesis.tex"
-("c:/Users/smich/Google Drive/University 2018/thesis_alex/thesis.tex"
+**"g:/My Drive/University 2018/thesis_alex/thesis.tex"
+("g:/My Drive/University 2018/thesis_alex/thesis.tex"
 LaTeX2e <2017-04-15>
 Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\thesis\thesis.cls"
@@ -231,9 +231,8 @@ ct \numberline {\thechapter }#1}\else \addcontentsline {toc}{chapter}{\protect
 1}\fi \else \addcontentsline {toc}{chapter}{\protect \numberline {\thechapter }
 #1}\fi \else \addcontentsline {toc}{chapter}{#1} \fi \else \addcontentsline {to
 c}{chapter}{#1} \fi \chaptermark {#1} \addtocontents {lof}{\protect \addvspace 
-{10pt}} \addtocontents {lot}{\protect \addvspace {10pt}} \if@twocolumn \@topnew
-page [\@makechapterhead {#2}] \else \@makechapterhead {#2} \@afterheading \fi .
-
+{10pt}} \addtocontents {lot}{\protect \addvspace {10pt}} \if@twocolumn \@makech
+apterhead {#2}\else \@makechapterhead {#2} \@afterheading \fi .
 Package newfloat Info: \Hy@org@chapter = undefined.
 Package newfloat Info: Trying Plan B...
 )
@@ -563,30 +562,30 @@ File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
 Package pdftex.def Info: ar-challenges.png  used on input line 221.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
- [3 <./ar-framework.png>]
+ [3 <./ar-framework.png>] [4 <./ar-challenges.png>]
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 251.
+
 Chapter 3
 Chapter 4
 Chapter 5
-[4 <./ar-challenges.png>] [5] (thesis.bbl
-LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 5.
-) [6] (thesis.aux) ) 
+[5] [6] (thesis.bbl) [7] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 8267 strings out of 493303
- 133144 string characters out of 3138856
- 303650 words of memory out of 3000000
- 11682 multiletter control sequences out of 15000+200000
+ 8270 strings out of 493303
+ 133063 string characters out of 3138856
+ 303646 words of memory out of 3000000
+ 11685 multiletter control sequences out of 15000+200000
  54393 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,14n,92p,1147b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
-/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (9 pages, 358711 bytes).
+ 53i,14n,92p,1131b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+vips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (10 pages, 360859 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

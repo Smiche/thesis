@@ -154,7 +154,7 @@
 		\fontsize{16}{16}\selectfont\the\year
         
 		\vfill
-		\includegraphics{xamklogo}	
+		\includegraphics{xamklogo}
 		\vspace{0.8cm}
 	\end{center}
 \end{titlepage}
@@ -177,7 +177,7 @@
 %make title bold from outside so TOC stays the same
 \chapter{\MakeUppercase{Introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital educational systems. \par
-In this thesis project I will be comparing the difference between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to prototype an educational application for Observis Oy related to the company’s Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools.
+In this thesis project I will be comparing the difference between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to prototype an educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools.
 \\
 \chapter{\MakeUppercase{Augmenter Reality and Virtual Reality}}
 Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
@@ -215,7 +215,7 @@ through different methods for different senses: videos, audio, haptic feedback, 
 \caption{Augmented Reality framework\citep{vrjournal}}
 \label{fig:ar-framework}
 \end{figure}
-As most developing technologies AR has many challenges that need to be overcome or improved.
+As most developing technologies AR has many challenges that need to be overcome before it can be widely adopted.
 The challenges of AR arise from the framework requirements and they can be separated in five groups\Cref{fig:ar-challenges}.
 \begin{figure}[H]
 \includegraphics[width=\textwidth]{ar-challenges}
@@ -229,19 +229,44 @@ life objects. Any errors in those methods can cause misalignment between the ren
 real view.\par
 Interaction challenges are concerned with the interaction between users and virtual or real objects.
 User interfaces need to be intuitive and unobstructive for the best experience. Mobility challenges refer
-to the need of portability for AR systems. 
-
+to the need of portability for AR systems.
+\\
 \section{Virtual Reality}
+Virtual Reality in the broadest sense is the method or technology of substituting a physical environment with a virtually perceived environment.
+This is typically achieved by using an HMD with integrated motion tracking and a built-in or external rendering unit.
+The requirements of VR are same to those of AR with the exclusion of environment sensing\Cref{fig:ar-framework}. The virtual environment
+is entirely digitally constructed, thus eliminating the need for sensing as all environmental events are native to the system.
 \par
+Interaction with the environment isn't necessary for a VR experience, but it increases the possibilities and usability of a VR system.
+Different approaches to user interaction offer various degrees of immersion and limitations. Motion tracked controllers, hand motion tracking gloves, pointer centered to the viewport, headset location tracking in 3D space and sekeletal motion tracking are common approaches.
+\subsection{VR Challenges}
+VR challenges can be categorized in the same way as AR challenges\Cref{fig:ar-challenges}.
+Performance is a very important factor in keeping the VR experience immersive for a prolonged period of time.
+High resolution picture rendering at a high freamerate in real-time is taxing even for the highest end of current GPUs. 
+Lower framerate or lower resolution picture can cause dizziness, eye tiredeness and overall dissatisfaction. Alignment challenges arise from the difficulty of tracking in real-time.
+Users' view, location or controllers can become misaligned with the virtual environment, breaking the immersion and interactability.
+Interaction challenges come from the current hardware limitations on interacting. Tactile feedback, hand interaction and free movement in the 3D space are all possible individually, but combining them at the same time is not yet achievable.
+\par
+Mobility challenges arise from the need of portability for VR platforms. Common solutions
+rely on tethering to a machine that handles the rendering and power supply. However portable VR backpacks and headsets are starting to emerge\citep{hp-vrbackpack}.
+Visualization can be difficult due to the complexity of the physical world. Keeping proportions, lighting, textures, view depth, field of vision and other visiual perception aspects can be challenging.
+ 
+
+
+
+\par
+
 \subsection{VR for education and training}
+\section{Hybrid technologies}
 \par
 \chapter{\MakeUppercase{Project use case}}
 \section{Comparing VR and AR in the project context}
 \section{Researching mixed reality implementation}
 \section{Risks and challenges to the mixed reality approach}
+\section{Traditional approaches to training systems}
 \par
 \chapter{\MakeUppercase{Project implementation}}
-\section{Defining the application specs}
+\section{Defining the application specifications and requirements}
 \section{Implementing basic scene with objects}
 \section{Tracking and interacting with the virtual environment}
 \section{Creating a context for training}
