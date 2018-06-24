@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  21 MAY 2018 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  21 MAY 2018 15:28
 entering extended mode
 **"g:/My Drive/University 2018/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018/thesis_alex/thesis.tex"
@@ -564,12 +564,12 @@ Package pdftex.def Info: ar-challenges.png  used on input line 221.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
  [3 <./ar-framework.png>] [4 <./ar-challenges.png>]
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 251.
-
+(Font)              scaled to size 11.39996pt on input line 252.
+ [5]
 Chapter 3
 Chapter 4
 Chapter 5
-[5] [6] (thesis.bbl) [7] (thesis.aux) ) 
+[6] (thesis.bbl) [7] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
  8270 strings out of 493303
  133063 string characters out of 3138856
@@ -578,12 +578,12 @@ Here is how much of TeX's memory you used:
  54393 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,14n,92p,1131b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (10 pages, 360859 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
+/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (10 pages, 361526 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

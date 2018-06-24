@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {2.1.2}AR Challenges}{3}
 \contentsline {section}{\numberline {2.2}Virtual Reality}{4}
 \contentsline {subsection}{\numberline {2.2.1}VR Challenges}{5}
-\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{6}
+\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{5}
 \contentsline {section}{\numberline {2.3}Hybrid technologies}{6}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{6}
 \contentsline {section}{\numberline {3.1}Comparing VR and AR in the project context}{6}
