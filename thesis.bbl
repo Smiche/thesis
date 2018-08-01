@@ -6,8 +6,8 @@
   n.d.\harvardyearright .
 \newline\harvardurl{https://en.wikibooks.org/wiki/LaTeX/Generating_Bibliographies_with_biblatex_and_biber}
 
-\harvarditem{{\em HP Z VR Backpack Overview}}{n.d.}{hp-vrbackpack}
-{\em HP Z VR Backpack Overview}  \harvardyearleft n.d.\harvardyearright .
+\harvarditem{{\em HP Z VR Backpack Overview}}{2018}{hp-vrbackpack}
+{\em HP Z VR Backpack Overview}  \harvardyearleft 2018\harvardyearright .
 \newline\harvardurl{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}
 
 \harvarditem[Johnson et~al.]{Johnson, Levine, Smith \harvardand\
