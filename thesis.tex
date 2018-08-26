@@ -1,6 +1,7 @@
 \documentclass[12pt, a4paper,oneside, nocenter]{thesis}
 
-%setting font to Arial
+%setting font to Arial and using UTF-8
+\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[scaled]{uarial}
 \renewcommand*\familydefault{\sfdefault} 
@@ -205,10 +206,10 @@ achieved easily or cost effectively otherwise\citep{augmented-reality}.
 % As most developing technologies AR has many challenges that need to be overcome or improved. The requirements of the AR framework
 % are directly related to those challenges.
 An AR framework has basic requirements to accomplish a combination of the real and virtual world.
-The four main requirements are sensing, tracking, interaction and display\Cref{fig:ar-framework}. Sensing refers to
+The four main requirements are sensing, tracking, interaction and displaying\Cref{fig:ar-framework}. Sensing refers to
 capturing environment events and recognising markers or other objects of interest. Tracking handles updating the
 viewing direction and position of the user relative to the real world. Tracking is an important component
-of AR as even a slight tracking error can cause misalignment between the virtual and real objects\citep{ar-design}. 
+of AR as even a slight tracking error can cause misalignment between the virtual and real world objects\citep{ar-design}. 
 Registration refers to how the digital information is being delivered to the user. The registration can be achieved
 through different methods for different senses: videos, audio, haptic feedback, scent, etc.
 \begin{figure}[H]
@@ -267,9 +268,7 @@ Feedback from the cockpit instruments is essential as well as the ability to use
 One solution to this problem has been developed by NLR with the use of a hybrid approach.
 IR depth sensors and a camera feed are used to map the pilots hand in the virtual cockpit. Mockups of the flight instruments are 3D printed and are mapped to the virtual environment with tracking markers.
 This allows for a much more natural feel of the flight instruments and offers better training results\citep{nlr-vr}.
-\par
-
-\par
+\\
 \chapter{\MakeUppercase{Project use case}}
 Observis Oy is developing a product for situational awareness in different environments called ObSAS.
 This product is a software system running on multiple devices with multiple purposes.
@@ -287,7 +286,14 @@ other components of the situational awareness system. So far traditional trainin
 approaches have been used. Power slides including pictures of the software, textual description of individual components and narration from the training personnel.
 \par
 \section{Current training approach}
-
+Current training is done on customers premises in two parts - theoretical and practical. The theoretical part takes place in a classroom with teaching tools such as whiteboard and projector provided by the customer. A group of 20 people is trained during the theoretical part with the use of powerpoint slides containing screen captures of the software. Additionally the software enabled in simulation mode is displayed and used in front of the trainees. Devices such as latops, external hard drives, cameras are not allowed during the training to avoid redistribution of confidential information.
+\par
+The second part of the training involves practical use of the system. In the Sassi Project case it takes place inside a reconnaissance vehicle with a group of 3 to 4 people. Real life devices are used with the software. Test sources are used to trigger devices alarms and cable disconnecting is used to test failure states.
+\par%switched to past perfect, not sure why, a bit inconsistent?
+Feedback from the customer in the Sassi project has been positive, although there have been complaints from the trainees about the translation of the materials, but still overall positive feedback has been received. According to Jukka Härkönen(an employee from Observis who conducts the training) the trainees with better English language skills have managed to attain more knowledge from the training. Trainees who were familiar with a previous version of the software have had no problems adjusting to the differences in the new version of the product. Some trainees however have not been able to fully prepare for the use of the software and require further internal training conducted by the customer.
+\section{Future goals}
+Regardless of the good customer feedback there is room for improvement of the training. Streamlining of the training can reduce the time required to create training materials and the amount of staff needed to conduct the training. Another future goal of the training is to be able to experience more lifelike situations and more complex scenarios resulting in better preparedness for critical situations. Misunderstanding caused by a language barrier is something that should be avoided in future training.
+%Interview questions(should add responses to appendix and reference them) ->
 %How was the training generally done?
 %What kind of media did it include(slides, videos, pictures, text, audio.. etc)?
 %What was the size of the training group?
