@@ -19,6 +19,7 @@
 \usepackage{setspace}
 \usepackage{wallpaper}
 \usepackage{lipsum}
+\usepackage{eurosym}
 %\usepackage[none]{hyphenat}
 %remove hyphenation
 \tolerance=1
@@ -293,19 +294,20 @@ The second part of the training involves practical use of the system. In the Sas
 Feedback from the customer in the Sassi project has been positive, although there have been complaints from the trainees about the translation of the materials, but still overall positive feedback has been received. According to Jukka Härkönen(an employee from Observis who conducts the training) the trainees with better English language skills have managed to attain more knowledge from the training. Trainees who were familiar with a previous version of the software have had no problems adjusting to the differences in the new version of the product. Some trainees however have not been able to fully prepare for the use of the software and require further internal training conducted by the customer.
 \section{Future goals}
 Regardless of the good customer feedback there is room for improvement of the training. Streamlining of the training can reduce the time required to create training materials and the amount of staff needed to conduct the training. Another future goal of the training is to be able to experience more lifelike situations and more complex scenarios resulting in better preparedness for critical situations. Misunderstanding caused by a language barrier is something that should be avoided in future training.
-%Interview questions(should add responses to appendix and reference them) ->
-%How was the training generally done?
-%What kind of media did it include(slides, videos, pictures, text, audio.. etc)?
-%What was the size of the training group?
-%Was the actual system put into use during the training
-%Were possible scenarios simulated or rehearsed in some way?
-%Estimated readiness and knowledge attained by the trainees(How well do you think they've learned)?
-%What was the feedback from the trainees?
-%What was the feedback from the customers?
+\par
+Innovation in every aspect of the product is welcomed from the customers. The market has been stagnant and competing companies have been refusing to innovate due to the various risks involved with doing so. Observis is willing to take those risks to set itself apart. A survey and analysis of Virtual reality technologies is of interest to the company.
 \section{Comparing VR and AR in the project context}
+AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
+\par
+AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. Immersion may be sacrificed due to the narrow field of view\citep{hololens-specs}, smaller color space and inability to emulate real life scenarios such as being inside a moving vehicle.
+\par
+The easability of use of AR headsets is one important benefit. While VR headsets require a tether cable, external computer and even base stations in same cases, AR headsets can be used as they are, independantly. 3D modelling isn't as big of a requirement compared to VR as it is enough to create models only of the objects the user interacts with, not the full environment the user is in.
+\par
+VR shines in implementing a completely independant environment. The only limit to what can be recreated is imposed by the hardware performance and development time and skills. VR allows for spectating and recording user's interaction with the environment. This can be used to analyze their experience and improve the software further. Giving suggestions and guiding during the training is also possible. A multi-user environment is also possible and trainees and teachers can be in the same environment even if they're physically far apart.
+\par
+Price difference is very small between VR and AR. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$\citep{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\citep{htc-vive-pro} with VR capable laptops priced starting from 1500\euro.
 \section{Researching mixed reality implementation}
 \section{Risks and challenges to the mixed reality approach}
-\section{Traditional approaches to training systems}
 \par
 \chapter{\MakeUppercase{Project implementation}}
 \section{Defining the application specifications and requirements}

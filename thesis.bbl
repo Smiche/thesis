@@ -1,5 +1,13 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{\em Buy HTC Viveo pro}}{2018}{htc-vive-pro}
+{\em Buy HTC Viveo pro}  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://www.vive.com/eu/product/vive-pro/}
+
+\harvarditem{{\em Buy Microsoft HoloLens}}{2018}{hololens-price}
+{\em Buy Microsoft HoloLens}  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://www.microsoft.com/en-gb/hololens/buy}
+
 \harvarditem{{\em HP Z VR Backpack Overview}}{2018}{hp-vrbackpack}
 {\em HP Z VR Backpack Overview}  \harvardyearleft 2018\harvardyearright .
 \newline\harvardurl{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}
@@ -15,6 +23,12 @@ Johnson, L., Levine, A., Smith, R. \harvardand\ Stone, S.  \harvardyearleft
 Kipper, G., Rampolla, J. \harvardand\ Kipper, G.  \harvardyearleft
   2013\harvardyearright .
 \newblock {\em Augmented Reality}, Syngress.
+
+\harvarditem{{\em Microsoft HoloLens Device
+  Specifications}}{2018}{hololens-specs}
+{\em Microsoft HoloLens Device Specifications}  \harvardyearleft
+  2018\harvardyearright .
+\newline\harvardurl{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}
 
 \harvarditem{Mullen \harvardand\ Mullen}{2011}{prototyping-ar}
 Mullen, T. \harvardand\ Mullen, T.  \harvardyearleft 2011\harvardyearright .

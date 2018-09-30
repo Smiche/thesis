@@ -11,14 +11,13 @@
 \contentsline {section}{\numberline {3.1}Current training approach}{7}
 \contentsline {section}{\numberline {3.2}Future goals}{8}
 \contentsline {section}{\numberline {3.3}Comparing VR and AR in the project context}{8}
-\contentsline {section}{\numberline {3.4}Researching mixed reality implementation}{8}
-\contentsline {section}{\numberline {3.5}Risks and challenges to the mixed reality approach}{8}
-\contentsline {section}{\numberline {3.6}Traditional approaches to training systems}{8}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{8}
-\contentsline {section}{\numberline {4.1}Defining the application specifications and requirements}{8}
-\contentsline {section}{\numberline {4.2}Implementing basic scene with objects}{8}
-\contentsline {section}{\numberline {4.3}Tracking and interacting with the virtual environment}{8}
-\contentsline {section}{\numberline {4.4}Creating a context for training}{8}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{8}
-\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{8}
-\contentsline {chapter}{REFERENCES}{9}
+\contentsline {section}{\numberline {3.4}Researching mixed reality implementation}{10}
+\contentsline {section}{\numberline {3.5}Risks and challenges to the mixed reality approach}{10}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{10}
+\contentsline {section}{\numberline {4.1}Defining the application specifications and requirements}{10}
+\contentsline {section}{\numberline {4.2}Implementing basic scene with objects}{10}
+\contentsline {section}{\numberline {4.3}Tracking and interacting with the virtual environment}{10}
+\contentsline {section}{\numberline {4.4}Creating a context for training}{10}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{10}
+\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{10}
+\contentsline {chapter}{REFERENCES}{11}

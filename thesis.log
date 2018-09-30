@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  26 AUG 2018 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  30 SEP 2018 15:39
 entering extended mode
 **"g:/My Drive/University 2018/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018/thesis_alex/thesis.tex"
@@ -482,6 +482,10 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count96
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box28
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 
@@ -586,7 +590,7 @@ Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box28
+\ttl@box=\box29
 \beforetitleunit=\skip71
 \aftertitleunit=\skip72
 \ttl@plus=\dimen123
@@ -665,31 +669,31 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 130.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 129.
+(Font)              scaled to size 11.39996pt on input line 130.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count105
 \scratchdimen=\dimen128
-\scratchbox=\box29
+\scratchbox=\box30
 \nofMPsegments=\count106
 \nofMParguments=\count107
 \everyMPshowfont=\toks24
@@ -740,11 +744,11 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box30
-Package ragged2e Info: ABD: executing \RaggedRight on input line 129.
+\AtBeginShipoutBox=\box31
+Package ragged2e Info: ABD: executing \RaggedRight on input line 130.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 129.
+LaTeX Info: Redefining \selectfont on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -783,18 +787,18 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 15.19995pt on input line 139.
+(Font)              scaled to size 15.19995pt on input line 140.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 143.
+(Font)              scaled to size 22.79993pt on input line 144.
 <xamklogo.png, id=1, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
-Package pdftex.def Info: xamklogo.png  used on input line 158.
+Package pdftex.def Info: xamklogo.png  used on input line 159.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
 <background.png, id=2, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 161.
+Package pdftex.def Info: background.png  used on input line 162.
 (pdftex.def)             Requested size: 597.41231pt x 845.04933pt.
 [1
 
@@ -802,11 +806,11 @@ Package pdftex.def Info: background.png  used on input line 161.
 {C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./backgroun
 d.png> <./xamklogo.png>] [1]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 168.
+(Font)              scaled to size 23.63593pt on input line 169.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 168.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 169.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 168.
+(Font)              scaled to size 23.63593pt on input line 169.
  (thesis.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1.
@@ -854,57 +858,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Chapter 1
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 
-179.
+180.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 179.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 179.
+(Font)              scaled to size 11.39996pt on input line 180.
 Chapter 2
 <Virtuality_Continuum_2.jpg, id=17, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 188.
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 189.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 189.
+(Font)              scaled to size 10.40245pt on input line 190.
 [1
 
  <./Virtuality_Continuum_2.jpg>] [2]
 <ar-framework.png, id=24, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 216.
+Package pdftex.def Info: ar-framework.png  used on input line 217.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
 <ar-challenges.png, id=25, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 223.
+Package pdftex.def Info: ar-challenges.png  used on input line 224.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
  [3 <./ar-framework.png>] [4 <./ar-challenges.png>]
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 254.
+(Font)              scaled to size 11.39996pt on input line 255.
  [5]
 Chapter 3
-[6] [7]
+[6] [7] [8]
 Chapter 4
 Chapter 5
-[8] (thesis.bbl) [9] (thesis.aux) ) 
+[9] [10] (thesis.bbl) [11] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 8574 strings out of 493303
- 135488 string characters out of 3138856
- 307176 words of memory out of 3000000
- 11974 multiletter control sequences out of 15000+200000
- 54393 words of font info for 39 fonts, out of 3000000 for 9000
+ 8646 strings out of 493303
+ 136575 string characters out of 3138856
+ 307500 words of memory out of 3000000
+ 12041 multiletter control sequences out of 15000+200000
+ 54510 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,14n,92p,1131b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
-/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (12 pages, 366164 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/urw/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (14 pages, 378178 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

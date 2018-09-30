@@ -5,4 +5,10 @@ Warning--entry type for "hp-vrbackpack" isn't style-file defined
 --line 61 of file references.bib
 Warning--entry type for "nlr-vr" isn't style-file defined
 --line 69 of file references.bib
-(There were 2 warnings)
+Warning--entry type for "hololens-specs" isn't style-file defined
+--line 78 of file references.bib
+Warning--entry type for "hololens-price" isn't style-file defined
+--line 86 of file references.bib
+Warning--entry type for "htc-vive-pro" isn't style-file defined
+--line 94 of file references.bib
+(There were 5 warnings)
