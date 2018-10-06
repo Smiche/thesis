@@ -1,5 +1,11 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{\em AR experience of the White
+  House}}{2016}{ar-application-whitehouse}
+{\em AR experience of the White House}  \harvardyearleft 2016\harvardyearright
+  .
+\newline\harvardurl{https://vrscout.com/news/augmented-reality-app-1-dollar-bill-tour-white-house/}
+
 \harvarditem{{\em Buy HTC VIVE Pro}}{2018}{htc-vive-pro}
 {\em Buy HTC VIVE Pro}  \harvardyearleft 2018\harvardyearright .
 \newline\harvardurl{https://www.vive.com/eu/product/vive-pro/}
@@ -17,6 +23,10 @@
 \harvarditem{{\em HP Z VR Backpack Overview}}{2018}{hp-vrbackpack}
 {\em HP Z VR Backpack Overview}  \harvardyearleft 2018\harvardyearright .
 \newline\harvardurl{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}
+
+\harvarditem{{\em HTC VIVE Pro review}}{2018}{htc-vive-pro-review}
+{\em HTC VIVE Pro review}  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}
 
 \harvarditem[Johnson et~al.]{Johnson, Levine, Smith \harvardand\
   Stone}{2010}{horizon-report}

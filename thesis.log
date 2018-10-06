@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  6 OCT 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  6 OCT 2018 15:31
 entering extended mode
 **"g:/My Drive/University 2018/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018/thesis_alex/thesis.tex"
@@ -881,33 +881,42 @@ File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
 Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 193.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
- [2 <./Virtuality_Continuum_2.jpg>]
-<ar-framework.png, id=27, 505.5136pt x 165.99516pt>
+<ar-application.jpg, id=24, 813.0375pt x 418.56375pt>
+File: ar-application.jpg Graphic file (type jpg)
+<use ar-application.jpg>
+Package pdftex.def Info: ar-application.jpg  used on input line 201.
+(pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
+ [2 <./Virtuality_Continuum_2.jpg>] [3 <./ar-application.jpg>]
+<ar-framework.png, id=31, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 221.
+Package pdftex.def Info: ar-framework.png  used on input line 227.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
- [3]
-<ar-challenges.png, id=31, 890.9536pt x 239.01797pt>
+<ar-challenges.png, id=32, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 228.
+Package pdftex.def Info: ar-challenges.png  used on input line 234.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
-
-[4 <./ar-framework.png> <./ar-challenges.png>] [5]
+ [4 <./ar-framework.png>]
+<htc-vive-pro-headset.jpg, id=38, 803.0pt x 536.0025pt>
+File: htc-vive-pro-headset.jpg Graphic file (type jpg)
+<use htc-vive-pro-headset.jpg>
+Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 254.
+(pdftex.def)             Requested size: 426.79135pt x 284.88966pt.
+ [5 <./ar-challenges.png>] [6 <./htc-vive-pro-headset.jpg>]
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 259.
- [6]
+(Font)              scaled to size 11.39996pt on input line 270.
+ [7]
 Chapter 3
-[7] [8] [9]
+[8] [9] [10]
 Chapter 4
 Chapter 5
-[10] [11] (thesis.bbl [12]) [13] (thesis.aux) ) 
+[11] [12] (thesis.bbl [13]) [14] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 8658 strings out of 493303
- 136873 string characters out of 3138856
+ 8678 strings out of 493303
+ 137403 string characters out of 3138856
  307500 words of memory out of 3000000
- 12051 multiletter control sequences out of 15000+200000
+ 12069 multiletter control sequences out of 15000+200000
  60785 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,14n,92p,1131b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -917,9 +926,9 @@ ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (16 pages, 435895 bytes).
+Output written on thesis.pdf (17 pages, 568448 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -196,7 +196,13 @@ Augmented reality and Virtual reality are technologies that offer a different vi
 \end{figure}
 
 \section{Augmented Reality}%ref http://kjcomps.6te.net/upload/paper1%20.pdf
-Augmented Reality can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR(Augmented Reality) are the ability to run in real time, be interactive, three dimensional and combine real with virtual information. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. Augmented Reality can be considered as the next step in graphical user interfaces(GUI) evolution\citep{prototyping-ar}. Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.\par
+Augmented Reality can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR(Augmented Reality) are the ability to run in real time, be interactive, three dimensional and combine real with virtual information\Cref{fig:ar-application}. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. Augmented Reality can be considered as the next step in graphical user interfaces(GUI) evolution\citep{prototyping-ar}. Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{ar-application}
+	\caption{Mobile Augmented Reality application\citep{ar-application-whitehouse}}
+	\label{fig:ar-application}
+\end{figure}
+\par
 Augmented Reality has higher technological requirements compared to VR which has lead to the slower maturity of AR. AR enabling technologies have been developed throughout the history of which the Optical see-through has become the most popular(Microsoft HoloLens, Google Glass, Intel's Vaunt). Optical see-through is achieved by using opaque displays on which virtual overlays can be rendered. The resolution of the real world is left intact as it passes through the screen. Benefits of this approach include power fail safety, which allows users to still see the real world even during a power outage, cheaper production costs of the used displays, no parallax effect that irritates the user's eyes. Disadvantages are the reduced visibility and brightness through the opaque lenses, limitation of the field-of-view, requirement of additional tracking sensors such as cameras, gyroscopes and accelerometers. Due to the lack of maturity of other AR enabling technologies only Optical see-through techniques will be considered throughout this work\citep{vrjournal}.
 \subsection{AR for training and education}%ref https://files.eric.ed.gov/fulltext/ED510220.pdf
 Augmented Reality provides new paths to conveying information. Learning experiences are more contextual by connecting and embedding information with the real world in real time. These approaches are already being utilised by Boeing. 
@@ -243,7 +249,12 @@ Virtual Reality in the broadest sense is the method or technology of substitutin
 ''The computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment, such as a helmet with a screen inside or gloves fitted with sensors''.
 This is typically achieved by using an HMD with integrated motion tracking and a built-in or external rendering unit.
 The requirements of VR are same to those of AR with the exclusion of environment sensing\Cref{fig:ar-framework}. The virtual environment
-is entirely digitally constructed, thus eliminating the need for sensing as all environmental events are native to the system.
+is entirely digitally constructed, thus eliminating the need for sensing as all environmental events are native to the system. It is achieved with a Virtual Reality headset that has different views for each eye, accomplishing depth perception\Cref{fig:htc-vive-pro-headset}.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{htc-vive-pro-headset}
+	\caption{HTC VIVE Pro headset\citep{htc-vive-pro-review}}
+	\label{fig:htc-vive-pro-headset}
+\end{figure}
 \par
 Interaction with the environment isn't necessary for a VR experience, but it increases the possibilities and usability of a VR system.
 Different approaches to user interaction offer various degrees of immersion and limitations. Motion tracked controllers, hand motion tracking gloves, pointer centered to the viewport, headset location tracking in 3D space and sekeletal motion tracking are common approaches.
