@@ -179,9 +179,13 @@
 %make title bold from outside so TOC stays the same
 \chapter{\MakeUppercase{Introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
-In this thesis project I will be comparing the difference between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools.
-The future prospects of these technologies are also of interest to the company.
-\\
+In this thesis project I will be comparing the difference between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. VR and AR have grown in popularity and market share over the recent years as the technology has improved\Cref{fig:ar-vr-consumer-spending}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=210pt]{ar-vr-consumer-spending}
+	\caption{\citep{ar-vr-chart}}
+	\label{fig:ar-vr-consumer-spending}
+\end{figure}
 \chapter{\MakeUppercase{Augmenter Reality and Virtual Reality}}
 Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
 
@@ -296,21 +300,27 @@ Feedback from the customer in the Sassi project has been positive, although ther
 Regardless of the good customer feedback there is room for improvement of the training. Streamlining of the training can reduce the time required to create training materials and the amount of staff needed to conduct the training. Another future goal of the training is to be able to experience more lifelike situations and more complex scenarios resulting in better preparedness for critical situations. Misunderstanding caused by a language barrier is something that should be avoided in future training.
 \par
 Innovation in every aspect of the product is welcomed from the customers. The market has been stagnant and competing companies have been refusing to innovate due to the various risks involved with doing so. Observis is willing to take those risks to set itself apart. A survey and analysis of Virtual reality technologies is of interest to the company.
+\par
 \section{Comparing VR and AR in the project context}
 AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
 \par
-AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. Immersion may be sacrificed due to the narrow field of view\citep{hololens-specs}, smaller color space and inability to emulate real life scenarios such as being inside a moving vehicle.
+AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. Immersion may be sacrificed due to the narrow field of view\citep{hololens-specs}, smaller color space, low luminosity and lower computing power. Another downside is the inability to emulate real life scenarios such as being inside a moving vehicle or simulating an environment that is completely different from the one the user is in. For example it is impossible to simulate night missions if the user is in a brightly lit room. For these reasons AR is restricted by the environment it is being experienced in.
 \par
-The easability of use of AR headsets is one important benefit. While VR headsets require a tether cable, external computer and even base stations in same cases, AR headsets can be used as they are, independantly. 3D modelling isn't as big of a requirement compared to VR as it is enough to create models only of the objects the user interacts with, not the full environment the user is in.
+The easability of use of AR headsets is one important benefit. While VR headsets require a tether cable, external computer and even base stations in some cases, AR headsets can be used as they are, independently. 3D modelling isn't as big of a requirement compared to VR as it is enough to create models only of the objects the user interacts with, not the full environment the user is in. This can reduce development time significantly.
 \par
-VR shines in implementing a completely independant environment. The only limit to what can be recreated is imposed by the hardware performance and development time and skills. VR allows for spectating and recording user's interaction with the environment. This can be used to analyze their experience and improve the software further. Giving suggestions and guiding during the training is also possible. A multi-user environment is also possible and trainees and teachers can be in the same environment even if they're physically far apart.
+VR shines in implementing a completely independant environment. The only limit to what can be recreated is imposed by the hardware performance and development time and skills. VR allows for spectating and recording users' interaction with the environment. This can be used to analyze their experience and improve the software further. Giving suggestions and guiding during the training is also possible. A multi-user environment is also possible and trainees and teachers can be in the same environment even if they're physically far apart.
 \par
-Price difference is very small between VR and AR. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$\citep{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\citep{htc-vive-pro} with VR capable laptops priced starting from 1500\euro.
-\section{Researching mixed reality implementation}
-\section{Risks and challenges to the mixed reality approach}
+Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$\citep{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\citep{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
+\par
+\section{Defining the application specifications and requirements}
+The primary goal of the training application is to provide a better view on the future prospects of using mixed reality for training. A secondary goal is to offer a training platform for better understanding of the ObSAS software to trainees. Furthermore finding other suitable AR/VR use cases for the current Observis projects can also be a positive by-product of the research.
+\par
+
+\section{Selection of mixed reality framework}
 \par
 \chapter{\MakeUppercase{Project implementation}}
-\section{Defining the application specifications and requirements}
+\section{Researching mixed reality implementation}
+\section{Risks and challenges to the mixed reality approach}
 \section{Implementing basic scene with objects}
 \section{Tracking and interacting with the virtual environment}
 \section{Creating a context for training}

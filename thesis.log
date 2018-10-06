@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  30 SEP 2018 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  6 OCT 2018 14:55
 entering extended mode
 **"g:/My Drive/University 2018/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018/thesis_alex/thesis.tex"
@@ -863,53 +863,63 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 180.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 180.
-Chapter 2
-<Virtuality_Continuum_2.jpg, id=17, 614.295pt x 118.4425pt>
-File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
-<use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 189.
-(pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
+<ar-vr-consumer-spending.png, id=17, 1003.75pt x 745.78625pt>
+File: ar-vr-consumer-spending.png Graphic file (type png)
+<use ar-vr-consumer-spending.png>
+Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 185.
+(pdftex.def)             Requested size: 282.62563pt x 210.0pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 190.
+(Font)              scaled to size 10.40245pt on input line 186.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 10.40245pt on input line 186.
+Chapter 2
 [1
 
- <./Virtuality_Continuum_2.jpg>] [2]
-<ar-framework.png, id=24, 505.5136pt x 165.99516pt>
+ <./ar-vr-consumer-spending.png>]
+<Virtuality_Continuum_2.jpg, id=23, 614.295pt x 118.4425pt>
+File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
+<use Virtuality_Continuum_2.jpg>
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 193.
+(pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
+ [2 <./Virtuality_Continuum_2.jpg>]
+<ar-framework.png, id=27, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 217.
+Package pdftex.def Info: ar-framework.png  used on input line 221.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
-<ar-challenges.png, id=25, 890.9536pt x 239.01797pt>
+ [3]
+<ar-challenges.png, id=31, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 224.
+Package pdftex.def Info: ar-challenges.png  used on input line 228.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
- [3 <./ar-framework.png>] [4 <./ar-challenges.png>]
+
+[4 <./ar-framework.png> <./ar-challenges.png>] [5]
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 11.39996pt on input line 255.
- [5]
+(Font)              scaled to size 11.39996pt on input line 259.
+ [6]
 Chapter 3
-[6] [7] [8]
+[7] [8] [9]
 Chapter 4
 Chapter 5
-[9] [10] (thesis.bbl) [11] (thesis.aux) ) 
+[10] [11] (thesis.bbl [12]) [13] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 8646 strings out of 493303
- 136575 string characters out of 3138856
+ 8658 strings out of 493303
+ 136873 string characters out of 3138856
  307500 words of memory out of 3000000
- 12041 multiletter control sequences out of 15000+200000
- 54510 words of font info for 40 fonts, out of 3000000 for 9000
+ 12051 multiletter control sequences out of 15000+200000
+ 60785 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,14n,92p,1131b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (14 pages, 378178 bytes).
+ 53i,14n,92p,1131b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (16 pages, 435895 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

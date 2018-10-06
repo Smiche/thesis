@@ -1,23 +1,24 @@
 \contentsline {chapter}{\numberline {1}\MakeUppercase {Introduction}}{1}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {Augmenter Reality and Virtual Reality}}{1}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {Augmenter Reality and Virtual Reality}}{2}
 \contentsline {section}{\numberline {2.1}Augmented Reality}{2}
-\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{2}
+\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{3}
 \contentsline {subsection}{\numberline {2.1.2}AR Challenges}{3}
-\contentsline {section}{\numberline {2.2}Virtual Reality}{4}
+\contentsline {section}{\numberline {2.2}Virtual Reality}{5}
 \contentsline {subsection}{\numberline {2.2.1}VR Challenges}{5}
-\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{5}
+\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{6}
 \contentsline {section}{\numberline {2.3}Hybrid approaches}{6}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{6}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{7}
 \contentsline {section}{\numberline {3.1}Current training approach}{7}
 \contentsline {section}{\numberline {3.2}Future goals}{8}
-\contentsline {section}{\numberline {3.3}Comparing VR and AR in the project context}{8}
-\contentsline {section}{\numberline {3.4}Researching mixed reality implementation}{10}
-\contentsline {section}{\numberline {3.5}Risks and challenges to the mixed reality approach}{10}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{10}
-\contentsline {section}{\numberline {4.1}Defining the application specifications and requirements}{10}
-\contentsline {section}{\numberline {4.2}Implementing basic scene with objects}{10}
-\contentsline {section}{\numberline {4.3}Tracking and interacting with the virtual environment}{10}
-\contentsline {section}{\numberline {4.4}Creating a context for training}{10}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{10}
-\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{10}
-\contentsline {chapter}{REFERENCES}{11}
+\contentsline {section}{\numberline {3.3}Comparing VR and AR in the project context}{9}
+\contentsline {section}{\numberline {3.4}Defining the application specifications and requirements}{10}
+\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{11}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{11}
+\contentsline {section}{\numberline {4.1}Researching mixed reality implementation}{11}
+\contentsline {section}{\numberline {4.2}Risks and challenges to the mixed reality approach}{11}
+\contentsline {section}{\numberline {4.3}Implementing basic scene with objects}{11}
+\contentsline {section}{\numberline {4.4}Tracking and interacting with the virtual environment}{11}
+\contentsline {section}{\numberline {4.5}Creating a context for training}{11}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{11}
+\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{11}
+\contentsline {chapter}{REFERENCES}{12}
