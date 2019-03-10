@@ -14,11 +14,27 @@
 {\em Buy Microsoft HoloLens}  \harvardyearleft 2018\harvardyearright .
 \newline\harvardurl{https://www.microsoft.com/en-gb/hololens/buy}
 
+\harvarditem{Carter}{2014}{crowd-behavior}
+Carter, H.~E.  \harvardyearleft 2014\harvardyearright .
+\newblock Crowd behaviour in chemical, biological, radiological and nuclear
+  (cbrn) emergencies : behavioural and psychological responses to incidents
+  involving emergency decontamination.
+
+\harvarditem{{\em ChemProDM Chemical detector for mobile and vehicle
+  applications}}{2018}{environics-chemprodm}
+{\em ChemProDM Chemical detector for mobile and vehicle applications}
+  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://www.environics.fi/product/chemprodm/}
+
 \harvarditem{{\em Consumer spending on AR/VR worldwide
   2016-2021}}{2018}{ar-vr-chart}
 {\em Consumer spending on AR/VR worldwide 2016-2021}  \harvardyearleft
   2018\harvardyearright .
 \newline\harvardurl{https://www.statista.com/statistics/828467/world-ar-vr-consumer-spending-content-apps/}
+
+\harvarditem{{\em HI5 VR Glove business edition}}{2018}{hi5-vr-glove}
+{\em HI5 VR Glove business edition}  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://hi5vrglove.com/store/hi5glove}
 
 \harvarditem{{\em HP Z VR Backpack Overview}}{2018}{hp-vrbackpack}
 {\em HP Z VR Backpack Overview}  \harvardyearleft 2018\harvardyearright .
@@ -27,6 +43,10 @@
 \harvarditem{{\em HTC VIVE Pro review}}{2018}{htc-vive-pro-review}
 {\em HTC VIVE Pro review}  \harvardyearleft 2018\harvardyearright .
 \newline\harvardurl{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}
+
+\harvarditem{{\em HTC VIVE Pro vs Occulust Rift}}{2018}{vive-vs-rift}
+{\em HTC VIVE Pro vs Occulust Rift}  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}
 
 \harvarditem[Johnson et~al.]{Johnson, Levine, Smith \harvardand\
   Stone}{2010}{horizon-report}
@@ -39,6 +59,11 @@ Johnson, L., Levine, A., Smith, R. \harvardand\ Stone, S.  \harvardyearleft
 Kipper, G., Rampolla, J. \harvardand\ Kipper, G.  \harvardyearleft
   2013\harvardyearright .
 \newblock {\em Augmented Reality}, Syngress.
+
+\harvarditem{Lewis \harvardand\ Jacobson}{2002}{game-engines}
+Lewis, M. \harvardand\ Jacobson, J.  \harvardyearleft 2002\harvardyearright .
+\newblock Game engines in scientific research, {\em Communications of the ACM
+  Vol. 42} pp.~1--5.
 
 \harvarditem{{\em Microsoft HoloLens Device
   Specifications}}{2018}{hololens-specs}
@@ -66,6 +91,10 @@ van Krevelen, D. \harvardand\ Poelman, R.  \harvardyearleft
   2010\harvardyearright .
 \newblock A survey of augmented reality technologies, applications and
   limitations, {\em The International Journal of Virtual Reality} pp.~1--6.
+
+\harvarditem{{\em VRGluv}}{2018}{vrgluv}
+{\em VRGluv}  \harvardyearleft 2018\harvardyearright .
+\newline\harvardurl{https://vrgluv.com/}
 
 \harvarditem{Wang \harvardand\ Dunston}{2007}{ar-design}
 Wang, X. \harvardand\ Dunston, P.~S.  \harvardyearleft 2007\harvardyearright .

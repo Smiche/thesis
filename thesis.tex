@@ -85,6 +85,12 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 }
+%-- Stop figure counter resetting --%
+\usepackage{chngcntr}
+ 
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
 
 \setcounter{section}{1}%start table of contents at 1
 
@@ -161,6 +167,7 @@
 	\end{center}
 \end{titlepage}
 \makeatother
+\pagenumbering{arabic}%starting page counter
 
 \blankpage
 
@@ -173,7 +180,6 @@
 
 \newgeometry{top=1.25cm,left=4.0cm,right=2cm,bottom=1.25cm, head=14.5pt, includehead,includefoot,
   heightrounded,headsep=1cm}
-\pagenumbering{arabic}%starting page counter
 
 
 %make title bold from outside so TOC stays the same
@@ -186,7 +192,7 @@ In this thesis project I will be comparing the difference between AR(Augmented r
 	\caption{\citep{ar-vr-chart}}
 	\label{fig:ar-vr-consumer-spending}
 \end{figure}
-\chapter{\MakeUppercase{Augmenter Reality and Virtual Reality}}
+\chapter{\MakeUppercase{Augmented Reality and Virtual Reality}}
 Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
 
 \begin{figure}[H]
@@ -312,6 +318,25 @@ Regardless of the good customer feedback there is room for improvement of the tr
 \par
 Innovation in every aspect of the product is welcomed from the customers. The market has been stagnant and competing companies have been refusing to innovate due to the various risks involved with doing so. Observis is willing to take those risks to set itself apart. A survey and analysis of Virtual reality technologies is of interest to the company.
 \par
+\section{Defining the application specifications and requirements}
+The primary goal of the training application is to provide a better view on the future prospects of using mixed reality for training. A secondary goal is to offer a training platform for better understanding of the ObSAS software to trainees. Furthermore finding other suitable AR/VR use cases for the current Observis projects can also be a positive by-product of the research.
+\par
+A particularly sophisticated requirement of the system is the maintenance procedure. Measurement devices and sensors require periodic maintenance and inspection to remain in good operating condition. Neglect of these requirements can lead to faulty readings over time, device breakdown or even failure to recognise threats. The maintenance involves physical interaction with a measurement device that is guided by an instructional document. Software use is also required during the procedure to mark used parts and add additional notes. It is not possible to practice all maintenance procedures during training because of the time constraint. Consumables are often needed for the maintenance which can increase the cost of training. For the above-mentioned reasons implementing a training scenario that involves conducting a maintenance in a mixed reality environment would be of great benefit.
+\par
+One particular device that requires maintenance is Environics ChemProDM. The device is a Chemical Warfare Agents(CWA) and Toxic Industrial Chemicals(TIC) detector that is targeted for vehicle use\Cref{fig:chemprodm}. Typical installation includes 2 modules: ChemProDM detector and Remote Alarm Unit. A maintenance training scenario for this device is a great candidate for a mixed reality application. Initial installation and testing are also interesting use cases that can benefit from a training application.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{chemprodm}
+	\caption{ChemProDM and modules \citep{environics-chemprodm}}
+	\label{fig:chemprodm}
+\end{figure}
+\par
+Other devices included in ObSAS are Thermo SVG2 radiation sensor, Meteo IRDAM MAWS 5060 weather sensor, Infinicon Hapsite ER chemical analyzer. Basic knowledge of those devices is a great benefit when using the system, however it is not required of the users. The user can be familiarized with the devices during training. The knowledge attained can be helpful if on field repairs are required.
+\par
+\subsection{CBRN defense}
+CBRN is an acronym for Chemical, Biological, Radiological and Nuclear. CBRN defense is the field of detecting, reducing the impact of or avoiding the threats of CBRN agents. In recent years the threat of CBRN attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents \citep{crowd-behavior}.
+\par
+ObSAS provides possibilites for early detection of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
+CBRN considerations such as decontaminating equipment and clothes, medicine administration, evacuation radius require training and practice.
 \section{Comparing VR and AR in the project context}
 AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
 \par
@@ -321,17 +346,48 @@ The easability of use of AR headsets is one important benefit. While VR headsets
 \par
 VR shines in implementing a completely independant environment. The only limit to what can be recreated is imposed by the hardware performance and development time and skills. VR allows for spectating and recording users' interaction with the environment. This can be used to analyze their experience and improve the software further. Giving suggestions and guiding during the training is also possible. A multi-user environment is also possible and trainees and teachers can be in the same environment even if they're physically far apart.
 \par
-Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$ \citep{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro \citep{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
+Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$ \citep{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\ \citep{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
 \par
-\section{Defining the application specifications and requirements}
-The primary goal of the training application is to provide a better view on the future prospects of using mixed reality for training. A secondary goal is to offer a training platform for better understanding of the ObSAS software to trainees. Furthermore finding other suitable AR/VR use cases for the current Observis projects can also be a positive by-product of the research.
-\par
-
 \section{Selection of mixed reality framework}
+The main benefit of AR over VR in this project is the portability and ease of use it offers. In terms of what training can be implemented VR offers a lot more possibilities. Battery limitations are also reduced or avoided which enables long training sessions. Good multiplayer support and additional peripherals(such as gloves and controllers) are in favor of VR too. The portability of AR is not a crucial feature for this project and the usability it offers over VR are not sufficient enough to place AR as a more suitable platform in this project. A conclusion to this chapter is that a VR framework is a more suitable choice in the context of creating a training application for the ObSAS system.
 \par
 \chapter{\MakeUppercase{Project implementation}}
-\section{Researching mixed reality implementation}
-\section{Risks and challenges to the mixed reality approach}
+This chapter will describe the various stages of developing a VR training application. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
+\par
+\section{Researching VR hardware and software}
+The most notable VR headsets available on the market are Occulus Rift and the successor to HTC VIVE, the HTC VIVE Pro. Widest software and peripheral support is offered to these headsets, so other options would not be considered. The main difference between the two is that HTC VIVE Pro has higher screen resolution and pixel density \Cref{fig:comparison-table}. Occulust Rift has lighter controllers, but requires at least 3 or even 4 sensors in some cases for decent room tracking. In contrast HTC VIVE Pro offers a wider tracking area with just 2 tracking sensors \citep{vive-vs-rift}. Both options are pretty good options, but HTC VIVE Pro is more suitable and offers more because of the better graphics. 
+\begin{figure}[H]
+	\begin{tabular}{|l|l|l|}
+	\hline
+	\textbf{Category}   & \textbf{HTC VIVE Pro}                                               & \textbf{Occulus Rift}                                                \\ \hline 
+	\textbf{Display}    & Dual Amoled 3.5"                                                   & Dual Amoled 3.54"                                                    \\ \hline
+	\textbf{Resolution} & 1440x1600(2880x 1600)                                               & 1080x1200(2160x1200)                                                 \\ \hline
+	\textbf{PPI}        & 615                                                                 & 461                                                                  \\ \hline
+	\textbf{FOV}        & 110 degrees                                                         & 110 degrees                                                          \\ \hline
+	\textbf{FOV}        & 90Hz                                                                & 90Hz                                                                 \\ \hline
+	\textbf{Connection} & \begin{tabular}[c]{@{}l@{}}USB-C 3.0\\ DisplayPort 1.2\end{tabular} & \begin{tabular}[c]{@{}l@{}}HDMI\\ USB-A 2.0\\ USB-A 3.0\end{tabular} \\ \hline
+	\end{tabular}
+	\caption{HTC VIVE Pro vs Occulus Rift specs}
+	\label{fig:comparison-table}
+\end{figure}
+VR hand and finger tracking is a great addition to the immersion of the VR experience. More intuitive interaction with the virtual environment is possible. Many gloves are available as prototypes on the market. Some feature resistive finger feedback and texture and shape simulation \citep{vrgluv}. A large portion of such gloves are in the prototyping stage and can only be preordered. The Noitom hi5 gloves however are available as a purchasable product, even though they're missing the aforementioned features.
+\par
+These gloves achieve full finger tracking by using 9 inertial measurement units on each glove. The VR headset controllers are strapped on the gloves to provide absolute tracking \Cref{fig:vr-glove}. Vibration feedback is also supported by the hardware and software API \citep{hi5-vr-glove}.
+\begin{figure}[H]
+	\includegraphics[height=210pt]{vr-glove2}
+	\caption{Noitom HI5 VR glove \citep{hi5-vr-glove}}
+	\label{fig:vr-glove}
+\end{figure}
+\par
+The Noitom hi5 gloves are compatible with HTC VIVE Pro and offer SDKs for the most popular game engines (Unreal Engine and Unity). These gloves will be used in the project to achieve better immersion and quality of training.
+\section{Game engines}
+A game engine is a software framework aimed at simplifying and streamlining the production of games. At the core it provides a 3D or 2D rendering engine, generic physics engine, sound, animation and other features that assist game creation but do not directly specify the game's behavior. If used successfully a game engine can produce a higher quality game with less resources and in less time. An engine isn't required to build applications as all the features can be implemented from the ground up without the need for reusability or modularity, but that takes significantly more resources than using already existing tools \citep{game-engines}.
+\par
+Despite having the name game engine, such engines have many other applications besides making games. They can be used for pretty much any graphical application. Simulation applications, training applications, VR and AR applications of any kind, presentations, cinematography can all benefit from using a game engine. Using a game engine is suitable for this project because of the time constraint and limited resources available. 
+\par
+One popular game engine is Unreal Engine, created by Epic Games Inc. It is widely adopted and offers a large selection of plugins, addons, libraries and assets that aid development. Unreal Engine supports various VR and AR platforms including HTC VIVE Pro and Hi5 vr gloves. This engine will be used to develop the training application.
+\section{Application Objectives}
+
 \section{Implementing basic scene with objects}
 \section{Tracking and interacting with the virtual environment}
 \section{Creating a context for training}
