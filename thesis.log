@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAR 2019 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAR 2019 17:49
 entering extended mode
 **"g:/My Drive/University 2018/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018/thesis_alex/thesis.tex"
@@ -388,11 +388,19 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@delta=\dimen111
 \TX@cols=\count91
 \TX@ftn=\toks20
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen112
 \c@nlinenum=\count92
 \TeXr@lab=\toks21
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip48
+\multirow@cntb=\count93
+\multirow@dima=\skip49
+\bigstrutjot=\dimen113
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
@@ -410,10 +418,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks24
 \SOUL@buffer=\toks25
 \SOUL@token=\toks26
-\SOUL@spaceskip=\skip48
-\SOUL@ttwidth=\dimen113
-\SOUL@uldp=\dimen114
-\SOUL@ulht=\dimen115
+\SOUL@spaceskip=\skip50
+\SOUL@ttwidth=\dimen114
+\SOUL@uldp=\dimen115
+\SOUL@ulht=\dimen116
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -425,7 +433,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count93
+\XKV@depth=\count94
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 
@@ -436,14 +444,14 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box28
 \UL@hyphenbox=\box29
-\UL@skip=\skip49
+\UL@skip=\skip51
 \UL@hook=\toks29
-\UL@height=\dimen116
-\UL@pe=\count94
-\UL@pixel=\dimen117
+\UL@height=\dimen117
+\UL@pe=\count95
+\UL@pixel=\dimen118
 \ULC@box=\box30
 Package: ulem 2012/05/18
-\ULdepth=\dimen118
+\ULdepth=\dimen119
 ) (C:\Users\smich\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
@@ -461,7 +469,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (C:\Users\smich\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count95
+\etb@tempcnta=\count96
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\wallpaper\wallpaper.sty"
@@ -470,16 +478,16 @@ Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count96
-\calc@Bcount=\count97
-\calc@Adimen=\dimen119
-\calc@Bdimen=\dimen120
-\calc@Askip=\skip50
-\calc@Bskip=\skip51
+\calc@Acount=\count97
+\calc@Bcount=\count98
+\calc@Adimen=\dimen120
+\calc@Bdimen=\dimen121
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count98
-\calc@Cskip=\skip52
+\calc@Ccount=\count99
+\calc@Cskip=\skip54
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
  ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
@@ -489,17 +497,17 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-\wpXoffset=\skip53
-\wpYoffset=\skip54
-\tileXoffset=\skip55
-\tileYoffset=\skip56
-\tilewidth=\skip57
-\tileheight=\skip58
-\tileX=\skip59
-\tileY=\skip60
+\wpXoffset=\skip55
+\wpYoffset=\skip56
+\tileXoffset=\skip57
+\tileYoffset=\skip58
+\tilewidth=\skip59
+\tileheight=\skip60
+\tileX=\skip61
+\tileY=\skip62
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count99
+\c@lips@count=\count100
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box31
@@ -515,8 +523,8 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks30
-\footnotemargin=\dimen121
-\c@pp@next@reset=\count100
+\footnotemargin=\dimen122
+\c@pp@next@reset=\count101
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -524,32 +532,32 @@ Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
 Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
 )
-\CenteringLeftskip=\skip61
-\RaggedLeftLeftskip=\skip62
-\RaggedRightLeftskip=\skip63
-\CenteringRightskip=\skip64
-\RaggedLeftRightskip=\skip65
-\RaggedRightRightskip=\skip66
-\CenteringParfillskip=\skip67
-\RaggedLeftParfillskip=\skip68
-\RaggedRightParfillskip=\skip69
-\JustifyingParfillskip=\skip70
-\CenteringParindent=\skip71
-\RaggedLeftParindent=\skip72
-\RaggedRightParindent=\skip73
-\JustifyingParindent=\skip74
+\CenteringLeftskip=\skip63
+\RaggedLeftLeftskip=\skip64
+\RaggedRightLeftskip=\skip65
+\CenteringRightskip=\skip66
+\RaggedLeftRightskip=\skip67
+\RaggedRightRightskip=\skip68
+\CenteringParfillskip=\skip69
+\RaggedLeftParfillskip=\skip70
+\RaggedRightParfillskip=\skip71
+\JustifyingParfillskip=\skip72
+\CenteringParindent=\skip73
+\RaggedLeftParindent=\skip74
+\RaggedRightParindent=\skip75
+\JustifyingParindent=\skip76
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen122
-\captionmargin@=\dimen123
-\captionwidth=\dimen124
-\caption@tempdima=\dimen125
-\caption@indent=\dimen126
-\caption@parindent=\dimen127
-\caption@hangindent=\dimen128
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@tempdima=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
 )
 Package caption Info: We need package `newfloat' on input line 292.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\newfloat.sty"
@@ -560,7 +568,7 @@ Package newfloat Info: \@chapter = macro:[#1]#2->\ifnum \c@secnumdepth >\m@ne \i
 Package newfloat Info: \Hy@org@chapter = undefined.
 Package newfloat Info: Trying Plan B...
 )
-\c@ContinuedFloat=\count101
+\c@ContinuedFloat=\count102
 Package caption Info: float package is loaded.
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -568,81 +576,81 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
-\Gm@bindingoffset=\dimen129
-\Gm@wd@mp=\dimen130
-\Gm@odd@mp=\dimen131
-\Gm@even@mp=\dimen132
-\Gm@layoutwidth=\dimen133
-\Gm@layoutheight=\dimen134
-\Gm@layouthoffset=\dimen135
-\Gm@layoutvoffset=\dimen136
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen130
+\Gm@wd@mp=\dimen131
+\Gm@odd@mp=\dimen132
+\Gm@even@mp=\dimen133
+\Gm@layoutwidth=\dimen134
+\Gm@layoutheight=\dimen135
+\Gm@layouthoffset=\dimen136
+\Gm@layoutvoffset=\dimen137
 \Gm@dimlist=\toks31
  ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
 Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box32
-\beforetitleunit=\skip75
-\aftertitleunit=\skip76
-\ttl@plus=\dimen137
-\ttl@minus=\dimen138
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen138
+\ttl@minus=\dimen139
 \ttl@toksa=\toks32
-\titlewidth=\dimen139
-\titlewidthlast=\dimen140
-\titlewidthfirst=\dimen141
+\titlewidth=\dimen140
+\titlewidthlast=\dimen141
+\titlewidthfirst=\dimen142
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip77
-\cftbeforetoctitleskip=\skip78
-\cftaftertoctitleskip=\skip79
-\cftbeforepartskip=\skip80
-\cftpartnumwidth=\skip81
-\cftpartindent=\skip82
-\cftbeforechapskip=\skip83
-\cftchapindent=\skip84
-\cftchapnumwidth=\skip85
-\cftbeforesecskip=\skip86
-\cftsecindent=\skip87
-\cftsecnumwidth=\skip88
-\cftbeforesubsecskip=\skip89
-\cftsubsecindent=\skip90
-\cftsubsecnumwidth=\skip91
-\cftbeforesubsubsecskip=\skip92
-\cftsubsubsecindent=\skip93
-\cftsubsubsecnumwidth=\skip94
-\cftbeforeparaskip=\skip95
-\cftparaindent=\skip96
-\cftparanumwidth=\skip97
-\cftbeforesubparaskip=\skip98
-\cftsubparaindent=\skip99
-\cftsubparanumwidth=\skip100
-\cftbeforeloftitleskip=\skip101
-\cftafterloftitleskip=\skip102
-\cftbeforefigskip=\skip103
-\cftfigindent=\skip104
-\cftfignumwidth=\skip105
-\c@lofdepth=\count105
-\c@lotdepth=\count106
-\cftbeforelottitleskip=\skip106
-\cftafterlottitleskip=\skip107
-\cftbeforetabskip=\skip108
-\cfttabindent=\skip109
-\cfttabnumwidth=\skip110
+\cftparskip=\skip79
+\cftbeforetoctitleskip=\skip80
+\cftaftertoctitleskip=\skip81
+\cftbeforepartskip=\skip82
+\cftpartnumwidth=\skip83
+\cftpartindent=\skip84
+\cftbeforechapskip=\skip85
+\cftchapindent=\skip86
+\cftchapnumwidth=\skip87
+\cftbeforesecskip=\skip88
+\cftsecindent=\skip89
+\cftsecnumwidth=\skip90
+\cftbeforesubsecskip=\skip91
+\cftsubsecindent=\skip92
+\cftsubsecnumwidth=\skip93
+\cftbeforesubsubsecskip=\skip94
+\cftsubsubsecindent=\skip95
+\cftsubsubsecnumwidth=\skip96
+\cftbeforeparaskip=\skip97
+\cftparaindent=\skip98
+\cftparanumwidth=\skip99
+\cftbeforesubparaskip=\skip100
+\cftsubparaindent=\skip101
+\cftsubparanumwidth=\skip102
+\cftbeforeloftitleskip=\skip103
+\cftafterloftitleskip=\skip104
+\cftbeforefigskip=\skip105
+\cftfigindent=\skip106
+\cftfignumwidth=\skip107
+\c@lofdepth=\count106
+\c@lotdepth=\count107
+\cftbeforelottitleskip=\skip108
+\cftafterlottitleskip=\skip109
+\cftbeforetabskip=\skip110
+\cfttabindent=\skip111
+\cfttabnumwidth=\skip112
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
-\f@nch@headwidth=\skip111
-\f@nch@O@elh=\skip112
-\f@nch@O@erh=\skip113
-\f@nch@O@olh=\skip114
-\f@nch@O@orh=\skip115
-\f@nch@O@elf=\skip116
-\f@nch@O@erf=\skip117
-\f@nch@O@olf=\skip118
-\f@nch@O@orf=\skip119
+\f@nch@headwidth=\skip113
+\f@nch@O@elh=\skip114
+\f@nch@O@erh=\skip115
+\f@nch@O@olh=\skip116
+\f@nch@O@orh=\skip117
+\f@nch@O@elf=\skip118
+\f@nch@O@erf=\skip119
+\f@nch@O@olf=\skip120
+\f@nch@O@orf=\skip121
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
@@ -654,43 +662,43 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip120
-\bibsep=\skip121
+\bibhang=\skip122
+\bibsep=\skip123
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
+\c@NAT@ctr=\count108
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 144.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 146.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 144.
+(Font)              scaled to size 11.39996pt on input line 146.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen142
+\scratchcounter=\count109
+\scratchdimen=\dimen143
 \scratchbox=\box33
-\nofMPsegments=\count109
-\nofMParguments=\count110
+\nofMPsegments=\count110
+\nofMParguments=\count111
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen143
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen144
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks34
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -724,10 +732,13 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 146.
 \AtBeginShipoutBox=\box34
-Package ragged2e Info: ABD: executing \RaggedRight on input line 144.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 146.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 144.
+LaTeX Info: Redefining \selectfont on input line 146.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -766,29 +777,29 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 15.19995pt on input line 154.
+(Font)              scaled to size 15.19995pt on input line 156.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 158.
+(Font)              scaled to size 22.79993pt on input line 160.
 <xamklogo.png, id=1, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
-Package pdftex.def Info: xamklogo.png  used on input line 173.
+Package pdftex.def Info: xamklogo.png  used on input line 175.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
 <background.png, id=2, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 176.
+Package pdftex.def Info: background.png  used on input line 178.
 (pdftex.def)             Requested size: 597.41231pt x 845.04933pt.
 [1
 
 
 {C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./background.png> <./xamklogo.png>] [1]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 193.
+(Font)              scaled to size 23.63593pt on input line 208.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 193.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 208.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 193.
+(Font)              scaled to size 23.63593pt on input line 208.
  (thesis.toc)
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
@@ -828,18 +839,18 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 
 
 Chapter 1
-Package newfloat Info: Setting Plan B file extension to `lof'... on input line 203.
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 218.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 203.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 218.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 203.
+(Font)              scaled to size 11.39996pt on input line 218.
 <ar-vr-consumer-spending.png, id=17, 1003.75pt x 745.78625pt>
 File: ar-vr-consumer-spending.png Graphic file (type png)
 <use ar-vr-consumer-spending.png>
-Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 208.
+Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 223.
 (pdftex.def)             Requested size: 282.62563pt x 210.0pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 209.
+(Font)              scaled to size 10.40245pt on input line 224.
 Chapter 2
 [3
 
@@ -847,29 +858,29 @@ Chapter 2
 <Virtuality_Continuum_2.jpg, id=22, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 216.
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 231.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
 <ar-application.jpg, id=23, 813.0375pt x 418.56375pt>
 File: ar-application.jpg Graphic file (type jpg)
 <use ar-application.jpg>
-Package pdftex.def Info: ar-application.jpg  used on input line 224.
+Package pdftex.def Info: ar-application.jpg  used on input line 239.
 (pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
  [4 <./Virtuality_Continuum_2.jpg>] [5 <./ar-application.jpg>]
 <ar-framework.png, id=30, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 250.
+Package pdftex.def Info: ar-framework.png  used on input line 265.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
 <ar-challenges.png, id=31, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 257.
+Package pdftex.def Info: ar-challenges.png  used on input line 272.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
  [6 <./ar-framework.png>]
 <htc-vive-pro-headset.jpg, id=37, 803.0pt x 536.0025pt>
 File: htc-vive-pro-headset.jpg Graphic file (type jpg)
 <use htc-vive-pro-headset.jpg>
-Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 277.
+Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 292.
 (pdftex.def)             Requested size: 426.79135pt x 284.88966pt.
  [7 <./ar-challenges.png>] [8 <./htc-vive-pro-headset.jpg>] [9]
 Chapter 3
@@ -877,7 +888,7 @@ Chapter 3
 <chemprodm.jpg, id=54, 777.90625pt x 501.875pt>
 File: chemprodm.jpg Graphic file (type jpg)
 <use chemprodm.jpg>
-Package pdftex.def Info: chemprodm.jpg  used on input line 345.
+Package pdftex.def Info: chemprodm.jpg  used on input line 360.
 (pdftex.def)             Requested size: 426.79135pt x 275.35818pt.
  [12] [13 <./chemprodm.jpg>] [14]
 Chapter 4
@@ -885,24 +896,26 @@ Chapter 4
 <vr-glove2.png, id=72, 957.5775pt x 608.2725pt>
 File: vr-glove2.png Graphic file (type png)
 <use vr-glove2.png>
-Package pdftex.def Info: vr-glove2.png  used on input line 394.
+Package pdftex.def Info: vr-glove2.png  used on input line 409.
 (pdftex.def)             Requested size: 330.58377pt x 210.0pt.
  [17 <./vr-glove2.png>]
 Chapter 5
 [18] [19] (thesis.bbl
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 15.
- [20]) [21] (thesis.aux) ) 
+ [20]) 
+AED: lastpage setting LastPage
+[21] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 9246 strings out of 493303
- 144485 string characters out of 3138856
- 317960 words of memory out of 3000000
- 12607 multiletter control sequences out of 15000+200000
+ 9332 strings out of 493303
+ 145933 string characters out of 3138856
+ 322307 words of memory out of 3000000
+ 12686 multiletter control sequences out of 15000+200000
  54929 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,15n,92p,1132b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\smich\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (22 pages, 1034293 bytes).
+Output written on thesis.pdf (22 pages, 1034563 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

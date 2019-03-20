@@ -10,7 +10,9 @@
 \usepackage{float}
 
 \usepackage{tabularx}%table package
+\usepackage{lastpage}%get page count
 \usepackage{makecell}%multiline cell
+\usepackage{multirow}%multirow
 \usepackage{pdflscape}%for one page table
 
 \usepackage{soul}
@@ -182,9 +184,22 @@
     \noindent
     \begin{tabularx}{\linewidth}{|XXXX|}
       \hline
-	   \multicolumn{2}{|X}{Author (authors) \newline Aleksadar Ivanov} & Degree \newline Bachelor of Information Technology & Time \\
+	   Author (authors) &  Degree &  & Time \\
+	   Aleksadar Ivanov &  \multicolumn{2}{l}{Bachelor of Information Technology} & May 2019 \\
+	   \hline
+	   Thesis title & & & \\
+	   \multicolumn{3}{|l}{Educational AR/VR Systems for Military Projects} & \pageref{LastPage} pages\\
 	  \hline
-	  High information density & Low information density & \\
+	  Comissioned by & & & \\
+	  \hline
+	  Supervisor & & & \\
+	  & & & \\
+	  \hline
+	  Abstract & & & \\
+	  & & & \\
+	  \hline
+	  Keywords & & & \\
+	  & & & \\
 	  \hline
     \end{tabularx}
 
@@ -202,7 +217,7 @@
 %make title bold from outside so TOC stays the same
 \chapter{\MakeUppercase{Introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
-In this thesis project I will be comparing the difference between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. VR and AR have grown in popularity and market share over the recent years as the technology has improved\Cref{fig:ar-vr-consumer-spending}.
+In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. VR and AR have grown in popularity and market share over the recent years as the technology has improved\Cref{fig:ar-vr-consumer-spending}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=210pt]{ar-vr-consumer-spending}
@@ -405,6 +420,7 @@ Despite having the name game engine, such engines have many other applications b
 One popular game engine is Unreal Engine, created by Epic Games Inc. It is widely adopted and offers a large selection of plugins, addons, libraries and assets that aid development. Unreal Engine supports various VR and AR platforms including HTC VIVE Pro and Hi5 vr gloves. This engine will be used to develop the training application.
 \section{Application Objectives}
 The application objectives can be defined as a set of actions that the user needs to complete in a certain order. Using objectives helps quantifying the training progress and give guidance to the user at the same time. Having structured objectives also helps motivate users to continue interacting with the software \citep{goal-oriented-games}.
+
 \section{Implementing basic scene with objects}
 \par
 \subsection{Virtual environment and 3D models}
