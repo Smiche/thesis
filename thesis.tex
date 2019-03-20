@@ -6,15 +6,22 @@
 \usepackage[scaled]{uarial}
 \renewcommand*\familydefault{\sfdefault} 
 
-\usepackage{graphicx}%package for imges
+\usepackage{graphicx}%package for imges 
 \usepackage{float}
 
+\usepackage{tabularx}%table package
+\usepackage{makecell}%multiline cell
+\usepackage{pdflscape}%for one page table
+
+\usepackage{soul}
 \usepackage[hyphens]{url}
 \def\UrlBreaks{\do\/\do-}
 \usepackage[hyphenbreaks]{breakurl}
 \urlstyle{same}
 
+\usepackage[normalem]{ulem}
 \usepackage{xcolor}
+
 \usepackage{etoolbox}
 \usepackage{setspace}
 \usepackage{wallpaper}
@@ -97,13 +104,14 @@
 %-----------------------------------References------------------------------%
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage[comma]{natbib}
-\bibliographystyle{dcu}
+\bibliographystyle{xamk}
+%\bibliographystyle{dcu}
 
 %move left
 \setlength{\bibhang}{0pt}
 
-\renewcommand\harvardurl[1]{\RaggedRight\textbf{URL:}
-\url{#1}}
+%\renewcommand\harvardurl[1]{\RaggedRight\textbf{WWW %document:}
+%\url{#1}}
 
 \renewcommand{\bibname}{REFERENCES}
 %-------------------------------------------------------------------------------%
@@ -169,7 +177,16 @@
 \makeatother
 \pagenumbering{arabic}%starting page counter
 
-\blankpage
+%\blankpage
+    \thispagestyle{empty}
+    \noindent
+    \begin{tabularx}{\linewidth}{|XXXX|}
+      \hline
+	   \multicolumn{2}{|X}{Author (authors) \newline Aleksadar Ivanov} & Degree \newline Bachelor of Information Technology & Time \\
+	  \hline
+	  High information density & Low information density & \\
+	  \hline
+    \end{tabularx}
 
 \newpage%TOC page
 {\setstretch{1.2}
@@ -335,8 +352,8 @@ Other devices included in ObSAS are Thermo SVG2 radiation sensor, Meteo IRDAM MA
 \subsection{CBRN defense}
 CBRN is an acronym for Chemical, Biological, Radiological and Nuclear. CBRN defense is the field of detecting, reducing the impact of or avoiding the threats of CBRN agents. In recent years the threat of CBRN attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents \citep{crowd-behavior}.
 \par
-ObSAS provides possibilites for early detection of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
-CBRN considerations such as decontaminating equipment and clothes, medicine administration, evacuation radius require training and practice.
+ObSAS provides possibilites for early detection of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction and prevention strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
+CBRN considerations such as decontaminating equipment and clothes, medicine administration, using protective equipment and detection devices require training and practice.
 \section{Comparing VR and AR in the project context}
 AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
 \par
@@ -360,7 +377,7 @@ The most notable VR headsets available on the market are Occulus Rift and the su
 	\begin{tabular}{|l|l|l|}
 	\hline
 	\textbf{Category}   & \textbf{HTC VIVE Pro}                                               & \textbf{Occulus Rift}                                                \\ \hline 
-	\textbf{Display}    & Dual Amoled 3.5"                                                   & Dual Amoled 3.54"                                                    \\ \hline
+	\textbf{Display}    & Dual Amoled 3.5                                                   & Dual Amoled 3.54"                                                    \\ \hline
 	\textbf{Resolution} & 1440x1600(2880x 1600)                                               & 1080x1200(2160x1200)                                                 \\ \hline
 	\textbf{PPI}        & 615                                                                 & 461                                                                  \\ \hline
 	\textbf{FOV}        & 110 degrees                                                         & 110 degrees                                                          \\ \hline
@@ -387,8 +404,10 @@ Despite having the name game engine, such engines have many other applications b
 \par
 One popular game engine is Unreal Engine, created by Epic Games Inc. It is widely adopted and offers a large selection of plugins, addons, libraries and assets that aid development. Unreal Engine supports various VR and AR platforms including HTC VIVE Pro and Hi5 vr gloves. This engine will be used to develop the training application.
 \section{Application Objectives}
-
+The application objectives can be defined as a set of actions that the user needs to complete in a certain order. Using objectives helps quantifying the training progress and give guidance to the user at the same time. Having structured objectives also helps motivate users to continue interacting with the software \citep{goal-oriented-games}.
 \section{Implementing basic scene with objects}
+\par
+\subsection{Virtual environment and 3D models}
 \section{Tracking and interacting with the virtual environment}
 \section{Creating a context for training}
 
@@ -401,6 +420,7 @@ One popular game engine is Unreal Engine, created by Epic Games Inc. It is widel
 \newpage
 
 \nocite{*}
+\AtBeginEnvironment{thebibliography}{\linespread{1}\selectfont}
 \bibliography{references}
 
 \end{document}

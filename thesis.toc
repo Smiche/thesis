@@ -1,26 +1,27 @@
-\contentsline {chapter}{\numberline {1}\MakeUppercase {Introduction}}{2}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {Augmented Reality and Virtual Reality}}{3}
-\contentsline {section}{\numberline {2.1}Augmented Reality}{3}
-\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{4}
-\contentsline {subsection}{\numberline {2.1.2}AR Challenges}{5}
-\contentsline {section}{\numberline {2.2}Virtual Reality}{6}
-\contentsline {subsection}{\numberline {2.2.1}VR Challenges}{7}
-\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{8}
-\contentsline {section}{\numberline {2.3}Hybrid approaches}{8}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{9}
-\contentsline {section}{\numberline {3.1}Current training approach}{9}
-\contentsline {section}{\numberline {3.2}Future goals}{10}
-\contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{11}
-\contentsline {subsection}{\numberline {3.3.1}CBRN defense}{12}
-\contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{13}
-\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{14}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{15}
-\contentsline {section}{\numberline {4.1}Researching VR hardware and software}{15}
-\contentsline {section}{\numberline {4.2}Game engines}{16}
-\contentsline {section}{\numberline {4.3}Application Objectives}{17}
-\contentsline {section}{\numberline {4.4}Implementing basic scene with objects}{17}
-\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{17}
-\contentsline {section}{\numberline {4.6}Creating a context for training}{17}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{17}
-\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{17}
-\contentsline {chapter}{REFERENCES}{18}
+\contentsline {chapter}{\numberline {1}\MakeUppercase {Introduction}}{3}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {Augmented Reality and Virtual Reality}}{4}
+\contentsline {section}{\numberline {2.1}Augmented Reality}{4}
+\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{5}
+\contentsline {subsection}{\numberline {2.1.2}AR Challenges}{6}
+\contentsline {section}{\numberline {2.2}Virtual Reality}{7}
+\contentsline {subsection}{\numberline {2.2.1}VR Challenges}{8}
+\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{9}
+\contentsline {section}{\numberline {2.3}Hybrid approaches}{9}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{10}
+\contentsline {section}{\numberline {3.1}Current training approach}{10}
+\contentsline {section}{\numberline {3.2}Future goals}{11}
+\contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{12}
+\contentsline {subsection}{\numberline {3.3.1}CBRN defense}{13}
+\contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{14}
+\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{15}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{16}
+\contentsline {section}{\numberline {4.1}Researching VR hardware and software}{16}
+\contentsline {section}{\numberline {4.2}Game engines}{17}
+\contentsline {section}{\numberline {4.3}Application Objectives}{18}
+\contentsline {section}{\numberline {4.4}Implementing basic scene with objects}{19}
+\contentsline {subsection}{\numberline {4.4.1}Virtual environment and 3D models}{19}
+\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{19}
+\contentsline {section}{\numberline {4.6}Creating a context for training}{19}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{19}
+\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{19}
+\contentsline {chapter}{REFERENCES}{20}

@@ -1,30 +1,30 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
-The style file: dcu.bst
+The style file: xamk.bst
 Database file #1: references.bib
-Warning--entry type for "hp-vrbackpack" isn't style-file defined
---line 61 of file references.bib
-Warning--entry type for "nlr-vr" isn't style-file defined
---line 69 of file references.bib
-Warning--entry type for "hololens-specs" isn't style-file defined
---line 78 of file references.bib
-Warning--entry type for "hololens-price" isn't style-file defined
---line 86 of file references.bib
-Warning--entry type for "htc-vive-pro" isn't style-file defined
---line 94 of file references.bib
-Warning--entry type for "ar-vr-chart" isn't style-file defined
---line 102 of file references.bib
-Warning--entry type for "htc-vive-pro-review" isn't style-file defined
---line 110 of file references.bib
-Warning--entry type for "ar-application-whitehouse" isn't style-file defined
---line 118 of file references.bib
-Warning--entry type for "environics-chemprodm" isn't style-file defined
---line 126 of file references.bib
-Warning--entry type for "vive-vs-rift" isn't style-file defined
---line 134 of file references.bib
-Warning--entry type for "vrgluv" isn't style-file defined
---line 142 of file references.bib
-Warning--entry type for "hi5-vr-glove" isn't style-file defined
---line 150 of file references.bib
 Warning--entry type for "crowd-behavior" isn't style-file defined
 --line 167 of file references.bib
-(There were 13 warnings)
+Warning--empty author in ar-vr-chart
+Warning--empty journal in ar-vr-chart
+Warning--empty author in ar-application-whitehouse
+Warning--empty journal in ar-application-whitehouse
+Warning--empty author in htc-vive-pro-review
+Warning--empty journal in htc-vive-pro-review
+Warning--empty author in hp-vrbackpack
+Warning--empty journal in hp-vrbackpack
+Warning--empty journal in nlr-vr
+Warning--empty author in environics-chemprodm
+Warning--empty journal in environics-chemprodm
+Warning--empty author in hololens-specs
+Warning--empty journal in hololens-specs
+Warning--empty author in hololens-price
+Warning--empty journal in hololens-price
+Warning--empty author in htc-vive-pro
+Warning--empty journal in htc-vive-pro
+Warning--empty author in vive-vs-rift
+Warning--empty journal in vive-vs-rift
+Warning--empty author in vrgluv
+Warning--empty journal in vrgluv
+Warning--empty author in hi5-vr-glove
+Warning--empty journal in hi5-vr-glove
+Warning--empty journal in goal-oriented-games
+(There were 25 warnings)

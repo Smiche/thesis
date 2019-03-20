@@ -1,104 +1,125 @@
-\begin{thebibliography}{xx}
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\harvarditem{{\em AR experience of the White
-  House}}{2016}{ar-application-whitehouse}
-{\em AR experience of the White House}  \harvardyearleft 2016\harvardyearright
-  .
-\newline\harvardurl{https://vrscout.com/news/augmented-reality-app-1-dollar-bill-tour-white-house/}
+\bibitem[ar-(2018)]{ar-vr-chart}
+2018. Consumer spending on ar/vr worldwide 2016-2021. WWW-document
+  \textcolor{blue}{\url{https://www.statista.com/statistics/828467/world-ar-vr-consumer-spending-content-apps/}}.
+\newblock [accessed 2018-10-06].
 
-\harvarditem{{\em Buy HTC VIVE Pro}}{2018}{htc-vive-pro}
-{\em Buy HTC VIVE Pro}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://www.vive.com/eu/product/vive-pro/}
+\bibitem[Mullen and Mullen(2011)]{prototyping-ar}
+Tony Mullen and Tony Mullen.
+\newblock \emph{Prototyping Augmented Reality}.
+\newblock Wiley. 2011.
+\newblock ISBN 9781118036631.
 
-\harvarditem{{\em Buy Microsoft HoloLens}}{2018}{hololens-price}
-{\em Buy Microsoft HoloLens}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://www.microsoft.com/en-gb/hololens/buy}
+\bibitem[ar-(2016)]{ar-application-whitehouse}
+2016. Ar experience of the white house. WWW-document
+  \textcolor{blue}{\url{https://vrscout.com/news/augmented-reality-app-1-dollar-bill-tour-white-house/}}.
+\newblock [accessed 2018-10-06].
 
-\harvarditem{Carter}{2014}{crowd-behavior}
-Carter, H.~E.  \harvardyearleft 2014\harvardyearright .
+\bibitem[van Krevelen and Poelman(2010)]{vrjournal}
+D.W.F. van Krevelen and R.~Poelman.
+\newblock A survey of augmented reality technologies, applications and
+  limitations.
+\newblock \emph{The International Journal of Virtual Reality}. pages 1--6.
+  2010.
+\newblock
+  \doi{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.8190&rep=rep1&type=pdf}.
+
+\bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, and Stone]{horizon-report}
+L.~Johnson, A.~Levine, R.~Smith, and S.~Stone.
+\newblock \emph{The Horizon Report}.
+\newblock Educause Learning Initiative. 2010.
+\newblock ISBN 978-0-9825334-3-7.
+
+\bibitem[Kipper et~al.(2013)Kipper, Rampolla, and Kipper]{augmented-reality}
+Gregory Kipper, Joseph Rampolla, and Greg Kipper.
+\newblock \emph{Augmented Reality}.
+\newblock Syngress. 2013.
+\newblock ISBN 1-59749-733-9,1-59749-734-7,1-283-81064-6.
+
+\bibitem[Wang and Dunston(2007)]{ar-design}
+Xiangyu Wang and Phillip~S. Dunston.
+\newblock Design, strategies, and issues towards an augmented reality-based
+  construction training platform.
+\newblock \emph{ITcon Vol. 12}. pages 1--8. 2007.
+
+\bibitem[Rabbi and Ullah(2016)]{Acta-Graphica}
+Ihsan Rabbi and Sehat Ullah.
+\newblock A survey on augmented reality challenges and tracking.
+\newblock \emph{Acta Graphica}. 24\penalty0 (1-2):\penalty0 29--46. 2016.
+\newblock ISSN 1848-3828. WWW-document
+  \textcolor{blue}{\url{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}}.
+
+\bibitem[htc(2018{\natexlab{a}})]{htc-vive-pro-review}
+2018. Htc vive pro review. WWW-document
+  \textcolor{blue}{\url{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}}.
+\newblock [accessed 2018-10-06].
+
+\bibitem[hp-(2018)]{hp-vrbackpack}
+2018. Hp z vr backpack overview. WWW-document
+  \textcolor{blue}{\url{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}}.
+\newblock [accessed 2018-05-21].
+
+\bibitem[van Gimst(2018)]{nlr-vr}
+Ronald van Gimst. 2018. Creating a high-fidelity and low-cost simulation
+  environment. WWW-document
+  \textcolor{blue}{\url{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}}.
+\newblock [accessed 2018-06-24].
+
+\bibitem[env(2018)]{environics-chemprodm}
+2018. Chemprodm chemical detector for mobile and vehicle applications.
+  WWW-document
+  \textcolor{blue}{\url{https://www.environics.fi/product/chemprodm/}}.
+\newblock [accessed 2018-10-26].
+
+\bibitem[Carter(2014)]{crowd-behavior}
+Holly~Elisabeth Carter.
 \newblock Crowd behaviour in chemical, biological, radiological and nuclear
   (cbrn) emergencies : behavioural and psychological responses to incidents
-  involving emergency decontamination.
+  involving emergency decontamination. 2014.
 
-\harvarditem{{\em ChemProDM Chemical detector for mobile and vehicle
-  applications}}{2018}{environics-chemprodm}
-{\em ChemProDM Chemical detector for mobile and vehicle applications}
-  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://www.environics.fi/product/chemprodm/}
+\bibitem[hol(2018{\natexlab{a}})]{hololens-specs}
+2018. Microsoft hololens device specifications. WWW-document
+  \textcolor{blue}{\url{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}}.
+\newblock [accessed 2018-09-1].
 
-\harvarditem{{\em Consumer spending on AR/VR worldwide
-  2016-2021}}{2018}{ar-vr-chart}
-{\em Consumer spending on AR/VR worldwide 2016-2021}  \harvardyearleft
-  2018\harvardyearright .
-\newline\harvardurl{https://www.statista.com/statistics/828467/world-ar-vr-consumer-spending-content-apps/}
+\bibitem[hol(2018{\natexlab{b}})]{hololens-price}
+2018. Buy microsoft hololens. WWW-document
+  \textcolor{blue}{\url{https://www.microsoft.com/en-gb/hololens/buy}}.
+\newblock [accessed 2018-09-30].
 
-\harvarditem{{\em HI5 VR Glove business edition}}{2018}{hi5-vr-glove}
-{\em HI5 VR Glove business edition}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://hi5vrglove.com/store/hi5glove}
+\bibitem[htc(2018{\natexlab{b}})]{htc-vive-pro}
+2018. Buy htc vive pro. WWW-document
+  \textcolor{blue}{\url{https://www.vive.com/eu/product/vive-pro/}}.
+\newblock [accessed 2018-09-30].
 
-\harvarditem{{\em HP Z VR Backpack Overview}}{2018}{hp-vrbackpack}
-{\em HP Z VR Backpack Overview}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}
+\bibitem[viv(2018)]{vive-vs-rift}
+2018. Htc vive pro vs occulus rift. WWW-document
+  \textcolor{blue}{\url{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}}.
+\newblock [accessed 2018-10-29].
 
-\harvarditem{{\em HTC VIVE Pro review}}{2018}{htc-vive-pro-review}
-{\em HTC VIVE Pro review}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}
+\bibitem[vrg(2018)]{vrgluv}
+2018. Vrgluv. WWW-document \textcolor{blue}{\url{https://vrgluv.com/}}.
+\newblock [accessed 2018-11-20].
 
-\harvarditem{{\em HTC VIVE Pro vs Occulust Rift}}{2018}{vive-vs-rift}
-{\em HTC VIVE Pro vs Occulust Rift}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}
+\bibitem[hi5(2018)]{hi5-vr-glove}
+2018. Hi5 vr glove business edition. WWW-document
+  \textcolor{blue}{\url{https://hi5vrglove.com/store/hi5glove}}.
+\newblock [accessed 2018-11-20].
 
-\harvarditem[Johnson et~al.]{Johnson, Levine, Smith \harvardand\
-  Stone}{2010}{horizon-report}
-Johnson, L., Levine, A., Smith, R. \harvardand\ Stone, S.  \harvardyearleft
-  2010\harvardyearright .
-\newblock {\em The Horizon Report}, Educause Learning Initiative.
+\bibitem[Lewis and Jacobson(2002)]{game-engines}
+Michael Lewis and Jeffrey Jacobson.
+\newblock Game engines in scientific research.
+\newblock \emph{Communications of the ACM Vol. 42}. pages 1--5. 2002.
 
-\harvarditem[Kipper et~al.]{Kipper, Rampolla \harvardand\
-  Kipper}{2013}{augmented-reality}
-Kipper, G., Rampolla, J. \harvardand\ Kipper, G.  \harvardyearleft
-  2013\harvardyearright .
-\newblock {\em Augmented Reality}, Syngress.
-
-\harvarditem{Lewis \harvardand\ Jacobson}{2002}{game-engines}
-Lewis, M. \harvardand\ Jacobson, J.  \harvardyearleft 2002\harvardyearright .
-\newblock Game engines in scientific research, {\em Communications of the ACM
-  Vol. 42} pp.~1--5.
-
-\harvarditem{{\em Microsoft HoloLens Device
-  Specifications}}{2018}{hololens-specs}
-{\em Microsoft HoloLens Device Specifications}  \harvardyearleft
-  2018\harvardyearright .
-\newline\harvardurl{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}
-
-\harvarditem{Mullen \harvardand\ Mullen}{2011}{prototyping-ar}
-Mullen, T. \harvardand\ Mullen, T.  \harvardyearleft 2011\harvardyearright .
-\newblock {\em Prototyping Augmented Reality}, Wiley.
-
-\harvarditem{Rabbi \harvardand\ Ullah}{2016}{Acta-Graphica}
-Rabbi, I. \harvardand\ Ullah, S.  \harvardyearleft 2016\harvardyearright .
-\newblock A survey on augmented reality challenges and tracking, {\em Acta
-  Graphica} {\bf 24}(1-2):~29--46.
-\newline\harvardurl{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}
-
-\harvarditem{van Gimst}{2018}{nlr-vr}
-van Gimst, R.  \harvardyearleft 2018\harvardyearright .
-\newblock Creating a high-fidelity and low-cost simulation environment.
-\newline\harvardurl{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}
-
-\harvarditem{van Krevelen \harvardand\ Poelman}{2010}{vrjournal}
-van Krevelen, D. \harvardand\ Poelman, R.  \harvardyearleft
-  2010\harvardyearright .
-\newblock A survey of augmented reality technologies, applications and
-  limitations, {\em The International Journal of Virtual Reality} pp.~1--6.
-
-\harvarditem{{\em VRGluv}}{2018}{vrgluv}
-{\em VRGluv}  \harvardyearleft 2018\harvardyearright .
-\newline\harvardurl{https://vrgluv.com/}
-
-\harvarditem{Wang \harvardand\ Dunston}{2007}{ar-design}
-Wang, X. \harvardand\ Dunston, P.~S.  \harvardyearleft 2007\harvardyearright .
-\newblock Design, strategies, and issues towards an augmented reality-based
-  construction training platform, {\em ITcon Vol. 12} pp.~1--8.
+\bibitem[Dondlinger(2007)]{goal-oriented-games}
+Mary~Jo Dondlinger.
+\newblock Educational video game design: A review of the literature.
+\newblock 2007.
 
 \end{thebibliography}
