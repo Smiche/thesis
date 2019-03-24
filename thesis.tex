@@ -6,6 +6,8 @@
 \usepackage[scaled]{uarial}
 \renewcommand*\familydefault{\sfdefault} 
 
+\usepackage{amsfonts}%checkmark
+
 \usepackage{graphicx}%package for imges 
 \usepackage{float}
 
@@ -14,6 +16,13 @@
 \usepackage{makecell}%multiline cell
 \usepackage{multirow}%multirow
 \usepackage{pdflscape}%for one page table
+
+%centered columns P%
+\usepackage{array}
+%horizontal
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+%vertical
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 \usepackage{soul}
 \usepackage[hyphens]{url}
@@ -107,6 +116,9 @@
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage[comma]{natbib}
 \bibliographystyle{xamk}
+\renewcommand{\citep}[1]{(\citealp{#1}.)}
+\newcommand{\citexamk}[1]{(\citealp{#1}.)}
+
 %\bibliographystyle{dcu}
 
 %move left
@@ -217,11 +229,11 @@
 %make title bold from outside so TOC stays the same
 \chapter{\MakeUppercase{Introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
-In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. VR and AR have grown in popularity and market share over the recent years as the technology has improved\Cref{fig:ar-vr-consumer-spending}.
+In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. VR and AR have grown in popularity and market share over the recent years as the technology has improved \Cref{fig:ar-vr-consumer-spending}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=210pt]{ar-vr-consumer-spending}
-	\caption{\citep{ar-vr-chart}}
+	\caption{Consumer spending on AR/VR worldwide 2016-2021 \citeyearpar{ar-vr-chart}}
 	\label{fig:ar-vr-consumer-spending}
 \end{figure}
 \chapter{\MakeUppercase{Augmented Reality and Virtual Reality}}
@@ -234,31 +246,32 @@ Augmented reality and Virtual reality are technologies that offer a different vi
 \end{figure}
 
 \section{Augmented Reality}%ref http://kjcomps.6te.net/upload/paper1%20.pdf
-Augmented Reality can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR(Augmented Reality) are the ability to run in real time, be interactive, three dimensional and combine real with virtual information\Cref{fig:ar-application}. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. Augmented Reality can be considered as the next step in graphical user interfaces(GUI) evolution \citep{prototyping-ar}. Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.
+Augmented Reality can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR(Augmented Reality) are the ability to run in real time, be interactive, three dimensional and combine real with virtual information \Cref{fig:ar-application}. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. Augmented Reality can be considered as the next step in graphical user interfaces(GUI) evolution. \citep{prototyping-ar} Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{ar-application}
-	\caption{Mobile Augmented Reality application \citep{ar-application-whitehouse}}
+	\caption{Mobile Augmented Reality application \citeyearpar{ar-application-whitehouse}}
 	\label{fig:ar-application}
 \end{figure}
 \par
-Augmented Reality has higher technological requirements compared to VR which has lead to the slower maturity of AR. AR enabling technologies have been developed throughout the history of which the Optical see-through has become the most popular(Microsoft HoloLens, Google Glass, Intel's Vaunt). Optical see-through is achieved by using opaque displays on which virtual overlays can be rendered. The resolution of the real world is left intact as it passes through the screen. Benefits of this approach include power fail safety, which allows users to still see the real world even during a power outage, cheaper production costs of the used displays, no parallax effect that irritates the user's eyes. Disadvantages are the reduced visibility and brightness through the opaque lenses, limitation of the field-of-view, requirement of additional tracking sensors such as cameras, gyroscopes and accelerometers. Due to the lack of maturity of other AR enabling technologies only Optical see-through techniques will be considered throughout this work \citep{vrjournal}.
+Augmented Reality has higher technological requirements compared to VR which has lead to the slower maturity of AR. AR enabling technologies have been developed throughout the history of which the Optical see-through has become the most popular(Microsoft HoloLens, Google Glass, Intel's Vaunt). Optical see-through is achieved by using opaque displays on which virtual overlays can be rendered. The resolution of the real world is left intact as it passes through the screen. Benefits of this approach include power fail safety, which allows users to still see the real world even during a power outage, cheaper production costs of the used displays, no parallax effect that irritates the user's eyes. Disadvantages are the reduced visibility and brightness through the opaque lenses, limitation of the field-of-view, requirement of additional tracking sensors such as cameras, gyroscopes and accelerometers. Due to the lack of maturity of other AR enabling technologies only Optical see-through techniques will be considered throughout this work. \citep{vrjournal}
 \subsection{AR for training and education}%ref https://files.eric.ed.gov/fulltext/ED510220.pdf
 Augmented Reality provides new paths to conveying information. Learning experiences are more contextual by connecting and embedding information with the real world in real time. These approaches are already being utilised by Boeing. 
 Mechanics in the company use AR goggles that aid repairs with embedded textual instructions, 
 illustrate different steps of the repair and help users identify the required tools for a repair. 
 Consequently training resources are reduced and transfer of information between workers is greatly 
-improved \citep{horizon-report}.\par
+improved. \citep{horizon-report}
+\par
 Learning through doing is another approach in which AR shines. Mistakes and errors made during the learning
 experience have no real consequences. This provides for more authentic learning experiences which cannot be
-achieved easily or cost effectively otherwise \citep{augmented-reality}.
+achieved easily or cost effectively otherwise. \citep{augmented-reality}
 \subsection{AR Challenges}
 % As most developing technologies AR has many challenges that need to be overcome or improved. The requirements of the AR framework
 % are directly related to those challenges.
 An AR framework has basic requirements to accomplish a combination of the real and virtual world.
-The four main requirements are sensing, tracking, interaction and displaying\Cref{fig:ar-framework}. Sensing refers to
+The four main requirements are sensing, tracking, interaction and displaying \Cref{fig:ar-framework}. Sensing refers to
 capturing environment events and recognising markers or other objects of interest. Tracking handles updating the
 viewing direction and position of the user relative to the real world. Tracking is an important component
-of AR as even a slight tracking error can cause misalignment between the virtual and real world objects \citep{ar-design}. 
+of AR as even a slight tracking error can cause misalignment between the virtual and real world objects. \citep{ar-design} 
 Registration refers to how the digital information is being delivered to the user. The registration can be achieved
 through different methods for different senses: videos, audio, haptic feedback, scent, etc.
 \begin{figure}[H]
@@ -290,7 +303,7 @@ The requirements of VR are same to those of AR with the exclusion of environment
 is entirely digitally constructed, thus eliminating the need for sensing as all environmental events are native to the system. It is achieved with a Virtual Reality headset that has different views for each eye, accomplishing depth perception \Cref{fig:htc-vive-pro-headset}.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{htc-vive-pro-headset}
-	\caption{HTC VIVE Pro headset \citep{htc-vive-pro-review}}
+	\caption{HTC VIVE Pro headset \citeyearpar{htc-vive-pro-review}}
 	\label{fig:htc-vive-pro-headset}
 \end{figure}
 \par
@@ -305,7 +318,7 @@ Users' view, location or controllers can become misaligned with the virtual envi
 Interaction challenges come from the current hardware limitations on interacting. Tactile feedback, hand interaction and free movement in the 3D space are all possible individually, but combining them at the same time is not yet achievable.
 \par %(Interrante et al., 2008; Mohler et al., 2010; Phillips et al., 2010).
 Mobility challenges arise from the need of portability for VR platforms. Common solutions
-rely on tethering to a machine that handles the rendering and power supply. However portable VR backpacks and headsets are starting to emerge \citep{hp-vrbackpack}.
+rely on tethering to a machine that handles the rendering and power supply. However portable VR backpacks and headsets are starting to emerge a notable example of which is the HP VR backpack \citeyearpar{hp-vrbackpack}.
 Visualization can be difficult due to the complexity of the physical world. Keeping proportions, lighting, textures, view depth, field of vision and other visiual perception aspects can be challenging.
 \subsection{VR for education and training}
 VR has many prospects for use in education. Learning can be promoted by interacting with objects and the environment in a virtual world. 
@@ -321,7 +334,7 @@ Such a drawback for VR is the lack of tactile feedback or realistic hand interac
 Feedback from the cockpit instruments is essential as well as the ability to use them with peripheral vision.
 One solution to this problem has been developed by NLR with the use of a hybrid approach.
 IR depth sensors and a camera feed are used to map the pilots hand in the virtual cockpit. Mockups of the flight instruments are 3D printed and are mapped to the virtual environment with tracking markers.
-This allows for a much more natural feel of the flight instruments and offers better training results \citep{nlr-vr}.
+This allows for a much more natural feel of the flight instruments and offers better training results. \citep{nlr-vr}
 \\
 \chapter{\MakeUppercase{Project use case}}
 Observis Oy is developing a product for situational awareness in different environments called ObSAS.
@@ -355,30 +368,30 @@ The primary goal of the training application is to provide a better view on the 
 \par
 A particularly sophisticated requirement of the system is the maintenance procedure. Measurement devices and sensors require periodic maintenance and inspection to remain in good operating condition. Neglect of these requirements can lead to faulty readings over time, device breakdown or even failure to recognise threats. The maintenance involves physical interaction with a measurement device that is guided by an instructional document. Software use is also required during the procedure to mark used parts and add additional notes. It is not possible to practice all maintenance procedures during training because of the time constraint. Consumables are often needed for the maintenance which can increase the cost of training. For the above-mentioned reasons implementing a training scenario that involves conducting a maintenance in a mixed reality environment would be of great benefit.
 \par
-One particular device that requires maintenance is Environics ChemProDM. The device is a Chemical Warfare Agents(CWA) and Toxic Industrial Chemicals(TIC) detector that is targeted for vehicle use\Cref{fig:chemprodm}. Typical installation includes 2 modules: ChemProDM detector and Remote Alarm Unit. A maintenance training scenario for this device is a great candidate for a mixed reality application. Initial installation and testing are also interesting use cases that can benefit from a training application.
+One particular device that requires maintenance is Environics ChemProDM. The device is a Chemical Warfare Agents(CWA) and Toxic Industrial Chemicals(TIC) detector that is targeted for vehicle use \Cref{fig:chemprodm}. Typical installation includes 2 modules: ChemProDM detector and Remote Alarm Unit. A maintenance training scenario for this device is a great candidate for a mixed reality application. Initial installation and testing are also interesting use cases that can benefit from a training application.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{chemprodm}
-	\caption{ChemProDM and modules \citep{environics-chemprodm}}
+	\caption{ChemProDM and modules \citeyearpar{environics-chemprodm}}
 	\label{fig:chemprodm}
 \end{figure}
 \par
 Other devices included in ObSAS are Thermo SVG2 radiation sensor, Meteo IRDAM MAWS 5060 weather sensor, Infinicon Hapsite ER chemical analyzer. Basic knowledge of those devices is a great benefit when using the system, however it is not required of the users. The user can be familiarized with the devices during training. The knowledge attained can be helpful if on field repairs are required.
 \par
 \subsection{CBRN defense}
-CBRN is an acronym for Chemical, Biological, Radiological and Nuclear. CBRN defense is the field of detecting, reducing the impact of or avoiding the threats of CBRN agents. In recent years the threat of CBRN attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents \citep{crowd-behavior}.
+CBRN is an acronym for Chemical, Biological, Radiological and Nuclear. CBRN defense is the field of detecting, reducing the impact of or avoiding the threats of CBRN agents. In recent years the threat of CBRN attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents. \citep{crowd-behavior}
 \par
 ObSAS provides possibilites for early detection of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction and prevention strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
 CBRN considerations such as decontaminating equipment and clothes, medicine administration, using protective equipment and detection devices require training and practice.
 \section{Comparing VR and AR in the project context}
 AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
 \par
-AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. Immersion may be sacrificed due to the narrow field of view \citep{hololens-specs}, smaller color space, low luminosity and lower computing power. Another downside is the inability to emulate real life scenarios such as being inside a moving vehicle or simulating an environment that is completely different from the one the user is in. For example it is impossible to simulate night missions if the user is in a brightly lit room. For these reasons AR is restricted by the environment it is being experienced in.
+AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. As seen from the specification sheet on the Microsoft store \citeyearpar{hololens-specs}, the HoloLens have narrow field of view, smaller color space, low luminosity and lower computing power compared to VR headsets. This can result is reduced immersion and engagement with the virtual environment. Another downside is the inability to emulate real life scenarios such as being inside a moving vehicle or simulating an environment that is completely different from the one the user is in. For example it is impossible to simulate night missions if the user is in a brightly lit room. For these reasons AR is restricted by the environment it is being experienced in.
 \par
 The easability of use of AR headsets is one important benefit. While VR headsets require a tether cable, external computer and even base stations in some cases, AR headsets can be used as they are, independently. 3D modelling isn't as big of a requirement compared to VR as it is enough to create models only of the objects the user interacts with, not the full environment the user is in. This can reduce development time significantly.
 \par
 VR shines in implementing a completely independant environment. The only limit to what can be recreated is imposed by the hardware performance and development time and skills. VR allows for spectating and recording users' interaction with the environment. This can be used to analyze their experience and improve the software further. Giving suggestions and guiding during the training is also possible. A multi-user environment is also possible and trainees and teachers can be in the same environment even if they're physically far apart.
 \par
-Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$ \citep{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\ \citep{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
+Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$ on the Microsoft store \citeyearpar{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\ on the official VIVE store \citeyearpar{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
 \par
 \section{Selection of mixed reality framework}
 The main benefit of AR over VR in this project is the portability and ease of use it offers. In terms of what training can be implemented VR offers a lot more possibilities. Battery limitations are also reduced or avoided which enables long training sessions. Good multiplayer support and additional peripherals(such as gloves and controllers) are in favor of VR too. The portability of AR is not a crucial feature for this project and the usability it offers over VR are not sufficient enough to place AR as a more suitable platform in this project. A conclusion to this chapter is that a VR framework is a more suitable choice in the context of creating a training application for the ObSAS system.
@@ -387,7 +400,7 @@ The main benefit of AR over VR in this project is the portability and ease of us
 This chapter will describe the various stages of developing a VR training application. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
 \par
 \section{Researching VR hardware and software}
-The most notable VR headsets available on the market are Occulus Rift and the successor to HTC VIVE, the HTC VIVE Pro. Widest software and peripheral support is offered to these headsets, so other options would not be considered. The main difference between the two is that HTC VIVE Pro has higher screen resolution and pixel density \Cref{fig:comparison-table}. Occulust Rift has lighter controllers, but requires at least 3 or even 4 sensors in some cases for decent room tracking. In contrast HTC VIVE Pro offers a wider tracking area with just 2 tracking sensors \citep{vive-vs-rift}. Both options are pretty good options, but HTC VIVE Pro is more suitable and offers more because of the better graphics. 
+The most notable VR headsets available on the market are Occulus Rift and the successor to HTC VIVE, the HTC VIVE Pro. Widest software and peripheral support is offered to these headsets, so other options would not be considered. The main difference between the two is that HTC VIVE Pro has higher screen resolution and pixel density \Cref{fig:comparison-table}. Occulust Rift has lighter controllers, but requires at least 3 or even 4 sensors in some cases for decent room tracking. In contrast HTC VIVE Pro offers a wider tracking area with just 2 tracking sensors as pointed out by WindowsCentral VIVE Pro vs Occulus Rift article \citeyearpar{vive-vs-rift}. Both options provide the required features, but HTC VIVE Pro is more suitable and offers more because of the better graphics. 
 \begin{figure}[H]
 	\begin{tabular}{|l|l|l|}
 	\hline
@@ -402,25 +415,52 @@ The most notable VR headsets available on the market are Occulus Rift and the su
 	\caption{HTC VIVE Pro vs Occulus Rift specs}
 	\label{fig:comparison-table}
 \end{figure}
-VR hand and finger tracking is a great addition to the immersion of the VR experience. More intuitive interaction with the virtual environment is possible. Many gloves are available as prototypes on the market. Some feature resistive finger feedback and texture and shape simulation \citep{vrgluv}. A large portion of such gloves are in the prototyping stage and can only be preordered. The Noitom hi5 gloves however are available as a purchasable product, even though they're missing the aforementioned features.
+VR hand and finger tracking is a great addition to the immersion of the VR experience. More intuitive interaction with the virtual environment is possible. Many gloves are available as prototypes on the market. Some feature resistive finger feedback and texture and shape simulation like the VRGluv \citeyearpar{vrgluv}. A large portion of such gloves are in the prototyping stage and can only be preordered. The Noitom hi5 gloves however are available as a purchasable product, even though they're missing the aforementioned features.
 \par
-These gloves achieve full finger tracking by using 9 inertial measurement units on each glove. The VR headset controllers are strapped on the gloves to provide absolute tracking \Cref{fig:vr-glove}. Vibration feedback is also supported by the hardware and software API \citep{hi5-vr-glove}.
+These gloves achieve full finger tracking by using 9 inertial measurement units on each glove. The VR headset controllers are strapped on the gloves to provide absolute tracking \Cref{fig:vr-glove}. Vibration feedback is also supported by the hardware and software API as documented by Noitom on their product website \citeyearpar{hi5-vr-glove}.
 \begin{figure}[H]
 	\includegraphics[height=210pt]{vr-glove2}
-	\caption{Noitom HI5 VR glove \citep{hi5-vr-glove}}
+	\caption{Noitom HI5 VR glove \citeyearpar{hi5-vr-glove}}
 	\label{fig:vr-glove}
 \end{figure}
 \par
 The Noitom hi5 gloves are compatible with HTC VIVE Pro and offer SDKs for the most popular game engines (Unreal Engine and Unity). These gloves will be used in the project to achieve better immersion and quality of training.
 \section{Game engines}
-A game engine is a software framework aimed at simplifying and streamlining the production of games. At the core it provides a 3D or 2D rendering engine, generic physics engine, sound, animation and other features that assist game creation but do not directly specify the game's behavior. If used successfully a game engine can produce a higher quality game with less resources and in less time. An engine isn't required to build applications as all the features can be implemented from the ground up without the need for reusability or modularity, but that takes significantly more resources than using already existing tools \citep{game-engines}.
+A game engine is a software framework aimed at simplifying and streamlining the production of games. At the core it provides a 3D or 2D rendering engine, generic physics engine, sound, animation and other features that assist game creation but do not directly specify the game's behavior. If used successfully a game engine can produce a higher quality game with less resources and in less time. An engine isn't required to build applications as all the features can be implemented from the ground up without the need for reusability or modularity, but that takes significantly more resources than using already existing tools. \citep{game-engines}
 \par
 Despite having the name game engine, such engines have many other applications besides making games. They can be used for pretty much any graphical application. Simulation applications, training applications, VR and AR applications of any kind, presentations, cinematography can all benefit from using a game engine. Using a game engine is suitable for this project because of the time constraint and limited resources available. 
 \par
 One popular game engine is Unreal Engine, created by Epic Games Inc. It is widely adopted and offers a large selection of plugins, addons, libraries and assets that aid development. Unreal Engine supports various VR and AR platforms including HTC VIVE Pro and Hi5 vr gloves. This engine will be used to develop the training application.
 \section{Application Objectives}
-The application objectives can be defined as a set of actions that the user needs to complete in a certain order. Using objectives helps quantifying the training progress and give guidance to the user at the same time. Having structured objectives also helps motivate users to continue interacting with the software \citep{goal-oriented-games}.
-
+The application objectives can be defined as a set of actions that the user needs to complete in a certain order. Using objectives helps quantifying the training progress and give guidance to the user at the same time. Having structured objectives also helps motivate users to continue interacting with the software. \citep{goal-oriented-games}
+\par
+Defining the application objectives also helps the development process. In the context of this 3D application the required assets can be inferred from the application objectives. These assets include 3D models the user interacts with, sound effects, written instructions, 2D graphics, background environment models. Gathering a list of these assets and their description is necessary for outsourcing the 3D modelling work or sound effect composition. Such topics are out of the scope of this thesis, therefore the production process of the used assets will not be covered.
+\par
+The virtual environment at which the training will take place is inside a vehicle. The first objective is to explore the vehicle and get acquainted with the environment. The second objective is to check whether all connectors are plugged at the correct places and inspect all cables for visual signs of wear. The third objective is to power up the entire system and wait for baseline acquirement of all detection devices. Once that is complete the next objective is to begin chemical detection tests with simulants. If the simulant causes a chemical alarm the user will also be required to acknowledge that alarm and print a report.
+\par
+The next objective is to test radio-nuclear detection by using a sample of radioactive rock ore. Again if an alarm is prompted the same actions need to be repeated. Afterwards biological detection is tested with simulants. The last objective is to assure that the system has reached baseline operation again and then shut it down.
+\begin{figure}[h!]
+	\centering
+	\begin{tabular}{@{} |M{0.45cm}|p{2.5cm}|p{6.5cm}|M{2.4cm} |@{}}
+	\hline
+	\textbf{\#} & \textbf{Description}        & \textbf{Models}                                            & \textbf{Compulsory} \\ \hline
+	1           & Explore the vehicle         & Vehicle                                                    & \checkmark          \\ \hline
+	2           & Check connections           & Wires, Plugs, Sockets, Power/Junction box                  & \checkmark          \\ \hline
+	3           & Power up the system         & Power switch, Indication lights, Display and Computer      & \checkmark          \\ \hline
+	4           & Chemical simulant testing   & Chemical simulant, Chemical detector, Air sampling box     & \checkmark          \\ \hline
+	5           & Chemical Alarm              & Keyboard, Mouse, Laptop/Computer                           &                     \\ \hline
+	6           & Radiological testing        & Radiological detector, radioactive sample                  & \checkmark          \\ \hline
+	7           & Radiological Alarm          & Keyboard, Mouse, Laptop/Computer                           &                     \\ \hline
+	8           & Biological simulant testing & Biological detector, Biological simulant, Air sampling box & \checkmark           \\ \hline
+	9           & Biological Alarm            & Keyboard, Mouse, Laptop/Computer                           &                     \\ \hline
+	10          & System shutdown             & Power switch, Indication lights, Display and Computer      & \checkmark           \\ \hline
+	\end{tabular}
+	\caption{List of Objectives and required 3D mdoels}
+	\label{fig:objectives-table}
+\end{figure}
+\par
+With the list of objectives defined above it is possible to create a list of the required 3D models \Cref{fig:objectives-table}.
+\par
 \section{Implementing basic scene with objects}
 \par
 \subsection{Virtual environment and 3D models}

@@ -434,6 +434,7 @@ FUNCTION {format.date}
       " " * swap$ *
     }
   if$
+  extra.label *
 }
 %extra.label *
 

@@ -18,10 +18,10 @@
 \contentsline {section}{\numberline {4.1}Researching VR hardware and software}{16}
 \contentsline {section}{\numberline {4.2}Game engines}{17}
 \contentsline {section}{\numberline {4.3}Application Objectives}{18}
-\contentsline {section}{\numberline {4.4}Implementing basic scene with objects}{19}
-\contentsline {subsection}{\numberline {4.4.1}Virtual environment and 3D models}{19}
-\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{19}
-\contentsline {section}{\numberline {4.6}Creating a context for training}{19}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{19}
-\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{19}
-\contentsline {chapter}{REFERENCES}{20}
+\contentsline {section}{\numberline {4.4}Implementing basic scene with objects}{20}
+\contentsline {subsection}{\numberline {4.4.1}Virtual environment and 3D models}{20}
+\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{20}
+\contentsline {section}{\numberline {4.6}Creating a context for training}{20}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{20}
+\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{20}
+\contentsline {chapter}{REFERENCES}{21}

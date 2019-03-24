@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAR 2019 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  24 MAR 2019 13:41
 entering extended mode
 **"g:/My Drive/University 2018/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018/thesis_alex/thesis.tex"
@@ -349,7 +349,14 @@ Package: uarial 2006/03/21 1.0 (WaS)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -367,9 +374,9 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count90
-\float@exts=\toks17
+\float@exts=\toks18
 \float@box=\box26
-\@float@everytoks=\toks18
+\@float@everytoks=\toks19
 \@floatcapt=\box27
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
@@ -377,7 +384,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen105
 \extrarowheight=\dimen106
-\NC@list=\toks19
+\NC@list=\toks20
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
@@ -387,14 +394,14 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@target=\dimen110
 \TX@delta=\dimen111
 \TX@cols=\count91
-\TX@ftn=\toks20
+\TX@ftn=\toks21
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen112
 \c@nlinenum=\count92
-\TeXr@lab=\toks21
+\TeXr@lab=\toks22
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip48
@@ -413,11 +420,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks22
-\SOUL@lasttoken=\toks23
-\SOUL@cmds=\toks24
-\SOUL@buffer=\toks25
-\SOUL@token=\toks26
+\SOUL@word=\toks23
+\SOUL@lasttoken=\toks24
+\SOUL@cmds=\toks25
+\SOUL@buffer=\toks26
+\SOUL@token=\toks27
 \SOUL@spaceskip=\skip50
 \SOUL@ttwidth=\dimen114
 \SOUL@uldp=\dimen115
@@ -430,8 +437,8 @@ Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
  ("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex" ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks27
-\XKV@tempa@toks=\toks28
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
 )
 \XKV@depth=\count94
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -445,7 +452,7 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 \UL@box=\box28
 \UL@hyphenbox=\box29
 \UL@skip=\skip51
-\UL@hook=\toks29
+\UL@hook=\toks30
 \UL@height=\dimen117
 \UL@pe=\count95
 \UL@pixel=\dimen118
@@ -522,7 +529,7 @@ LaTeX Warning: Command \@arrayparboxrestore  has changed.
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks30
+\FN@temptoken=\toks31
 \footnotemargin=\dimen122
 \c@pp@next@reset=\count101
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
@@ -587,7 +594,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen135
 \Gm@layouthoffset=\dimen136
 \Gm@layoutvoffset=\dimen137
-\Gm@dimlist=\toks31
+\Gm@dimlist=\toks32
  ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) ("C:\Program Files\MiKTeX 2.9\tex\latex\cleveref\cleveref.sty"
 Package: cleveref 2018/02/08 v0.21.1 Intelligent cross-referencing
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
@@ -597,7 +604,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip78
 \ttl@plus=\dimen138
 \ttl@minus=\dimen139
-\ttl@toksa=\toks32
+\ttl@toksa=\toks33
 \titlewidth=\dimen140
 \titlewidthlast=\dimen141
 \titlewidthfirst=\dimen142
@@ -669,24 +676,24 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 146.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 158.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 146.
+(Font)              scaled to size 11.39996pt on input line 158.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
@@ -694,12 +701,12 @@ LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 \scratchbox=\box33
 \nofMPsegments=\count110
 \nofMParguments=\count111
-\everyMPshowfont=\toks33
+\everyMPshowfont=\toks34
 \MPscratchCnt=\count112
 \MPscratchDim=\dimen144
 \MPnumerator=\count113
 \makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks34
+\everyMPtoPDFconversion=\toks35
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
@@ -734,11 +741,11 @@ Package grfext Info: Graphics extension search list:
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 146.
+(lastpage)             ! on input line 158.
 \AtBeginShipoutBox=\box34
-Package ragged2e Info: ABD: executing \RaggedRight on input line 146.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 158.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 146.
+LaTeX Info: Redefining \selectfont on input line 158.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -777,29 +784,29 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 15.19995pt on input line 156.
+(Font)              scaled to size 15.19995pt on input line 168.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 160.
+(Font)              scaled to size 22.79993pt on input line 172.
 <xamklogo.png, id=1, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
-Package pdftex.def Info: xamklogo.png  used on input line 175.
+Package pdftex.def Info: xamklogo.png  used on input line 187.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
 <background.png, id=2, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 178.
+Package pdftex.def Info: background.png  used on input line 190.
 (pdftex.def)             Requested size: 597.41231pt x 845.04933pt.
 [1
 
 
-{C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./background.png> <./xamklogo.png>] [1]
+{C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./background.png> <./xamklogo.png>] ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd") ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd") [1]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 208.
+(Font)              scaled to size 23.63593pt on input line 220.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 208.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 220.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 208.
+(Font)              scaled to size 23.63593pt on input line 220.
  (thesis.toc)
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
@@ -839,18 +846,18 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 
 
 Chapter 1
-Package newfloat Info: Setting Plan B file extension to `lof'... on input line 218.
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 230.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 218.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 230.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 218.
+(Font)              scaled to size 11.39996pt on input line 230.
 <ar-vr-consumer-spending.png, id=17, 1003.75pt x 745.78625pt>
 File: ar-vr-consumer-spending.png Graphic file (type png)
 <use ar-vr-consumer-spending.png>
-Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 223.
+Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 235.
 (pdftex.def)             Requested size: 282.62563pt x 210.0pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 224.
+(Font)              scaled to size 10.40245pt on input line 236.
 Chapter 2
 [3
 
@@ -858,29 +865,29 @@ Chapter 2
 <Virtuality_Continuum_2.jpg, id=22, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 231.
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 243.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
 <ar-application.jpg, id=23, 813.0375pt x 418.56375pt>
 File: ar-application.jpg Graphic file (type jpg)
 <use ar-application.jpg>
-Package pdftex.def Info: ar-application.jpg  used on input line 239.
+Package pdftex.def Info: ar-application.jpg  used on input line 251.
 (pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
  [4 <./Virtuality_Continuum_2.jpg>] [5 <./ar-application.jpg>]
 <ar-framework.png, id=30, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 265.
+Package pdftex.def Info: ar-framework.png  used on input line 278.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
 <ar-challenges.png, id=31, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 272.
+Package pdftex.def Info: ar-challenges.png  used on input line 285.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
  [6 <./ar-framework.png>]
 <htc-vive-pro-headset.jpg, id=37, 803.0pt x 536.0025pt>
 File: htc-vive-pro-headset.jpg Graphic file (type jpg)
 <use htc-vive-pro-headset.jpg>
-Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 292.
+Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 305.
 (pdftex.def)             Requested size: 426.79135pt x 284.88966pt.
  [7 <./ar-challenges.png>] [8 <./htc-vive-pro-headset.jpg>] [9]
 Chapter 3
@@ -888,7 +895,7 @@ Chapter 3
 <chemprodm.jpg, id=54, 777.90625pt x 501.875pt>
 File: chemprodm.jpg Graphic file (type jpg)
 <use chemprodm.jpg>
-Package pdftex.def Info: chemprodm.jpg  used on input line 360.
+Package pdftex.def Info: chemprodm.jpg  used on input line 373.
 (pdftex.def)             Requested size: 426.79135pt x 275.35818pt.
  [12] [13 <./chemprodm.jpg>] [14]
 Chapter 4
@@ -896,28 +903,28 @@ Chapter 4
 <vr-glove2.png, id=72, 957.5775pt x 608.2725pt>
 File: vr-glove2.png Graphic file (type png)
 <use vr-glove2.png>
-Package pdftex.def Info: vr-glove2.png  used on input line 409.
+Package pdftex.def Info: vr-glove2.png  used on input line 422.
 (pdftex.def)             Requested size: 330.58377pt x 210.0pt.
- [17 <./vr-glove2.png>]
+ [17 <./vr-glove2.png>] [18]
 Chapter 5
-[18] [19] (thesis.bbl
+[19] [20] (thesis.bbl
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 15.
- [20]) 
+ [21]) 
 AED: lastpage setting LastPage
-[21] (thesis.aux) ) 
+[22] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 9332 strings out of 493303
- 145933 string characters out of 3138856
- 322307 words of memory out of 3000000
- 12686 multiletter control sequences out of 15000+200000
- 54929 words of font info for 42 fonts, out of 3000000 for 9000
+ 9423 strings out of 493303
+ 147221 string characters out of 3138856
+ 323816 words of memory out of 3000000
+ 12761 multiletter control sequences out of 15000+200000
+ 56838 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,15n,92p,1132b,379s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\smich\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (22 pages, 1034563 bytes).
+ 53i,15n,92p,1132b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\smich\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on thesis.pdf (23 pages, 1045029 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
