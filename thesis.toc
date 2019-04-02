@@ -11,17 +11,17 @@
 \contentsline {section}{\numberline {3.1}Current training approach}{10}
 \contentsline {section}{\numberline {3.2}Future goals}{11}
 \contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{12}
-\contentsline {subsection}{\numberline {3.3.1}CBRN defense}{13}
+\contentsline {subsection}{\numberline {3.3.1}CBRNe defense}{13}
 \contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{14}
 \contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{15}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{16}
 \contentsline {section}{\numberline {4.1}Researching VR hardware and software}{16}
-\contentsline {section}{\numberline {4.2}Game engines}{17}
+\contentsline {section}{\numberline {4.2}Game engines}{18}
 \contentsline {section}{\numberline {4.3}Application Objectives}{18}
-\contentsline {section}{\numberline {4.4}Implementing basic scene with objects}{20}
-\contentsline {subsection}{\numberline {4.4.1}Virtual environment and 3D models}{20}
-\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{20}
-\contentsline {section}{\numberline {4.6}Creating a context for training}{20}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{20}
-\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{20}
-\contentsline {chapter}{REFERENCES}{21}
+\contentsline {section}{\numberline {4.4}Unreal Engine Level}{20}
+\contentsline {subsection}{\numberline {4.4.1}Virtual environment and 3D models}{21}
+\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{21}
+\contentsline {section}{\numberline {4.6}Creating a context for training}{21}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{21}
+\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{21}
+\contentsline {chapter}{REFERENCES}{22}

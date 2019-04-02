@@ -236,6 +236,8 @@ In this thesis project I will be comparing the differences between AR(Augmented 
 	\caption{Consumer spending on AR/VR worldwide 2016-2021 \citeyearpar{ar-vr-chart}}
 	\label{fig:ar-vr-consumer-spending}
 \end{figure}
+Literature review is used as a research method for the first part of the thesis. The different literature in the fields of AR,VR and CBRN is reviewed and summarized. The second parth of the thesis is a case study of the practical implementation of a training application. The results will be analyzed by debating the success of the final product and its potential use.
+\par
 \chapter{\MakeUppercase{Augmented Reality and Virtual Reality}}
 Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
 
@@ -377,10 +379,12 @@ One particular device that requires maintenance is Environics ChemProDM. The dev
 \par
 Other devices included in ObSAS are Thermo SVG2 radiation sensor, Meteo IRDAM MAWS 5060 weather sensor, Infinicon Hapsite ER chemical analyzer. Basic knowledge of those devices is a great benefit when using the system, however it is not required of the users. The user can be familiarized with the devices during training. The knowledge attained can be helpful if on field repairs are required.
 \par
-\subsection{CBRN defense}
-CBRN is an acronym for Chemical, Biological, Radiological and Nuclear. CBRN defense is the field of detecting, reducing the impact of or avoiding the threats of CBRN agents. In recent years the threat of CBRN attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents. \citep{crowd-behavior}
+\subsection{CBRNe defense}
+CBRNe is an acronym for Chemical, Biological, Radiological, Nuclear and Explosives. CBRNe defense is the field of detecting, reducing the impact of or avoiding the threats of CBRNe agents. In recent years the threat of CBRNe attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents. \citep{crowd-behavior}
 \par
-ObSAS provides possibilites for early detection of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction and prevention strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
+A motivation for CBRNe defense is the amount of casualties taken by CBRNe threats all around the world all the time. Such incidents are covered bi-monthly in the CBRNeWORLD magazine and their numbers are not decreasing \citeyearpar{cbrne-world}. The industry in this field aims to provide solutions that prevent or reduce the impact of CBRN incidents and attacks. Market share of the field has been growing steadily and the forecast is of continuous growth for the future years to come according to Visiongain's market report \citeyearpar{cbrn-market-share}.
+\par
+ObSAS provides possibilites for early detection and prevention of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction and prevention strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
 CBRN considerations such as decontaminating equipment and clothes, medicine administration, using protective equipment and detection devices require training and practice.
 \section{Comparing VR and AR in the project context}
 AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
@@ -439,7 +443,11 @@ Defining the application objectives also helps the development process. In the c
 The virtual environment at which the training will take place is inside a vehicle. The first objective is to explore the vehicle and get acquainted with the environment. The second objective is to check whether all connectors are plugged at the correct places and inspect all cables for visual signs of wear. The third objective is to power up the entire system and wait for baseline acquirement of all detection devices. Once that is complete the next objective is to begin chemical detection tests with simulants. If the simulant causes a chemical alarm the user will also be required to acknowledge that alarm and print a report.
 \par
 The next objective is to test radio-nuclear detection by using a sample of radioactive rock ore. Again if an alarm is prompted the same actions need to be repeated. Afterwards biological detection is tested with simulants. The last objective is to assure that the system has reached baseline operation again and then shut it down.
-\begin{figure}[h!]
+\par
+With the list of objectives defined in the table below it is possible to create a list of the required 3D models \Cref{fig:objectives-table}. This list can be used to request modelling work, which will be done internally at Observis Oy. Obtaining 3D models of the detection devices proved to be difficult as companies are not willing to provide these without any ongoing projects related to the devices.
+\par
+All the objectives take place in a relatively small area which means they can be a part of a single Level. Unreal Engine Levels are explained in the next section.
+\begin{figure}[H]
 	\centering
 	\begin{tabular}{@{} |M{0.45cm}|p{2.5cm}|p{6.5cm}|M{2.4cm} |@{}}
 	\hline
@@ -455,14 +463,22 @@ The next objective is to test radio-nuclear detection by using a sample of radio
 	9           & Biological Alarm            & Keyboard, Mouse, Laptop/Computer                           &                     \\ \hline
 	10          & System shutdown             & Power switch, Indication lights, Display and Computer      & \checkmark           \\ \hline
 	\end{tabular}
-	\caption{List of Objectives and required 3D mdoels}
+	\caption{List of Objectives and required 3D models}
 	\label{fig:objectives-table}
 \end{figure}
 \par
-With the list of objectives defined above it is possible to create a list of the required 3D models \Cref{fig:objectives-table}.
+\section{Unreal Engine Level}
+Levels are defined in Unreal Engine's documentation as a collection of Static Meshes, Volumes, Blueprints and other entities that the user sees and interacts with \citeyearpar{ue-levels}. They are helpful to organize a project into different virtual locations or chronologically. Levels are treated similarly to other assets in UE. They can be created, loaded and modified from the Content Browser.
 \par
-\section{Implementing basic scene with objects}
+The full training takes place inside a vehicle, which can be accomplished by using a single level. UE4 comes with starter content when creating a new project. One level that comes with the VR project template is the MotionControllerMap \Cref{fig:level-ue4-editor}. This level features a VRPawn object which is responsible for the majority of functionalities related to the user. It handles tracking of the Head Mounted Display and syncing camera to it, input from controllers, mapping the controllers' location to static meshes, player positioning in the environment and others.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{level-ue4-editor}
+	\caption{UE4 MotionControllerMap Level Viewport}
+	\label{fig:level-ue4-editor}
+\end{figure}
+Other objects in this level are the different light entities which include ambient light, point light, sky light and light interaction and postprocessing. This level also comes with several meshes, some of which have simulated physics interaction. And the last type of components in this level are the NavMeshBoundsVolume and NavModifierVolume entities which define what areas in the level the user can walk on.
 \par
+
 \subsection{Virtual environment and 3D models}
 \section{Tracking and interacting with the virtual environment}
 \section{Creating a context for training}

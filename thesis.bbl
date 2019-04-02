@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -83,6 +83,14 @@ Holly~Elisabeth Carter.
   (cbrn) emergencies : behavioural and psychological responses to incidents
   involving emergency decontamination. 2014.
 
+\bibitem[UK(2019)]{cbrne-world}
+Falcon~Communications UK.
+\newblock Cbrne world. 2019.
+
+\bibitem[cbr(2017)]{cbrn-market-share}
+2017. Chemical, biological, radiological \& nuclear (cbrn) defence market
+  report 2017-2027.
+
 \bibitem[hol(2018{\natexlab{a}})]{hololens-specs}
 2018{\natexlab{a}}. Microsoft hololens device specifications. WWW-document
   \textcolor{blue}{\url{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}}.
@@ -121,5 +129,8 @@ Michael Lewis and Jeffrey Jacobson.
 Mary~Jo Dondlinger.
 \newblock Educational video game design: A review of the literature.
 \newblock 2007.
+
+\bibitem[ue-(2019)]{ue-levels}
+2019. Unreal engine levels.
 
 \end{thebibliography}

@@ -3,6 +3,8 @@ The style file: xamk.bst
 Database file #1: references.bib
 Warning--entry type for "crowd-behavior" isn't style-file defined
 --line 167 of file references.bib
+Warning--entry type for "cbrne-world" isn't style-file defined
+--line 181 of file references.bib
 Warning--empty author in ar-vr-chart
 Warning--empty journal in ar-vr-chart
 Warning--empty author in ar-application-whitehouse
@@ -14,6 +16,8 @@ Warning--empty journal in hp-vrbackpack
 Warning--empty journal in nlr-vr
 Warning--empty author in environics-chemprodm
 Warning--empty journal in environics-chemprodm
+Warning--empty author in cbrn-market-share
+Warning--empty journal in cbrn-market-share
 Warning--empty author in hololens-specs
 Warning--empty journal in hololens-specs
 Warning--empty author in hololens-price
@@ -27,4 +31,6 @@ Warning--empty journal in vrgluv
 Warning--empty author in hi5-vr-glove
 Warning--empty journal in hi5-vr-glove
 Warning--empty journal in goal-oriented-games
-(There were 25 warnings)
+Warning--empty author in ue-levels
+Warning--empty journal in ue-levels
+(There were 30 warnings)
