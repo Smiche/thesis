@@ -14,6 +14,11 @@ Warning--empty journal in htc-vive-pro-review
 Warning--empty author in hp-vrbackpack
 Warning--empty journal in hp-vrbackpack
 Warning--empty journal in nlr-vr
+Warning--empty journal in enterprise-simulation
+Warning--empty author in simulation-training-history
+Warning--empty journal in simulation-training-history
+Warning--empty journal in medical-sim-training
+Warning--empty journal in games-sim-mil
 Warning--empty author in environics-chemprodm
 Warning--empty journal in environics-chemprodm
 Warning--empty author in cbrn-market-share
@@ -33,4 +38,10 @@ Warning--empty journal in hi5-vr-glove
 Warning--empty journal in goal-oriented-games
 Warning--empty author in ue-levels
 Warning--empty journal in ue-levels
-(There were 30 warnings)
+Warning--empty author in ue-actors
+Warning--empty journal in ue-actors
+Warning--empty author in ue-blueprints
+Warning--empty journal in ue-blueprints
+Warning--empty author in ue-nativizing-blueprints
+Warning--empty journal in ue-nativizing-blueprints
+(There were 41 warnings)

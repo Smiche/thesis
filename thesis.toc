@@ -1,27 +1,32 @@
 \contentsline {chapter}{\numberline {1}\MakeUppercase {Introduction}}{3}
 \contentsline {chapter}{\numberline {2}\MakeUppercase {Augmented Reality and Virtual Reality}}{4}
-\contentsline {section}{\numberline {2.1}Augmented Reality}{4}
-\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{5}
+\contentsline {section}{\numberline {2.1}Augmented Reality}{5}
+\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{6}
 \contentsline {subsection}{\numberline {2.1.2}AR Challenges}{6}
-\contentsline {section}{\numberline {2.2}Virtual Reality}{7}
-\contentsline {subsection}{\numberline {2.2.1}VR Challenges}{8}
+\contentsline {section}{\numberline {2.2}Virtual Reality}{8}
+\contentsline {subsection}{\numberline {2.2.1}VR Challenges}{9}
 \contentsline {subsection}{\numberline {2.2.2}VR for education and training}{9}
-\contentsline {section}{\numberline {2.3}Hybrid approaches}{9}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{10}
-\contentsline {section}{\numberline {3.1}Current training approach}{10}
-\contentsline {section}{\numberline {3.2}Future goals}{11}
-\contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{12}
-\contentsline {subsection}{\numberline {3.3.1}CBRNe defense}{13}
-\contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{14}
-\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{15}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Project implementation}}{16}
-\contentsline {section}{\numberline {4.1}Researching VR hardware and software}{16}
-\contentsline {section}{\numberline {4.2}Game engines}{18}
-\contentsline {section}{\numberline {4.3}Application Objectives}{18}
-\contentsline {section}{\numberline {4.4}Unreal Engine Level}{20}
-\contentsline {subsection}{\numberline {4.4.1}Virtual environment and 3D models}{21}
-\contentsline {section}{\numberline {4.5}Tracking and interacting with the virtual environment}{21}
-\contentsline {section}{\numberline {4.6}Creating a context for training}{21}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Analyzing the mixed reality training application}}{21}
-\contentsline {section}{\numberline {5.1}Future possibilities for development and improvement}{21}
-\contentsline {chapter}{REFERENCES}{22}
+\contentsline {section}{\numberline {2.3}Hybrid approaches}{10}
+\contentsline {section}{\numberline {2.4}Simulation training}{10}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{11}
+\contentsline {section}{\numberline {3.1}Current training approach}{12}
+\contentsline {section}{\numberline {3.2}Future goals}{12}
+\contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{13}
+\contentsline {subsection}{\numberline {3.3.1}CBRNe defense}{14}
+\contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{15}
+\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{16}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Project definition}}{17}
+\contentsline {section}{\numberline {4.1}Researching VR hardware and software}{17}
+\contentsline {section}{\numberline {4.2}Game engines}{19}
+\contentsline {section}{\numberline {4.3}Application Objectives}{19}
+\contentsline {section}{\numberline {4.4}Unreal Engine Level}{21}
+\contentsline {subsection}{\numberline {4.4.1}Actors}{22}
+\contentsline {subsection}{\numberline {4.4.2}Blueprints}{23}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Project implementation}}{24}
+\contentsline {section}{\numberline {5.1}Level design and logic}{24}
+\contentsline {section}{\numberline {5.2}Glove calibration and tracking}{24}
+\contentsline {section}{\numberline {5.3}Interacting with the virtual environment}{25}
+\contentsline {section}{\numberline {5.4}Creating a context for training}{25}
+\contentsline {chapter}{\numberline {6}\MakeUppercase {Analyzing the mixed reality training application}}{25}
+\contentsline {section}{\numberline {6.1}Future possibilities for development and improvement}{25}
+\contentsline {chapter}{REFERENCES}{26}

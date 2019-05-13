@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -71,6 +71,28 @@ Ronald van Gimst. 2018. Creating a high-fidelity and low-cost simulation
   \textcolor{blue}{\url{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}}.
 \newblock [accessed 2018-06-24].
 
+\bibitem[Gopinath and Sawyer(1999)]{enterprise-simulation}
+C.~Gopinath and John~E. Sawyer. 1999. Exploring the learning from an enterprise
+  simulation. WWW-document
+  \textcolor{blue}{\url{https://www.researchgate.net/publication/201381843_Exploring_the_learning_from_an_enterprise_simulation}}.
+\newblock [accessed 2019-05-13].
+
+\bibitem[sim(2019)]{simulation-training-history}
+2019. A brief simulation training history. WWW-document
+  \textcolor{blue}{\url{https://www.iti.com/blog/a-brief-history-of-simulation-training-}}.
+\newblock [accessed 2019-05-13].
+
+\bibitem[Martinali(2018)]{medical-sim-training}
+Jacqueline Martinali. 2018. What is simulation training?. WWW-document
+  \textcolor{blue}{\url{https://www.noldus.com/blog/what-is-simulation-training}}.
+\newblock [accessed 2019-05-13].
+
+\bibitem[Macedonia(2002)]{games-sim-mil}
+Michael Macedonia. 2002. Games, simulation, and the military education dilemma.
+  WWW-document
+  \textcolor{blue}{\url{https://www.researchgate.net/publication/260386555_Games_Simulation_and_the_Military_Education_Dilemma}}.
+\newblock [accessed 2019-05-13].
+
 \bibitem[env(2018)]{environics-chemprodm}
 2018. Chemprodm chemical detector for mobile and vehicle applications.
   WWW-document
@@ -130,7 +152,25 @@ Mary~Jo Dondlinger.
 \newblock Educational video game design: A review of the literature.
 \newblock 2007.
 
-\bibitem[ue-(2019)]{ue-levels}
-2019. Unreal engine levels.
+\bibitem[ue-(2019{\natexlab{a}})]{ue-levels}
+2019{\natexlab{a}}. Unreal engine levels. WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Levels}}.
+\newblock [accessed 2019-04-01].
+
+\bibitem[ue-(2019{\natexlab{b}})]{ue-actors}
+2019{\natexlab{b}}. Unreal engine documentation. WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/Actors}}.
+\newblock [accessed 2019-04-03].
+
+\bibitem[ue-(2019{\natexlab{c}})]{ue-blueprints}
+2019{\natexlab{c}}. Unreal engine documentation introduction to blueprints.
+  WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Blueprints/GettingStarted}}.
+\newblock [accessed 2019-04-04].
+
+\bibitem[ue-(2019{\natexlab{d}})]{ue-nativizing-blueprints}
+2019{\natexlab{d}}. Unreal engine nativizing blueprints. WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Blueprints/TechnicalGuide/NativizingBlueprints}}.
+\newblock [accessed 2019-04-04].
 
 \end{thebibliography}

@@ -117,7 +117,7 @@
 \usepackage[comma]{natbib}
 \bibliographystyle{xamk}
 \renewcommand{\citep}[1]{(\citealp{#1}.)}
-\newcommand{\citexamk}[1]{(\citealp{#1}.)}
+\newcommand{\citeyearxamk}[1]{(\citeyear{#1}.)}
 
 %\bibliographystyle{dcu}
 
@@ -229,7 +229,11 @@
 %make title bold from outside so TOC stays the same
 \chapter{\MakeUppercase{Introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
-In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).\par The SAS product has a steep learning curve which raises the need for a more efficient educational tool. The goal of the project is to pick the most suitable technologies and implement such a tool. Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. VR and AR have grown in popularity and market share over the recent years as the technology has improved \Cref{fig:ar-vr-consumer-spending}.
+In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).
+\par 
+The SAS product has a steep learning curve which raises the need for a more efficient educational tool. A training application that leverages newer technologies is the chosen approach to improve the training process. The primary goal of the training application is to provide a better view on the future prospects of using mixed reality for training. A secondary goal is to offer a training platform for better understanding of the ObSAS software to trainees. Furthermore finding other suitable AR/VR use cases for the current Observis projects can also be a positive by-product of the research.
+\par
+Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. Sales of the SAS product can be benefit from providing a realistic virtual demo of the final installation to customers. Additionally VR and AR have grown in popularity and market share over the recent years as the technology has improved \Cref{fig:ar-vr-consumer-spending}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=210pt]{ar-vr-consumer-spending}
@@ -338,6 +342,15 @@ One solution to this problem has been developed by NLR with the use of a hybrid 
 IR depth sensors and a camera feed are used to map the pilots hand in the virtual cockpit. Mockups of the flight instruments are 3D printed and are mapped to the virtual environment with tracking markers.
 This allows for a much more natural feel of the flight instruments and offers better training results. \citep{nlr-vr}
 \\
+\section{Simulation training}
+Simulation training is the process of using a controlled but competitive virtual environment to acquire real world skills. By implication the environment is an imitation of a real environment and the training is an imitiation of a real-life process. The process can also be recorded, analyzed and scored based on the results of the trainee. \citep{enterprise-simulation}
+\par
+Simulation training has been used for decades in the fields of  healthcare, military and aviation \citeyearpar{simulation-training-history} and several benefits have been observed. The simulated environment is safe and secure which allows trainees to practice and gain experience with the risk from mistakes being eliminated. Teamwork behaviours such as communication, collaboration, team leading can be improved in practice. Insight into the trainee's behaviour can also be obtained by recording and analyzing training sessions. \citep{medical-sim-training}
+\par
+In the military education field simulations are widely adopted. Strategy and tactics games have been used for officer training by the US Army forces. USA Command and General Staff College also uses a turn-based strategy game for their Crops-level operations course. Skill and Team Building has also has benefited from simulation training by using "first person shooter" games. Flight simulation is clearly one of the biggest beneficiary of simulation training according to an extensive study conducted by the US Navy. Higher scores were obtained by students who used the simulation product prior to the early flight training. \citep{games-sim-mil}
+\par
+With so many examples of good simulation training being effective and widely adopted it is possible to conclude that the SAS civil and military defense system can also benefit from such training.
+\\
 \chapter{\MakeUppercase{Project use case}}
 Observis Oy is developing a product for situational awareness in different environments called ObSAS.
 This product is a software system running on multiple devices with multiple purposes.
@@ -366,8 +379,6 @@ Regardless of the good customer feedback there is room for improvement of the tr
 Innovation in every aspect of the product is welcomed from the customers. The market has been stagnant and competing companies have been refusing to innovate due to the various risks involved with doing so. Observis is willing to take those risks to set itself apart. A survey and analysis of Virtual reality technologies is of interest to the company.
 \par
 \section{Defining the application specifications and requirements}
-The primary goal of the training application is to provide a better view on the future prospects of using mixed reality for training. A secondary goal is to offer a training platform for better understanding of the ObSAS software to trainees. Furthermore finding other suitable AR/VR use cases for the current Observis projects can also be a positive by-product of the research.
-\par
 A particularly sophisticated requirement of the system is the maintenance procedure. Measurement devices and sensors require periodic maintenance and inspection to remain in good operating condition. Neglect of these requirements can lead to faulty readings over time, device breakdown or even failure to recognise threats. The maintenance involves physical interaction with a measurement device that is guided by an instructional document. Software use is also required during the procedure to mark used parts and add additional notes. It is not possible to practice all maintenance procedures during training because of the time constraint. Consumables are often needed for the maintenance which can increase the cost of training. For the above-mentioned reasons implementing a training scenario that involves conducting a maintenance in a mixed reality environment would be of great benefit.
 \par
 One particular device that requires maintenance is Environics ChemProDM. The device is a Chemical Warfare Agents(CWA) and Toxic Industrial Chemicals(TIC) detector that is targeted for vehicle use \Cref{fig:chemprodm}. Typical installation includes 2 modules: ChemProDM detector and Remote Alarm Unit. A maintenance training scenario for this device is a great candidate for a mixed reality application. Initial installation and testing are also interesting use cases that can benefit from a training application.
@@ -400,8 +411,8 @@ Price difference is very small between VR and AR if the most advanced frameworks
 \section{Selection of mixed reality framework}
 The main benefit of AR over VR in this project is the portability and ease of use it offers. In terms of what training can be implemented VR offers a lot more possibilities. Battery limitations are also reduced or avoided which enables long training sessions. Good multiplayer support and additional peripherals(such as gloves and controllers) are in favor of VR too. The portability of AR is not a crucial feature for this project and the usability it offers over VR are not sufficient enough to place AR as a more suitable platform in this project. A conclusion to this chapter is that a VR framework is a more suitable choice in the context of creating a training application for the ObSAS system.
 \par
-\chapter{\MakeUppercase{Project implementation}}
-This chapter will describe the various stages of developing a VR training application. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
+\chapter{\MakeUppercase{Project definition}}
+This chapter will describe the virtual application in more detail and outline the different technologies used in the implementation. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
 \par
 \section{Researching VR hardware and software}
 The most notable VR headsets available on the market are Occulus Rift and the successor to HTC VIVE, the HTC VIVE Pro. Widest software and peripheral support is offered to these headsets, so other options would not be considered. The main difference between the two is that HTC VIVE Pro has higher screen resolution and pixel density \Cref{fig:comparison-table}. Occulust Rift has lighter controllers, but requires at least 3 or even 4 sensors in some cases for decent room tracking. In contrast HTC VIVE Pro offers a wider tracking area with just 2 tracking sensors as pointed out by WindowsCentral VIVE Pro vs Occulus Rift article \citeyearpar{vive-vs-rift}. Both options provide the required features, but HTC VIVE Pro is more suitable and offers more because of the better graphics. 
@@ -478,9 +489,30 @@ The full training takes place inside a vehicle, which can be accomplished by usi
 \end{figure}
 Other objects in this level are the different light entities which include ambient light, point light, sky light and light interaction and postprocessing. This level also comes with several meshes, some of which have simulated physics interaction. And the last type of components in this level are the NavMeshBoundsVolume and NavModifierVolume entities which define what areas in the level the user can walk on.
 \par
+This starter content level provides all the basic functionalities needed for this project. It can be used as a starting point for the implementation and further extended and modified to contain the full training. In the future more levels can be added for different locations and scenarios.
+\subsection{Actors}
+Actors are generic Classes in UE that support 3D transformations such as transformation, rotation and scaling. These actors can be created(spawned) and destroyed dynamically while the application is running. They can also be updated dynamically by "ticking", which means that they can be updated with every rendered frame(tick). Some examples of actors in this project are StaticMeshActors of the different detection devices, CameraActor responsible for what the player sees, PlayerStartActor that defines the player starting point. Actors are also hierarchical with one Root Actor having nested Actors on several levels. Controlling the actors can be done with gameplay code written in C++ or with blueprints. \citeyearxamk{ue-actors}
+\subsection{Blueprints}
+Blueprint is a visual scripting tool in Unreal Engine that offers the full range of development tools and concepts generally available only to programmers. A node-based visual interface is used in which different Events, Nodes, Functions and Variables are connected with Wires \Cref{fig:ue-blueprint-tool}. These connections can define complex gameplay logic by combining and chaning multiple simple operations and creating conditional logic. Objects created with this visual tool are referred to as Blueprints. \citeyearxamk{ue-blueprints}
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{ue-blueprint-tool}
+	\caption{UE4 Blueprint Visual Editor}
+	\label{fig:ue-blueprint-tool}
+\end{figure}
+\par
+Blueprints are defined as object-oriented(OO) classes or objects in the engine which is a well known and used programming paradigm. Internally Blueprints are translated to C++ by a VM which comes with a performance penalty \citeyearpar{ue-nativizing-blueprints}. An alternative to Blueprints is using C++ to define the game logic, however in this project Blueprints are favored due to their simplicity and a large amount of examples online.
+\par
+\chapter{\MakeUppercase{Project implementation}}
+This chapter covers the practical implementation of the project application. Level layout and design is created and explained. Blueprints defining the game logic are also created and explained. Other various steps of the implementation process are listed and discussed.
+\section{Level design and logic}
+Level design begins with the layout and orientation of the different meshes. The visual appearance of the level is made more realistic by using different textures, materials and lighting. A vehicle 3D model is used as the center point for the level and also for the player starting point.
+\par
 
-\subsection{Virtual environment and 3D models}
-\section{Tracking and interacting with the virtual environment}
+\section{Glove calibration and tracking}
+Hi5 VR Gloves require the user to go through a calibration process before use to ensure better finger tracking. This process needs to be done if the gloves have been turned on or a new person is going to be using the gloves. Noitom, the creators of the gloves, provide a sample UE4 project that includes the calibration process with instructions for the gloves. The calibration can be done with the stand-alone sample project, but to keep the final project self-contained the calibration will be added to the application.
+\par
+Inspecting the assets of the sample project reveals that two main actors are responsible for the instructions and calibration of the gloves. The UE4 editor comes with an asset migration tool which is used in this case to migrate these actors to the ObSAS VR project.
+\section{Interacting with the virtual environment}
 \section{Creating a context for training}
 
 \par
