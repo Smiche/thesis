@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -172,5 +172,10 @@ Mary~Jo Dondlinger.
 2019{\natexlab{d}}. Unreal engine nativizing blueprints. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Blueprints/TechnicalGuide/NativizingBlueprints}}.
 \newblock [accessed 2019-04-04].
+
+\bibitem[ue-(2019{\natexlab{e}})]{ue-playerstart}
+2019{\natexlab{e}}. Unreal engine player start. WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Actors/PlayerStart}}.
+\newblock [accessed 2019-05-20].
 
 \end{thebibliography}
