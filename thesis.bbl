@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -6,23 +6,23 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[ar-(2018)]{ar-vr-chart}
-2018. Consumer spending on ar/vr worldwide 2016-2021. WWW-document
+Consumer spending on ar/vr worldwide 2016-2021. 2018. WWW-document
   \textcolor{blue}{\url{https://www.statista.com/statistics/828467/world-ar-vr-consumer-spending-content-apps/}}.
 \newblock [accessed 2018-10-06].
 
-\bibitem[Mullen and Mullen(2011)]{prototyping-ar}
-Tony Mullen and Tony Mullen.
+\bibitem[Mullen \& Mullen(2011)]{prototyping-ar}
+Tony Mullen \& Tony Mullen.
 \newblock \emph{Prototyping Augmented Reality}.
 \newblock Wiley. 2011.
 \newblock ISBN 9781118036631.
 
 \bibitem[ar-(2016)]{ar-application-whitehouse}
-2016. Ar experience of the white house. WWW-document
+Ar experience of the white house. 2016. WWW-document
   \textcolor{blue}{\url{https://vrscout.com/news/augmented-reality-app-1-dollar-bill-tour-white-house/}}.
 \newblock [accessed 2018-10-06].
 
-\bibitem[van Krevelen and Poelman(2010)]{vrjournal}
-D.W.F. van Krevelen and R.~Poelman.
+\bibitem[van Krevelen \& Poelman(2010)]{vrjournal}
+D.W.F. van Krevelen \& R.~Poelman.
 \newblock A survey of augmented reality technologies, applications and
   limitations.
 \newblock \emph{The International Journal of Virtual Reality}. pages 1--6.
@@ -30,38 +30,38 @@ D.W.F. van Krevelen and R.~Poelman.
 \newblock
   \doi{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.8190&rep=rep1&type=pdf}.
 
-\bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, and Stone]{horizon-report}
-L.~Johnson, A.~Levine, R.~Smith, and S.~Stone.
+\bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, \& Stone]{horizon-report}
+L.~Johnson, A.~Levine, R.~Smith, \& S.~Stone.
 \newblock \emph{The Horizon Report}.
 \newblock Educause Learning Initiative. 2010.
 \newblock ISBN 978-0-9825334-3-7.
 
-\bibitem[Kipper et~al.(2013)Kipper, Rampolla, and Kipper]{augmented-reality}
-Gregory Kipper, Joseph Rampolla, and Greg Kipper.
+\bibitem[Kipper et~al.(2013)Kipper, Rampolla, \& Kipper]{augmented-reality}
+Gregory Kipper, Joseph Rampolla, \& Greg Kipper.
 \newblock \emph{Augmented Reality}.
 \newblock Syngress. 2013.
 \newblock ISBN 1-59749-733-9,1-59749-734-7,1-283-81064-6.
 
-\bibitem[Wang and Dunston(2007)]{ar-design}
-Xiangyu Wang and Phillip~S. Dunston.
+\bibitem[Wang \& Dunston(2007)]{ar-design}
+Xiangyu Wang \& Phillip~S. Dunston.
 \newblock Design, strategies, and issues towards an augmented reality-based
   construction training platform.
 \newblock \emph{ITcon Vol. 12}. pages 1--8. 2007.
 
-\bibitem[Rabbi and Ullah(2016)]{Acta-Graphica}
-Ihsan Rabbi and Sehat Ullah.
+\bibitem[Rabbi \& Ullah(2016)]{Acta-Graphica}
+Ihsan Rabbi \& Sehat Ullah.
 \newblock A survey on augmented reality challenges and tracking.
 \newblock \emph{Acta Graphica}. 24\penalty0 (1-2):\penalty0 29--46. 2016.
 \newblock ISSN 1848-3828. WWW-document
   \textcolor{blue}{\url{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}}.
 
 \bibitem[htc(2018{\natexlab{a}})]{htc-vive-pro-review}
-2018{\natexlab{a}}. Htc vive pro review. WWW-document
+Htc vive pro review. 2018. WWW-document
   \textcolor{blue}{\url{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}}.
 \newblock [accessed 2018-10-06].
 
 \bibitem[hp-(2018)]{hp-vrbackpack}
-2018. Hp z vr backpack overview. WWW-document
+Hp z vr backpack overview. 2018. WWW-document
   \textcolor{blue}{\url{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}}.
 \newblock [accessed 2018-05-21].
 
@@ -71,14 +71,14 @@ Ronald van Gimst. 2018. Creating a high-fidelity and low-cost simulation
   \textcolor{blue}{\url{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}}.
 \newblock [accessed 2018-06-24].
 
-\bibitem[Gopinath and Sawyer(1999)]{enterprise-simulation}
-C.~Gopinath and John~E. Sawyer. 1999. Exploring the learning from an enterprise
+\bibitem[Gopinath \& Sawyer(1999)]{enterprise-simulation}
+C.~Gopinath \& John~E. Sawyer. 1999. Exploring the learning from an enterprise
   simulation. WWW-document
   \textcolor{blue}{\url{https://www.researchgate.net/publication/201381843_Exploring_the_learning_from_an_enterprise_simulation}}.
 \newblock [accessed 2019-05-13].
 
 \bibitem[sim(2019)]{simulation-training-history}
-2019. A brief simulation training history. WWW-document
+A brief simulation training history. 2019. WWW-document
   \textcolor{blue}{\url{https://www.iti.com/blog/a-brief-history-of-simulation-training-}}.
 \newblock [accessed 2019-05-13].
 
@@ -94,7 +94,7 @@ Michael Macedonia. 2002. Games, simulation, and the military education dilemma.
 \newblock [accessed 2019-05-13].
 
 \bibitem[env(2018)]{environics-chemprodm}
-2018. Chemprodm chemical detector for mobile and vehicle applications.
+Chemprodm chemical detector for mobile and vehicle applications. 2018.
   WWW-document
   \textcolor{blue}{\url{https://www.environics.fi/product/chemprodm/}}.
 \newblock [accessed 2018-10-26].
@@ -110,40 +110,40 @@ Falcon~Communications UK.
 \newblock Cbrne world. 2019.
 
 \bibitem[cbr(2017)]{cbrn-market-share}
-2017. Chemical, biological, radiological \& nuclear (cbrn) defence market
-  report 2017-2027.
+Chemical, biological, radiological \& nuclear (cbrn) defence market report
+  2017-2027. 2017.
 
 \bibitem[hol(2018{\natexlab{a}})]{hololens-specs}
-2018{\natexlab{a}}. Microsoft hololens device specifications. WWW-document
+Microsoft hololens device specifications. 2018. WWW-document
   \textcolor{blue}{\url{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}}.
 \newblock [accessed 2018-09-1].
 
 \bibitem[hol(2018{\natexlab{b}})]{hololens-price}
-2018{\natexlab{b}}. Buy microsoft hololens. WWW-document
+Buy microsoft hololens. 2018. WWW-document
   \textcolor{blue}{\url{https://www.microsoft.com/en-gb/hololens/buy}}.
 \newblock [accessed 2018-09-30].
 
 \bibitem[htc(2018{\natexlab{b}})]{htc-vive-pro}
-2018{\natexlab{b}}. Buy htc vive pro. WWW-document
+Buy htc vive pro. 2018. WWW-document
   \textcolor{blue}{\url{https://www.vive.com/eu/product/vive-pro/}}.
 \newblock [accessed 2018-09-30].
 
 \bibitem[viv(2018)]{vive-vs-rift}
-2018. Htc vive pro vs occulus rift. WWW-document
+Htc vive pro vs occulus rift. 2018. WWW-document
   \textcolor{blue}{\url{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}}.
 \newblock [accessed 2018-10-29].
 
 \bibitem[vrg(2018)]{vrgluv}
-2018. Vrgluv. WWW-document \textcolor{blue}{\url{https://vrgluv.com/}}.
+Vrgluv. 2018. WWW-document \textcolor{blue}{\url{https://vrgluv.com/}}.
 \newblock [accessed 2018-11-20].
 
 \bibitem[hi5(2018)]{hi5-vr-glove}
-2018. Hi5 vr glove business edition. WWW-document
+Hi5 vr glove business edition. 2018. WWW-document
   \textcolor{blue}{\url{https://hi5vrglove.com/store/hi5glove}}.
 \newblock [accessed 2018-11-20].
 
-\bibitem[Lewis and Jacobson(2002)]{game-engines}
-Michael Lewis and Jeffrey Jacobson.
+\bibitem[Lewis \& Jacobson(2002)]{game-engines}
+Michael Lewis \& Jeffrey Jacobson.
 \newblock Game engines in scientific research.
 \newblock \emph{Communications of the ACM Vol. 42}. pages 1--5. 2002.
 
@@ -153,29 +153,33 @@ Mary~Jo Dondlinger.
 \newblock 2007.
 
 \bibitem[ue-(2019{\natexlab{a}})]{ue-levels}
-2019{\natexlab{a}}. Unreal engine levels. WWW-document
+Unreal engine levels. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Levels}}.
 \newblock [accessed 2019-04-01].
 
 \bibitem[ue-(2019{\natexlab{b}})]{ue-actors}
-2019{\natexlab{b}}. Unreal engine documentation. WWW-document
+Unreal engine documentation. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/Actors}}.
 \newblock [accessed 2019-04-03].
 
 \bibitem[ue-(2019{\natexlab{c}})]{ue-blueprints}
-2019{\natexlab{c}}. Unreal engine documentation introduction to blueprints.
-  WWW-document
+Unreal engine documentation introduction to blueprints. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Blueprints/GettingStarted}}.
 \newblock [accessed 2019-04-04].
 
 \bibitem[ue-(2019{\natexlab{d}})]{ue-nativizing-blueprints}
-2019{\natexlab{d}}. Unreal engine nativizing blueprints. WWW-document
+Unreal engine nativizing blueprints. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Blueprints/TechnicalGuide/NativizingBlueprints}}.
 \newblock [accessed 2019-04-04].
 
 \bibitem[ue-(2019{\natexlab{e}})]{ue-playerstart}
-2019{\natexlab{e}}. Unreal engine player start. WWW-document
+Unreal engine player start. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Actors/PlayerStart}}.
 \newblock [accessed 2019-05-20].
+
+\bibitem[ue-(2019{\natexlab{f}})]{ue-lightsources}
+Unreal engine light sources. 2019. WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/LightingAndShadows/LightTypes}}.
+\newblock [accessed 2019-05-21].
 
 \end{thebibliography}

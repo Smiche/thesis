@@ -230,7 +230,7 @@ FUNCTION {format.names}
               if$
               t "others" =
                 { " et~al." * }
-                { " and " * t * }
+                { " \& " * t * }
               if$
             }
           if$
@@ -330,7 +330,7 @@ FUNCTION {format.full.names}
               if$
               t "others" =
                 { " et~al." * }
-                { " and " * t * }
+                { " \& " * t * }
               if$
             }
           if$
@@ -434,7 +434,7 @@ FUNCTION {format.date}
       " " * swap$ *
     }
   if$
-  extra.label *
+  %extra.label *
 }
 %extra.label *
 
@@ -737,8 +737,11 @@ FUNCTION {article}
 
 FUNCTION {online}
 { output.bibitem
-  format.authors "author" output.check
-  author format.key output
+  author missing$
+    { format.title output }
+    { format.authors "author" output.check
+      author format.key output }
+  if$
   crossref missing$
     { journal emphasize "journal" output.check
       eid empty$
@@ -754,7 +757,10 @@ FUNCTION {online}
       if$
     }
   if$
-  format.title "title" output.check
+  author missing$
+    { "" output }
+    { format.title "title" output.check }
+  if$
   format.url output
   format.urldate output
   new.block
@@ -1146,7 +1152,7 @@ FUNCTION {format.lab.names}
         'skip$
         { s #2 "{ff }{vv }{ll}{ jj}" format.name$ "others" =
             { " et~al." * }
-            { " and " * s #2 "{vv~}{ll}" format.name$ * }
+            { " \& " * s #2 "{vv~}{ll}" format.name$ * }
           if$
         }
       if$

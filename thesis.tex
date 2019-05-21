@@ -122,10 +122,22 @@
 
 %-----------------------------------References------------------------------%
 \usepackage[nottoc,notlot,notlof]{tocbibind}
-\usepackage[comma]{natbib}
+\usepackage[]{natbib}
+\usepackage{usebib}
+\newbibfield{title}
+\newbibfield{year}
+\newbibfield{author}
+\bibinput{references}
+
 \bibliographystyle{xamk}
-\renewcommand{\citep}[1]{(\citealp{#1}.)}
-\newcommand{\citeyearxamk}[1]{(\citeyear{#1}.)}
+%\renewcommand{\citep}[1]{(\citealp{#1}.)}
+%\newcommand{\citeyearxamk}[1]{(\citeyear{#1}.)}
+\newcommand{\citeyearxamk}[1]{(\citeauthor{#1} \citeyear{#1})}
+\renewcommand{\citep}[1]{(\citeauthor{#1} \citeyear{#1}.)}
+\renewcommand{\citeyearpar}[1]{(\citeauthor{#1} \citeyear{#1})}
+\newcommand{\citeyeartitlexamk}[1]{(\usebibentry{#1}{title} \citeyear{#1}.)} 
+\newcommand{\citeyeartitlexamkinline}[1]{(\usebibentry{#1}{title} \citeyear{#1})} 
+
 
 %\bibliographystyle{dcu}
 
@@ -245,7 +257,7 @@ Advantages and disadvantages of AR/VR need to be considered over more traditiona
 \begin{figure}[H]
 	\centering
 	\includegraphics[height=210pt]{ar-vr-consumer-spending}
-	\caption{Consumer spending on AR/VR worldwide 2016-2021 \citeyearpar{ar-vr-chart}}
+	\caption{Consumer spending on AR/VR worldwide 2016-2021 \citeyeartitlexamkinline{ar-vr-chart}}
 	\label{fig:ar-vr-consumer-spending}
 \end{figure}
 Literature review is used as a research method for the first part of the thesis. The different literature in the fields of AR,VR and CBRN is reviewed and summarized. The second parth of the thesis is a case study of the practical implementation of a training application. The results will be analyzed by debating the success of the final product and its potential use.
@@ -260,7 +272,7 @@ Augmented reality and Virtual reality are technologies that offer a different vi
 \end{figure}
 
 \section{Augmented Reality}%ref http://kjcomps.6te.net/upload/paper1%20.pdf
-Augmented Reality(AR) can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR are the ability to run in real time, be interactive, three dimensional and combine real with virtual information \Cref{fig:ar-application}. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. AR can be considered as the next step in graphical user interfaces(GUI) evolution. \citep{prototyping-ar} Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.
+Augmented Reality(AR) can be described as the technology that bridges reality with virtual environments. Real life objects are transformed or replaced with virtual equivalents. Information can be added or removed to the real environment. Key aspects of AR are the ability to run in real time, be interactive, three dimensional and combine real with virtual information \Cref{fig:ar-application}. AR is most commonly used with the sense of sight, but it can potentially be used with other senses such as hearing, touch, smell, taste, temperature etc. AR can be considered as the next step in graphical user interfaces(GUI) evolution \citeyearpar{prototyping-ar}. Its current state is comparable to command line interfaces and 2d interfaces in the 1980's and 1990's. It is a vision of future computing and a field that is under research.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{ar-application}
 	\caption{Mobile Augmented Reality application \citeyearpar{ar-application-whitehouse}}
@@ -332,7 +344,7 @@ Users' view, location or controllers can become misaligned with the virtual envi
 Interaction challenges come from the current hardware limitations on interacting. Tactile feedback, hand interaction and free movement in the 3D space are all possible techniques individually, but combining them at the same time is not yet achievable.
 \par %(Interrante et al., 2008; Mohler et al., 2010; Phillips et al., 2010).
 Mobility challenges arise from the need of portability for VR platforms. Common solutions
-rely on tethering to a machine that handles the rendering and power supply. However portable VR backpacks and headsets are starting to emerge a notable example of which is the HP VR backpack \citeyearpar{hp-vrbackpack}.
+rely on tethering to a machine that handles the rendering and power supply. However portable VR backpacks and headsets are starting to emerge a notable example of which is the HP VR backpack \citeyeartitlexamkinline{hp-vrbackpack}.
 Visualization can be difficult due to the complexity of the physical world. Keeping proportions, lighting, textures, view depth, field of vision and other visiual perception aspects can be challenging.
 \subsection{VR for education and training}
 Virtual Reality has many prospects for use in education. Learning can be promoted by interacting with objects and the environment in a virtual world. 
@@ -353,7 +365,7 @@ This allows for a much more natural feel of the flight instruments and offers be
 \section{Simulation training}
 Simulation training is the process of using a controlled but competitive virtual environment to acquire real world skills. By implication the environment is an imitation of a real environment and the training is an imitiation of a real-life process. The process can also be recorded, analyzed and scored based on the results of the trainee. \citep{enterprise-simulation}
 \par
-Simulation training has been used for decades in the fields of  healthcare, military and aviation \citeyearpar{simulation-training-history} and several benefits have been observed. The simulated environment is safe and secure which allows trainees to practice and gain experience with the risk from mistakes being eliminated. Teamwork behaviours such as communication, collaboration, team leading can be improved in practice. Insight into the trainee's behaviour can also be obtained by recording and analyzing training sessions. \citep{medical-sim-training}
+Simulation training has been used for decades in the fields of  healthcare, military and aviation \citeyeartitlexamkinline{simulation-training-history} and several benefits have been observed. The simulated environment is safe and secure which allows trainees to practice and gain experience with the risk from mistakes being eliminated. Teamwork behaviours such as communication, collaboration, team leading can be improved in practice. Insight into the trainee's behaviour can also be obtained by recording and analyzing training sessions. \citep{medical-sim-training}
 \par
 In the military education field simulations are widely adopted. Strategy and tactics games have been used for officer training by the US Army forces. USA Command and General Staff College also uses a turn-based strategy game for their Crops-level operations course. Skill and Team Building has also has benefited from simulation training by using "first person shooter" games. Flight simulation is clearly one of the biggest beneficiary of simulation training according to an extensive study conducted by the US Navy. Higher scores were obtained by students who used the simulation product prior to the early flight training. \citep{games-sim-mil}
 \par
@@ -393,20 +405,20 @@ Other devices included in ObSAS are Thermo SVG2 radiation sensor, Meteo IRDAM MA
 \subsection{CBRNe defense}
 CBRNe is an acronym for Chemical, Biological, Radiological, Nuclear and Explosives. CBRNe defense is the field of detecting, reducing the impact of or avoiding the threats of CBRNe agents. In recent years the threat of CBRNe attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents. \citep{crowd-behavior}
 \par
-A motivation for CBRNe defense is the amount of casualties taken by CBRNe threats all around the world all the time. Such incidents are covered bi-monthly in the CBRNeWORLD magazine and their numbers are not decreasing \citeyearpar{cbrne-world}. The industry in this field aims to provide solutions that prevent or reduce the impact of CBRN incidents and attacks. Market share of the field has been growing steadily and the forecast is of continuous growth for the future years to come according to Visiongain's market report \citeyearpar{cbrn-market-share}.
+A motivation for CBRNe defense is the amount of casualties taken by CBRNe threats all around the world all the time. Such incidents are covered bi-monthly in the CBRNeWORLD magazine and their numbers are not decreasing \citeyearpar{cbrne-world}. The industry in this field aims to provide solutions that prevent or reduce the impact of CBRN incidents and attacks. Market share of the field has been growing steadily and the forecast is of continuous growth for the future years to come according to Visiongain's market report \citeyeartitlexamkinline{cbrn-market-share}.
 \par
 ObSAS provides possibilites for early detection and prevention of CBRN attacks. Gathering as much information possible about the attack can help with planning impact reduction and prevention strategies. ObSAS allows for the gathering and analysis of such data: chemical threat identification, air spectrum analysis, radiation measurement, geographical location and meteorological conditions. A vehicle with an ObSAS installation can safely cover and inspect a large area. Communication channels can be used to share and collect data from various CBRN sources. A more clear picture of threats can be established that way.\par
 The CBRN field also encompasses considerations such as decontaminating equipment and clothes, medicine administration, using protective equipment and detection devices require training and practice. Databases providing instructions on what actions to take depending on the threat are often available in CBRN software. The use of such databases also benefits from prior training.
 \section{Comparing VR and AR in the project context}
 AR and VR differ not only in hardware but also in software development kits. It is rarely the case that an application written for one of the platforms can be seamlessly ported to the other. Therefore the two technologies need to be compared in regards to the current project. To keep the scope of this thesis narrow a single technology will be used to implement a training application.
 \par
-AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. As seen from the specification sheet on the Microsoft store \citeyearpar{hololens-specs}, the HoloLens have narrow field of view, smaller color space, low luminosity and lower computing power compared to VR headsets. This can result is reduced immersion and engagement with the virtual environment. Another downside is the inability to emulate real life scenarios such as being inside a moving vehicle or simulating an environment that is completely different from the one the user is in. For example it is impossible to simulate night missions if the user is in a brightly lit room. For these reasons AR is restricted by the environment it is being experienced in.
+AR hardware such as goggles, glasses and headsets are generally very portable and self-contained. This makes it easy to transport the required hardware during training or installation tirps. The initial setup of the training environment could be more tedious with AR. If real life devices need to be tracked, markers have to be placed and calibrated. As seen from the specification sheet on the Microsoft store \citeyeartitlexamkinline{hololens-specs}, the HoloLens have narrow field of view, smaller color space, low luminosity and lower computing power compared to VR headsets. This can result is reduced immersion and engagement with the virtual environment. Another downside is the inability to emulate real life scenarios such as being inside a moving vehicle or simulating an environment that is completely different from the one the user is in. For example it is impossible to simulate night missions if the user is in a brightly lit room. For these reasons AR is restricted by the environment it is being experienced in.
 \par
 The easability of use of AR headsets is one important benefit. While VR headsets require a tether cable, external computer and even base stations in some cases, AR headsets can be used as they are, independently. 3D modelling isn't as big of a requirement compared to VR as it is enough to create models only of the objects the user interacts with, not the full environment the user is in. This can reduce development time significantly.
 \par
 VR shines in implementing a completely independant environment. The only limit to what can be recreated is imposed by the hardware performance and development time and skills. VR allows for spectating and recording users' interaction with the environment. This can be used to analyze their experience and improve the software further. Giving suggestions and guiding during the training is also possible. A multi-user environment is also possible and trainees and teachers can be in the same environment even if they're physically far apart.
 \par
-Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$ on the Microsoft store \citeyearpar{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\ on the official VIVE store \citeyearpar{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
+Price difference is very small between VR and AR if the most advanced frameworks are being considered. An AR headset with the development pack such as Microsoft HoloLens is priced at 3000\$ on the Microsoft store \citeyeartitlexamkinline{hololens-price}. And a VR headset such as HTC Vive Pro is priced at 1500\euro\ on the official VIVE store \citeyeartitlexamkinline{htc-vive-pro} with VR capable laptops priced starting from 1500\euro. Similarly prices of development kit licenses are not far apart either. This makes the decision between the two based entirely on the features they provide, driven by the requirements of the use case they're aimed for.
 \par
 \section{Selection of mixed reality framework}
 The main benefit of AR over VR in this project is the portability and ease of use it offers. In terms of what training can be implemented VR offers a lot more possibilities. Battery limitations are also reduced or avoided which enables long training sessions. Good multiplayer support and additional peripherals(such as gloves and controllers) are in favor of VR too. The portability of AR is not a crucial feature for this project and the usability it offers over VR are not sufficient enough to place AR as a more suitable platform in this project. A conclusion to this chapter is that a VR framework is a more suitable choice in the context of creating a training application for the ObSAS system.
@@ -415,7 +427,7 @@ The main benefit of AR over VR in this project is the portability and ease of us
 This chapter will describe the virtual application in more detail and outline the different technologies used in the implementation. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
 \par
 \section{Researching VR hardware and software}
-The most notable VR headsets available on the market are Occulus Rift and the successor to HTC VIVE, the HTC VIVE Pro. Widest software and peripheral support is offered to these headsets, so other options would not be considered. The main difference between the two is that HTC VIVE Pro has higher screen resolution and pixel density \Cref{fig:comparison-table}. Occulust Rift has lighter controllers, but requires at least 3 or even 4 sensors in some cases for decent room tracking. In contrast HTC VIVE Pro offers a wider tracking area with just 2 tracking sensors as pointed out by WindowsCentral VIVE Pro vs Occulus Rift article \citeyearpar{vive-vs-rift}. Both options provide the required features, but HTC VIVE Pro is more suitable and offers more because of the better graphics. 
+The most notable VR headsets available on the market are Occulus Rift and the successor to HTC VIVE, the HTC VIVE Pro. Widest software and peripheral support is offered to these headsets, so other options would not be considered. The main difference between the two is that HTC VIVE Pro has higher screen resolution and pixel density \Cref{fig:comparison-table}. Occulust Rift has lighter controllers, but requires at least 3 or even 4 sensors in some cases for decent room tracking. In contrast HTC VIVE Pro offers a wider tracking area with just 2 tracking sensors as pointed out by WindowsCentral VIVE Pro vs Occulus Rift article \citeyeartitlexamkinline{vive-vs-rift}. Both options provide the required features, but HTC VIVE Pro is more suitable and offers more because of the better graphics. 
 \begin{figure}[H]
 	\begin{tabular}{|l|l|l|}
 	\hline
@@ -430,12 +442,12 @@ The most notable VR headsets available on the market are Occulus Rift and the su
 	\caption{HTC VIVE Pro vs Occulus Rift specs}
 	\label{fig:comparison-table}
 \end{figure}
-VR hand and finger tracking is a great addition to the immersion of the VR experience. More intuitive interaction with the virtual environment is possible. Many gloves are available as prototypes on the market. Some feature resistive finger feedback and texture and shape simulation like the VRGluv \citeyearpar{vrgluv}. A large portion of such gloves are in the prototyping stage and can only be preordered. The Noitom hi5 gloves however are available as a purchasable product, even though they're missing the aforementioned features.
+VR hand and finger tracking is a great addition to the immersion of the VR experience. More intuitive interaction with the virtual environment is possible. Many gloves are available as prototypes on the market. Some feature resistive finger feedback and texture and shape simulation like the VRGluv \citeyeartitlexamkinline{vrgluv}. A large portion of such gloves are in the prototyping stage and can only be preordered. The Noitom hi5 gloves however are available as a purchasable product, even though they're missing the aforementioned features.
 \par
-These gloves achieve full finger tracking by using 9 inertial measurement units on each glove. The VR headset controllers are strapped on the gloves to provide absolute tracking \Cref{fig:vr-glove}. Vibration feedback is also supported by the hardware and software API as documented by Noitom on their product website \citeyearpar{hi5-vr-glove}.
+These gloves achieve full finger tracking by using 9 inertial measurement units on each glove. The VR headset controllers are strapped on the gloves to provide absolute tracking \Cref{fig:vr-glove}. Vibration feedback is also supported by the hardware and software API as documented by Noitom on their product website \citeyeartitlexamkinline{hi5-vr-glove}.
 \begin{figure}[H]
 	\includegraphics[height=210pt]{vr-glove2}
-	\caption{Noitom HI5 VR glove \citeyearpar{hi5-vr-glove}}
+	\caption{Noitom HI5 VR glove \citeyeartitlexamkinline{hi5-vr-glove}}
 	\label{fig:vr-glove}
 \end{figure}
 \par
@@ -479,7 +491,7 @@ All the objectives take place in a relatively small area which means they can be
 \end{figure}
 \par
 \section{Unreal Engine Level}
-Levels are defined in Unreal Engine's documentation as a collection of Static Meshes, Volumes, Blueprints and other entities that the user sees and interacts with \citeyearpar{ue-levels}. They are helpful to organize a project into different virtual locations or chronologically. Levels are treated similarly to other assets in UE. They can be created, loaded and modified from the Content Browser.
+Levels are defined in Unreal Engine's documentation as a collection of Static Meshes, Volumes, Blueprints and other entities that the user sees and interacts with \citeyeartitlexamkinline{ue-levels}. They are helpful to organize a project into different virtual locations or chronologically. Levels are treated similarly to other assets in UE. They can be created, loaded and modified from the Content Browser.
 \par
 The full training takes place inside a virtual vehicle, which can be accomplished by using a single level. UE4 comes with starter content when creating a new project. One level that comes with the VR project template is the MotionControllerMap \Cref{fig:level-ue4-editor}. This level features a VRPawn object which is responsible for the majority of functionalities related to the user. It handles tracking of the Head Mounted Display and syncing camera to it, input from controllers, mapping the controllers' location to static meshes, player positioning in the environment and others.
 \begin{figure}[H]
@@ -493,16 +505,16 @@ This starter content level provides all the basic functionalities needed for thi
 \subsection{Actors}
 Actors are generic Classes in UE that support 3D transformations such as transformation, rotation and scaling. These actors can be created(spawned) and destroyed dynamically while the application is running. They can also be updated dynamically by "ticking", which means that they can be updated with every rendered frame(tick). Another main function of Actors is replication and controlling behaviour of objects in network play(multiplayer). Actors hold different types of objects which are called Components, in a sense Actors are containers for Components. The main types of Components Actors can hold are UActorComponent, USceneComponent, UPrimitiveComponent. UActorComponents have conceptual functionality, they don't exist anywhere in the world. They can be used for example to implement AI functionality, handle user input, saving/loading game progress. USceneComponents are placed in the world and have a location, scale and rotation parameters. UPrimitiveComponents have graphical presentation from a static mesh, particle system, 2D graphics or other primitive assets. Physics, collision and overlap settings are available for these components.  
 \par
-Some examples of actors in this project are StaticMeshActors of the different detection devices, CameraActor responsible for what the player sees, PlayerStartActor that defines the player starting point. Actors are also hierarchical with one Root Actor having nested Actors on several levels. Controlling the actors can be done with gameplay code written in C++ or with blueprints. \citeyearxamk{ue-actors}
+Some examples of actors in this project are StaticMeshActors of the different detection devices, CameraActor responsible for what the player sees, PlayerStartActor that defines the player starting point. Actors are also hierarchical with one Root Actor having nested Actors on several levels. Controlling the actors can be done with gameplay code written in C++ or with blueprints. \citeyeartitlexamk{ue-actors}
 \subsection{Blueprints}
-Blueprint is a visual scripting tool in Unreal Engine that offers the full range of development tools and concepts generally available only to programmers. A node-based visual interface is used in which different Events, Nodes, Functions and Variables are connected with Wires \Cref{fig:ue-blueprint-tool}. These connections can define complex gameplay logic by combining and chaning multiple simple operations and creating conditional logic. Objects created with this visual tool are referred to as Blueprints. \citeyearxamk{ue-blueprints}
+Blueprint is a visual scripting tool in Unreal Engine that offers the full range of development tools and concepts generally available only to programmers. A node-based visual interface is used in which different Events, Nodes, Functions and Variables are connected with Wires \Cref{fig:ue-blueprint-tool}. These connections can define complex gameplay logic by combining and chaning multiple simple operations and creating conditional logic. Objects created with this visual tool are referred to as Blueprints. \citeyeartitlexamk{ue-blueprints}
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{ue-blueprint-tool}
 	\caption{UE4 Blueprint Visual Editor}
 	\label{fig:ue-blueprint-tool}
 \end{figure}
 \par
-Blueprints are defined as object-oriented(OO) classes or objects in the engine which is a well known and used programming paradigm. Internally Blueprints are translated to C++ by a VM which comes with a performance penalty \citeyearpar{ue-nativizing-blueprints}. An alternative to Blueprints is using C++ to define the game logic, however in this project Blueprints are favored due to their ability to visually display logic better than code. There are also more examples and snippets online available for blueprints.
+Blueprints are defined as object-oriented(OO) classes or objects in the engine which is a well known and used programming paradigm. Internally Blueprints are translated to C++ by a VM which comes with a performance penalty \citeyeartitlexamkinline{ue-nativizing-blueprints}. An alternative to Blueprints is using C++ to define the game logic, however in this project Blueprints are favored due to their ability to visually display logic better than code. There are also more examples and snippets online available for blueprints.
 \par
 Two common types of Blueprints are Level Blueprints and Blueprint Classes. Every level has a Level Blueprint which can manage things like level streaming, objective tracking(checkpoints), interacting with other blueprints in the level. Blueprint Classes on the other hand are used to create interactive assets such as doors, buttons, levers, destructible objects. Main benefit of these blueprints is their reusability. They can be placed in any level and their behavior will remain the same. Also modifying the base blueprint will update all instances of it in the level.
 \par
@@ -511,21 +523,37 @@ This chapter covers the practical implementation of the project application. Lev
 \section{Level design}
 Level design begins with the layout and orientation of the different meshes. The visual appearance of the level is made more realistic by using different textures, materials and lighting. A vehicle 3D model is used as the center point for the level and also for the player starting point.
 \par
-The player starting point is placed in the interior of a conversion van \Cref{fig:vehicle-interior}. If the starting point Actor is colliding with objects in the scene an icon "BADsize" will appear. This means that the starting point is invalid and the engine will try to find the nearest valid starting point. During the development process the camera location in the editor can be used as a strating point which speeds up testing. \citeyearpar{ue-playerstart}
+The player starting point is placed in the interior of a conversion van \Cref{fig:vehicle-interior}. If the starting point Actor is colliding with objects in the scene an icon "BADsize" will appear. This means that the starting point is invalid and the engine will try to find the nearest valid starting point. During the development process the camera location in the editor can be used as a strating point which speeds up testing. \citeyeartitlexamk{ue-playerstart}
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{vehicle-interior}
 	\caption{Starting Level Vehicle Interior}
 	\label{fig:vehicle-interior}
 \end{figure}
 \par
-Light sources are required to make meshes in the scene visible to the user. Two primary light sources are used in this level.\todo{Need to check from UE project}
+Light sources are required to make meshes in the scene visible to the user. Two primary light sources are used in this level. The first light source is a Directional Light and is used to simulate the sun. Directional lights simulate a light source that is infinitely far away which means all the shadows cast by the light are parallel. This makes Directional lights perfect for simulating sunlight. This light is also Moveable which means its location and orientation can change on runtime. This can be used to cast dynamic shadows, but in this project dynamic shadows will be disabled to improve the rendering performance. The second light source is located inside the vehicle and is used for interior lighting. The type of this light is Point Light. Point Lights are used to simulate light bulbs because they emit light in all directions. \citeyeartitlexamk{ue-lightsources}
+\par
+A SkySphere(Skydome) is used to create a background for the scene that simulates a sky. While the player is moving in the scene the SkySphere remains stationary which gives the illusion that the sky is very far away. A 2D texture is wrapped on the inside of a sphere to create a SkySphere. The SkySphere in this project is also dynamic. Clouds are moving and the Directional Light source mention in the previous paragraph is moved by the SkySphere to simulate day and night cycles. The intensity and color of the light source is also changed depending on the time of the day.
 \par
 Layout of the hardware. \todo{Has to be decided when finalized}
 \section{Glove calibration and tracking}
 Hi5 VR Gloves require the user to go through a calibration process before use to ensure better finger tracking. This process needs to be done if the gloves have been turned on or a new person is going to be using the gloves. Noitom, the creators of the gloves, provide a sample UE4 project that includes the calibration process with instructions for the gloves. The calibration can be done with the stand-alone sample project, but to keep the final project self-contained the calibration will be added to the application.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{calibration-menu}
+	\caption{Glove calibration menu and instructions}
+	\label{fig:calibration-menu}
+\end{figure}
 \par
-Inspecting the assets of the sample project reveals that two main actors are responsible for the instructions and calibration of the gloves. The UE4 editor comes with an asset migration tool which is used in this case to migrate these actors to the ObSAS VR project.
+Inspecting the assets of the sample project reveals that several actors are responsible for the instructions and calibration of the gloves. The UE4 editor comes with an asset migration tool which is used in this case to migrate these actors to the ObSAS VR project. The MainLogicActor contains instructions and menu with options to calibrate the gloves. It uses WidgetComponent children for the instructions and selection buttons \Cref{fig:calibration-menu}. Glove battery and magnetisation status are also shown. The InteractionPawn Blueprint Class is mainly responsible for the camera projection. The camera view is bound to the tracked real world location of the VR headset. This means that if the user moves or rotates in the real world the camera view will update its orientation and position and render different parts of the scene. A WidgetInteractionComponent is a part of this Class. This component contains a Static Mesh in the shape of a small square. This mesh is used as a pointer for the user, it is located in the center of the camera projection at all time. If the user positions the camera in such a way that this pointer overlaps a menu option a countdown timer will start. If the pointer is not moved outside of the menu option the countdown will end and the option will be selected \Cref{fig:calibration-menu}.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{menu-selection}
+	\caption{Camera pointer and menu selection}
+	\label{fig:menu-selection}
+\end{figure}
+The calibration process requires the user to perform two hand gestures for a period of time. Calibration data is used and created by the Mocap plugin. GameInstance Blueprint Class is responsible for starting and stopping the Motion Capture service from the Mocap Plugin. This UE4 plugin is provided by the glove manifacturers. It provides relative tracking of the integrated sensors on the gloves. Combining this relative data with the absolute positioning data from the VIVE Trackers full hand and finger tracking is achieved in VR.
 \section{Interacting with the virtual environment}
+Interacting with the virtual environment is possible in three different ways. Firstly using the camera pointer method described in the previous chapter. Secondly by using the Hi5 VR Glove. Lastly the VIVE controllers can be used to grab objects.
+\par
+VIVE controller interaction method is required as a backup to the Hi5 VR Gloves. Magnetic interference or radio frequency interference can make the gloves' tracking inaccurate, unreliable or even completely prevent it. This is not a huge problem during training as the environment can be controlled and time is not limited. Interference can be removed, gloves can be demagnetized and recalibrated. However if the application is used in public exhibitions interference can be a real problem.
 \section{Creating a context for training}
 
 \par

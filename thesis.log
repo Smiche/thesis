@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  20 MAY 2019 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  21 MAY 2019 17:00
 entering extended mode
 **"g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
@@ -858,27 +858,29 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip123
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count128
-) (thesis.aux)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\usebib\usebib.sty"
+Package: usebib 2012/03/17 v1.0 Reusing bib files
+) (references.bib) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 166.
-LaTeX Font Info:    ... okay on input line 166.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 166.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 178.
+LaTeX Font Info:    ... okay on input line 178.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 178.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 166.
+(Font)              scaled to size 11.39996pt on input line 178.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count129
@@ -926,11 +928,11 @@ Package grfext Info: Graphics extension search list:
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 166.
+(lastpage)             ! on input line 178.
 \AtBeginShipoutBox=\box45
-Package ragged2e Info: ABD: executing \RaggedRight on input line 166.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 178.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 166.
+LaTeX Info: Redefining \selectfont on input line 178.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -970,32 +972,32 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 166.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 178.
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 15.19995pt on input line 176.
+(Font)              scaled to size 15.19995pt on input line 188.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 180.
+(Font)              scaled to size 22.79993pt on input line 192.
 <xamklogo.png, id=28, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
-Package pdftex.def Info: xamklogo.png  used on input line 195.
+Package pdftex.def Info: xamklogo.png  used on input line 207.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
 <background.png, id=29, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 198.
+Package pdftex.def Info: background.png  used on input line 210.
 (pdftex.def)             Requested size: 597.41231pt x 845.04933pt.
 [1
 
 
 {C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./background.png> <./xamklogo.png>] ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd") ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd") [1]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 228.
+(Font)              scaled to size 23.63593pt on input line 240.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 228.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 240.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 228.
+(Font)              scaled to size 23.63593pt on input line 240.
  (thesis.toc)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
@@ -1035,18 +1037,18 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 
 
 Chapter 1
-Package newfloat Info: Setting Plan B file extension to `lof'... on input line 238.
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 250.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 238.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 250.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 238.
+(Font)              scaled to size 11.39996pt on input line 250.
 <ar-vr-consumer-spending.png, id=44, 1003.75pt x 745.78625pt>
 File: ar-vr-consumer-spending.png Graphic file (type png)
 <use ar-vr-consumer-spending.png>
-Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 247.
+Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 259.
 (pdftex.def)             Requested size: 282.62563pt x 210.0pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 248.
+(Font)              scaled to size 10.40245pt on input line 260.
 [3
 
 ]
@@ -1054,29 +1056,29 @@ Chapter 2
 <Virtuality_Continuum_2.jpg, id=48, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 257.
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 269.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
 <ar-application.jpg, id=49, 813.0375pt x 418.56375pt>
 File: ar-application.jpg Graphic file (type jpg)
 <use ar-application.jpg>
-Package pdftex.def Info: ar-application.jpg  used on input line 265.
+Package pdftex.def Info: ar-application.jpg  used on input line 277.
 (pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
 [4 <./ar-vr-consumer-spending.png> <./Virtuality_Continuum_2.jpg>] [5 <./ar-application.jpg>]
 <ar-framework.png, id=57, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 292.
+Package pdftex.def Info: ar-framework.png  used on input line 304.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
  [6]
 <ar-challenges.png, id=62, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 299.
+Package pdftex.def Info: ar-challenges.png  used on input line 311.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
 <htc-vive-pro-headset.jpg, id=63, 803.0pt x 536.0025pt>
 File: htc-vive-pro-headset.jpg Graphic file (type jpg)
 <use htc-vive-pro-headset.jpg>
-Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 319.
+Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 331.
 (pdftex.def)             Requested size: 426.79135pt x 284.88966pt.
  [7 <./ar-framework.png> <./ar-challenges.png>] [8 <./htc-vive-pro-headset.jpg>] [9] [10]
 Chapter 3
@@ -1084,7 +1086,7 @@ Chapter 3
 <chemprodm.jpg, id=88, 777.90625pt x 501.875pt>
 File: chemprodm.jpg Graphic file (type jpg)
 <use chemprodm.jpg>
-Package pdftex.def Info: chemprodm.jpg  used on input line 386.
+Package pdftex.def Info: chemprodm.jpg  used on input line 398.
 (pdftex.def)             Requested size: 426.79135pt x 275.35818pt.
  [14 <./chemprodm.jpg>] [15] [16]
 Chapter 4
@@ -1092,53 +1094,61 @@ Chapter 4
 <vr-glove2.png, id=102, 957.5775pt x 608.2725pt>
 File: vr-glove2.png Graphic file (type png)
 <use vr-glove2.png>
-Package pdftex.def Info: vr-glove2.png  used on input line 437.
+Package pdftex.def Info: vr-glove2.png  used on input line 449.
 (pdftex.def)             Requested size: 330.58377pt x 210.0pt.
  [18] [19 <./vr-glove2.png>] [20] [21]
 <level-ue4-editor.jpg, id=118, 1156.32pt x 625.1355pt>
 File: level-ue4-editor.jpg Graphic file (type jpg)
 <use level-ue4-editor.jpg>
-Package pdftex.def Info: level-ue4-editor.jpg  used on input line 486.
+Package pdftex.def Info: level-ue4-editor.jpg  used on input line 498.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
  [22 <./level-ue4-editor.jpg>]
 <ue-blueprint-tool.png, id=122, 1156.32pt x 625.1355pt>
 File: ue-blueprint-tool.png Graphic file (type png)
 <use ue-blueprint-tool.png>
-Package pdftex.def Info: ue-blueprint-tool.png  used on input line 500.
+Package pdftex.def Info: ue-blueprint-tool.png  used on input line 512.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
- [23]
+ [23] [24 <./ue-blueprint-tool.png>]
 Chapter 5
-[24 <./ue-blueprint-tool.png>]
 <vehicle-interior.jpg, id=131, 1445.4pt x 764.10469pt>
 File: vehicle-interior.jpg Graphic file (type jpg)
 <use vehicle-interior.jpg>
-Package pdftex.def Info: vehicle-interior.jpg  used on input line 516.
+Package pdftex.def Info: vehicle-interior.jpg  used on input line 528.
 (pdftex.def)             Requested size: 426.79135pt x 225.61879pt.
+[25]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 521.
- [25 <./vehicle-interior.jpg>]
-
-LaTeX Warning: Marginpar on page 26 moved.
-
+(Font)              scaled to size 5.69998pt on input line 537.
+ [26 <./vehicle-interior.jpg>]
+<calibration-menu.png, id=138, 784.43062pt x 451.6875pt>
+File: calibration-menu.png Graphic file (type png)
+<use calibration-menu.png>
+Package pdftex.def Info: calibration-menu.png  used on input line 541.
+(pdftex.def)             Requested size: 426.79135pt x 245.75471pt.
+<menu-selection.png, id=139, 598.48593pt x 303.38344pt>
+File: menu-selection.png Graphic file (type png)
+<use menu-selection.png>
+Package pdftex.def Info: menu-selection.png  used on input line 548.
+(pdftex.def)             Requested size: 426.79135pt x 216.35274pt.
+ [27 <./calibration-menu.png>] [28 <./menu-selection.png>]
 Chapter 6
-[26] (thesis.bbl
+[29] (thesis.bbl
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 15.
- [27] [28]) 
+ [30] [31]) 
 AED: lastpage setting LastPage
-[29] (thesis.aux) ) 
+[32] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 19299 strings out of 493303
- 365387 string characters out of 3138856
- 501932 words of memory out of 3000000
- 22416 multiletter control sequences out of 15000+200000
+ 19447 strings out of 493303
+ 368925 string characters out of 3138856
+ 506272 words of memory out of 3000000
+ 22554 multiletter control sequences out of 15000+200000
  63010 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,92p,1217b,874s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,92p,1418b,876s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\smich\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (30 pages, 2497163 bytes).
+Output written on thesis.pdf (33 pages, 2970741 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
