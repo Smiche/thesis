@@ -1,32 +1,43 @@
-\contentsline {chapter}{\numberline {1}\MakeUppercase {Introduction}}{3}
-\contentsline {chapter}{\numberline {2}\MakeUppercase {Augmented Reality and Virtual Reality}}{4}
-\contentsline {section}{\numberline {2.1}Augmented Reality}{5}
-\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{6}
-\contentsline {subsection}{\numberline {2.1.2}AR Challenges}{6}
-\contentsline {section}{\numberline {2.2}Virtual Reality}{8}
-\contentsline {subsection}{\numberline {2.2.1}VR Challenges}{9}
-\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{9}
-\contentsline {section}{\numberline {2.3}Hybrid approaches}{10}
-\contentsline {section}{\numberline {2.4}Simulation training}{10}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{11}
-\contentsline {section}{\numberline {3.1}Current training approach}{12}
-\contentsline {section}{\numberline {3.2}Future goals}{13}
-\contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{13}
-\contentsline {subsection}{\numberline {3.3.1}CBRNe defense}{15}
-\contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{16}
-\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{17}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Project definition}}{17}
-\contentsline {section}{\numberline {4.1}Researching VR hardware and software}{18}
-\contentsline {section}{\numberline {4.2}Game engines}{19}
-\contentsline {section}{\numberline {4.3}Application Objectives}{20}
-\contentsline {section}{\numberline {4.4}Unreal Engine Level}{22}
-\contentsline {subsection}{\numberline {4.4.1}Actors}{23}
-\contentsline {subsection}{\numberline {4.4.2}Blueprints}{24}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Project implementation}}{25}
-\contentsline {section}{\numberline {5.1}Level design}{25}
-\contentsline {section}{\numberline {5.2}Glove calibration and tracking}{27}
-\contentsline {section}{\numberline {5.3}Interacting with the virtual environment}{29}
-\contentsline {section}{\numberline {5.4}Creating a context for training}{29}
-\contentsline {chapter}{\numberline {6}\MakeUppercase {Analyzing the mixed reality training application}}{29}
-\contentsline {section}{\numberline {6.1}Future possibilities for development and improvement}{29}
-\contentsline {chapter}{REFERENCES}{30}
+\contentsline {chapter}{\numberline {1}\MakeUppercase {Introduction}}{4}
+\contentsline {chapter}{\numberline {2}\MakeUppercase {Augmented Reality and Virtual Reality}}{5}
+\contentsline {section}{\numberline {2.1}Augmented Reality}{6}
+\contentsline {subsection}{\numberline {2.1.1}AR for training and education}{7}
+\contentsline {subsection}{\numberline {2.1.2}AR Challenges}{7}
+\contentsline {section}{\numberline {2.2}Virtual Reality}{9}
+\contentsline {subsection}{\numberline {2.2.1}VR Challenges}{10}
+\contentsline {subsection}{\numberline {2.2.2}VR for education and training}{10}
+\contentsline {section}{\numberline {2.3}Hybrid approaches}{11}
+\contentsline {section}{\numberline {2.4}Simulation training}{11}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Project use case}}{12}
+\contentsline {section}{\numberline {3.1}Current training approach}{13}
+\contentsline {section}{\numberline {3.2}Future goals}{14}
+\contentsline {section}{\numberline {3.3}Defining the application specifications and requirements}{14}
+\contentsline {subsection}{\numberline {3.3.1}CBRNe defense}{16}
+\contentsline {section}{\numberline {3.4}Comparing VR and AR in the project context}{17}
+\contentsline {section}{\numberline {3.5}Selection of mixed reality framework}{18}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Project definition}}{18}
+\contentsline {section}{\numberline {4.1}Researching VR hardware and software}{19}
+\contentsline {section}{\numberline {4.2}Game engines}{20}
+\contentsline {section}{\numberline {4.3}Application Objectives}{21}
+\contentsline {section}{\numberline {4.4}Unreal Engine Level}{23}
+\contentsline {subsection}{\numberline {4.4.1}Actors}{24}
+\contentsline {subsection}{\numberline {4.4.2}Blueprints}{25}
+\contentsline {section}{\numberline {4.5}Physics simulation}{26}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Project implementation}}{27}
+\contentsline {section}{\numberline {5.1}Project setup}{27}
+\contentsline {section}{\numberline {5.2}Level design}{28}
+\contentsline {section}{\numberline {5.3}Glove calibration and tracking}{29}
+\contentsline {section}{\numberline {5.4}Interacting with the virtual environment}{31}
+\contentsline {subsection}{\numberline {5.4.1}Gloves interaction}{32}
+\contentsline {subsection}{\numberline {5.4.2}VIVE Controllers interaction}{32}
+\contentsline {section}{\numberline {5.5}Virtual hardware layout and operation}{32}
+\contentsline {subsection}{\numberline {5.5.1}Devices and sensors}{32}
+\contentsline {subsection}{\numberline {5.5.2}Wiring devices}{32}
+\contentsline {subsection}{\numberline {5.5.3}Air inlet and outlet tubing}{32}
+\contentsline {section}{\numberline {5.6}Creating a context for training}{32}
+\contentsline {subsection}{\numberline {5.6.1}Objective instructions}{32}
+\contentsline {subsection}{\numberline {5.6.2}Tracking progess}{32}
+\contentsline {subsection}{\numberline {5.6.3}Visualizing events}{32}
+\contentsline {chapter}{\numberline {6}\MakeUppercase {Analyzing the mixed reality training application}}{32}
+\contentsline {section}{\numberline {6.1}Future possibilities for development and improvement}{32}
+\contentsline {chapter}{REFERENCES}{33}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  21 MAY 2019 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  23 MAY 2019 20:32
 entering extended mode
 **"g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
@@ -998,11 +998,11 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 240.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 23.63593pt on input line 240.
- (thesis.toc)
+ (thesis.toc [2])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [2]
+ [3]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1042,113 +1042,123 @@ LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <12> not available
 (Font)              Font shape `T1/ua1/b/n' tried instead on input line 250.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 250.
-<ar-vr-consumer-spending.png, id=44, 1003.75pt x 745.78625pt>
+<ar-vr-consumer-spending.png, id=47, 1003.75pt x 745.78625pt>
 File: ar-vr-consumer-spending.png Graphic file (type png)
 <use ar-vr-consumer-spending.png>
 Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 259.
 (pdftex.def)             Requested size: 282.62563pt x 210.0pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 260.
-[3
+[4
 
 ]
 Chapter 2
-<Virtuality_Continuum_2.jpg, id=48, 614.295pt x 118.4425pt>
+<Virtuality_Continuum_2.jpg, id=51, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
 Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 269.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
-<ar-application.jpg, id=49, 813.0375pt x 418.56375pt>
+<ar-application.jpg, id=52, 813.0375pt x 418.56375pt>
 File: ar-application.jpg Graphic file (type jpg)
 <use ar-application.jpg>
 Package pdftex.def Info: ar-application.jpg  used on input line 277.
 (pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
-[4 <./ar-vr-consumer-spending.png> <./Virtuality_Continuum_2.jpg>] [5 <./ar-application.jpg>]
-<ar-framework.png, id=57, 505.5136pt x 165.99516pt>
+[5 <./ar-vr-consumer-spending.png> <./Virtuality_Continuum_2.jpg>] [6 <./ar-application.jpg>]
+<ar-framework.png, id=61, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
 Package pdftex.def Info: ar-framework.png  used on input line 304.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
- [6]
-<ar-challenges.png, id=62, 890.9536pt x 239.01797pt>
+ [7]
+<ar-challenges.png, id=65, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
 Package pdftex.def Info: ar-challenges.png  used on input line 311.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
-<htc-vive-pro-headset.jpg, id=63, 803.0pt x 536.0025pt>
+<htc-vive-pro-headset.jpg, id=66, 803.0pt x 536.0025pt>
 File: htc-vive-pro-headset.jpg Graphic file (type jpg)
 <use htc-vive-pro-headset.jpg>
 Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 331.
 (pdftex.def)             Requested size: 426.79135pt x 284.88966pt.
- [7 <./ar-framework.png> <./ar-challenges.png>] [8 <./htc-vive-pro-headset.jpg>] [9] [10]
+ [8 <./ar-framework.png> <./ar-challenges.png>] [9 <./htc-vive-pro-headset.jpg>] [10] [11]
 Chapter 3
-[11] [12] [13]
-<chemprodm.jpg, id=88, 777.90625pt x 501.875pt>
+[12] [13] [14]
+<chemprodm.jpg, id=91, 777.90625pt x 501.875pt>
 File: chemprodm.jpg Graphic file (type jpg)
 <use chemprodm.jpg>
 Package pdftex.def Info: chemprodm.jpg  used on input line 398.
 (pdftex.def)             Requested size: 426.79135pt x 275.35818pt.
- [14 <./chemprodm.jpg>] [15] [16]
+ [15 <./chemprodm.jpg>] [16] [17]
 Chapter 4
-[17]
-<vr-glove2.png, id=102, 957.5775pt x 608.2725pt>
+[18]
+<vr-glove2.png, id=106, 957.5775pt x 608.2725pt>
 File: vr-glove2.png Graphic file (type png)
 <use vr-glove2.png>
 Package pdftex.def Info: vr-glove2.png  used on input line 449.
 (pdftex.def)             Requested size: 330.58377pt x 210.0pt.
- [18] [19 <./vr-glove2.png>] [20] [21]
-<level-ue4-editor.jpg, id=118, 1156.32pt x 625.1355pt>
+ [19] [20 <./vr-glove2.png>] [21] [22]
+<level-ue4-editor.jpg, id=121, 1156.32pt x 625.1355pt>
 File: level-ue4-editor.jpg Graphic file (type jpg)
 <use level-ue4-editor.jpg>
 Package pdftex.def Info: level-ue4-editor.jpg  used on input line 498.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
- [22 <./level-ue4-editor.jpg>]
-<ue-blueprint-tool.png, id=122, 1156.32pt x 625.1355pt>
+ [23 <./level-ue4-editor.jpg>]
+<ue-blueprint-tool.png, id=125, 1156.32pt x 625.1355pt>
 File: ue-blueprint-tool.png Graphic file (type png)
 <use ue-blueprint-tool.png>
 Package pdftex.def Info: ue-blueprint-tool.png  used on input line 512.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
- [23] [24 <./ue-blueprint-tool.png>]
+ [24] [25 <./ue-blueprint-tool.png>]
+<collision-types.png, id=134, 1907.125pt x 451.6875pt>
+File: collision-types.png Graphic file (type png)
+<use collision-types.png>
+Package pdftex.def Info: collision-types.png  used on input line 523.
+(pdftex.def)             Requested size: 426.79135pt x 101.08081pt.
+ [26 <./collision-types.png>]
 Chapter 5
-<vehicle-interior.jpg, id=131, 1445.4pt x 764.10469pt>
+<new-project.png, id=138, 831.43959pt x 568.45708pt>
+File: new-project.png Graphic file (type png)
+<use new-project.png>
+Package pdftex.def Info: new-project.png  used on input line 536.
+(pdftex.def)             Requested size: 365.65694pt x 250.0pt.
+[27 <./new-project.png>]
+<vehicle-interior.jpg, id=143, 1445.4pt x 764.10469pt>
 File: vehicle-interior.jpg Graphic file (type jpg)
 <use vehicle-interior.jpg>
-Package pdftex.def Info: vehicle-interior.jpg  used on input line 528.
+Package pdftex.def Info: vehicle-interior.jpg  used on input line 546.
 (pdftex.def)             Requested size: 426.79135pt x 225.61879pt.
-[25]
-LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 537.
- [26 <./vehicle-interior.jpg>]
-<calibration-menu.png, id=138, 784.43062pt x 451.6875pt>
+ [28 <./vehicle-interior.jpg>]
+<calibration-menu.png, id=147, 784.43062pt x 451.6875pt>
 File: calibration-menu.png Graphic file (type png)
 <use calibration-menu.png>
-Package pdftex.def Info: calibration-menu.png  used on input line 541.
+Package pdftex.def Info: calibration-menu.png  used on input line 557.
 (pdftex.def)             Requested size: 426.79135pt x 245.75471pt.
-<menu-selection.png, id=139, 598.48593pt x 303.38344pt>
+ [29]
+<menu-selection.png, id=151, 598.48593pt x 303.38344pt>
 File: menu-selection.png Graphic file (type png)
 <use menu-selection.png>
-Package pdftex.def Info: menu-selection.png  used on input line 548.
+Package pdftex.def Info: menu-selection.png  used on input line 564.
 (pdftex.def)             Requested size: 426.79135pt x 216.35274pt.
- [27 <./calibration-menu.png>] [28 <./menu-selection.png>]
+ [30 <./calibration-menu.png>] [31 <./menu-selection.png>]
 Chapter 6
-[29] (thesis.bbl
+[32] (thesis.bbl
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 15.
- [30] [31]) 
+ [33] [34]) 
 AED: lastpage setting LastPage
-[32] (thesis.aux) ) 
+[35] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 19447 strings out of 493303
- 368925 string characters out of 3138856
- 506272 words of memory out of 3000000
- 22554 multiletter control sequences out of 15000+200000
- 63010 words of font info for 53 fonts, out of 3000000 for 9000
+ 19376 strings out of 493303
+ 367170 string characters out of 3138856
+ 505341 words of memory out of 3000000
+ 22482 multiletter control sequences out of 15000+200000
+ 56838 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,92p,1418b,876s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,92p,1418b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\smich\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (33 pages, 2970741 bytes).
+Output written on thesis.pdf (36 pages, 4327567 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
+ 230 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

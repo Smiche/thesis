@@ -225,7 +225,7 @@
 	  Comissioned by & & & \\
 	  \hline
 	  Supervisor & & & \\
-	  & & & \\
+	  Reijo Vuohelainen & & & \\
 	  \hline
 	  Abstract & & & \\
 	  & & & \\
@@ -447,7 +447,7 @@ VR hand and finger tracking is a great addition to the immersion of the VR exper
 These gloves achieve full finger tracking by using 9 inertial measurement units on each glove. The VR headset controllers are strapped on the gloves to provide absolute tracking \Cref{fig:vr-glove}. Vibration feedback is also supported by the hardware and software API as documented by Noitom on their product website \citeyeartitlexamkinline{hi5-vr-glove}.
 \begin{figure}[H]
 	\includegraphics[height=210pt]{vr-glove2}
-	\caption{Noitom HI5 VR glove \citeyeartitlexamkinline{hi5-vr-glove}}
+	\caption{Noitom HI5 VR glove with VIVE trackers \citeyeartitlexamkinline{hi5-vr-glove}}
 	\label{fig:vr-glove}
 \end{figure}
 \par
@@ -517,9 +517,27 @@ Blueprint is a visual scripting tool in Unreal Engine that offers the full range
 Blueprints are defined as object-oriented(OO) classes or objects in the engine which is a well known and used programming paradigm. Internally Blueprints are translated to C++ by a VM which comes with a performance penalty \citeyeartitlexamkinline{ue-nativizing-blueprints}. An alternative to Blueprints is using C++ to define the game logic, however in this project Blueprints are favored due to their ability to visually display logic better than code. There are also more examples and snippets online available for blueprints.
 \par
 Two common types of Blueprints are Level Blueprints and Blueprint Classes. Every level has a Level Blueprint which can manage things like level streaming, objective tracking(checkpoints), interacting with other blueprints in the level. Blueprint Classes on the other hand are used to create interactive assets such as doors, buttons, levers, destructible objects. Main benefit of these blueprints is their reusability. They can be placed in any level and their behavior will remain the same. Also modifying the base blueprint will update all instances of it in the level.
+\section{Physics simulation}
+Unreal Engine provides physics simulation to make experiences more realistic and believable. The physics simulation is done through NVIDIA's PhysX 3.3 physics simulation engine. The main physics simulation tools used in this project are Collision simulations and Traces with Raycasts.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{collision-types}
+	\caption{Collision types in Unreal Engine}
+	\label{fig:collision-types}
+\end{figure}
+Objects in the scene have physics and collision settings. These settings are enabled for individual objects rather than for the scene as a whole. The three possible collision response settings are blocking, overlapping or ignoring \Cref{fig:collision-types}. When blocking is enabled on two colliding actors a hit event will be generated. The two actors are unable to overlap eachother and will simply bounce away from eachother. If both colliding actors in stead use overlapping they will go through eachother. If overlap events are enabled for both, overlap events will be generated when the collision begins and ends. If colliding actors use ignore collision they will go through eachother and generate no events.
+\par
+Traces are straight rays that detect any interescted objects between two points. Intersection of objects generates a trace hit event which supplies a list of the intersected objects. Traces can be ran by channel in which case only objects that are responding to the same channel will be a part of the trace hit event. Additionally single hit and multi hit events can be generated depending on how many times the same object is intersected by the ray. The Trace ray can have a shape of a line, box or sphere. \citeyeartitlexamk{ue-traces}
 \par
 \chapter{\MakeUppercase{Project implementation}}
 This chapter covers the practical implementation of the project application. Level layout and design is created and explained. Blueprints defining the game logic are also created and explained. Other various steps of the implementation process are listed and discussed.
+\section{Project setup}
+The project application will be developed in the Unreal Studio software. Unreal Studio comes with a new Project wizard and several templates for new projects. The template most suitable to this project is the Virtual Reality Blueprint template. It comes with optimized graphics settings for VR and example blueprints for common VR operations \Cref{fig:new-project}.
+\begin{figure}[H]
+	\includegraphics[height=250pt]{new-project}
+	\caption{Unreal Studio new project wizard}
+	\label{fig:new-project}
+\end{figure}
+General project preferences can be selected for the project during the creation process. Target platform for the application and rendering quality options are available. These options pre-configure the project to best suite the needs of the application. Changes can be made to the project settings later on if needed. It is possible to add starter content to the project which includes several levels, static meshes and blueprints and can be ran straight away as a VR demo application.
 \section{Level design}
 Level design begins with the layout and orientation of the different meshes. The visual appearance of the level is made more realistic by using different textures, materials and lighting. A vehicle 3D model is used as the center point for the level and also for the player starting point.
 \par
@@ -533,8 +551,6 @@ The player starting point is placed in the interior of a conversion van \Cref{fi
 Light sources are required to make meshes in the scene visible to the user. Two primary light sources are used in this level. The first light source is a Directional Light and is used to simulate the sun. Directional lights simulate a light source that is infinitely far away which means all the shadows cast by the light are parallel. This makes Directional lights perfect for simulating sunlight. This light is also Moveable which means its location and orientation can change on runtime. This can be used to cast dynamic shadows, but in this project dynamic shadows will be disabled to improve the rendering performance. The second light source is located inside the vehicle and is used for interior lighting. The type of this light is Point Light. Point Lights are used to simulate light bulbs because they emit light in all directions. \citeyeartitlexamk{ue-lightsources}
 \par
 A SkySphere(Skydome) is used to create a background for the scene that simulates a sky. While the player is moving in the scene the SkySphere remains stationary which gives the illusion that the sky is very far away. A 2D texture is wrapped on the inside of a sphere to create a SkySphere. The SkySphere in this project is also dynamic. Clouds are moving and the Directional Light source mention in the previous paragraph is moved by the SkySphere to simulate day and night cycles. The intensity and color of the light source is also changed depending on the time of the day.
-\par
-Layout of the hardware. \todo{Has to be decided when finalized}
 \section{Glove calibration and tracking}
 Hi5 VR Gloves require the user to go through a calibration process before use to ensure better finger tracking. This process needs to be done if the gloves have been turned on or a new person is going to be using the gloves. Noitom, the creators of the gloves, provide a sample UE4 project that includes the calibration process with instructions for the gloves. The calibration can be done with the stand-alone sample project, but to keep the final project self-contained the calibration will be added to the application.
 \begin{figure}[H]
@@ -554,8 +570,17 @@ The calibration process requires the user to perform two hand gestures for a per
 Interacting with the virtual environment is possible in three different ways. Firstly using the camera pointer method described in the previous chapter. Secondly by using the Hi5 VR Glove. Lastly the VIVE controllers can be used to grab objects.
 \par
 VIVE controller interaction method is required as a backup to the Hi5 VR Gloves. Magnetic interference or radio frequency interference can make the gloves' tracking inaccurate, unreliable or even completely prevent it. This is not a huge problem during training as the environment can be controlled and time is not limited. Interference can be removed, gloves can be demagnetized and recalibrated. However if the application is used in public exhibitions interference can be a real problem.
+\subsection{Gloves interaction}
+Using gloves to interact with objects in the virtual environment can be achieved with simulated physics.
+\subsection{VIVE Controllers interaction}
+\section{Virtual hardware layout and operation}
+\subsection{Devices and sensors}
+\subsection{Wiring devices}
+\subsection{Air inlet and outlet tubing}
 \section{Creating a context for training}
-
+\subsection{Objective instructions}
+\subsection{Tracking progess}
+\subsection{Visualizing events}
 \par
 \chapter{\MakeUppercase{Analyzing the mixed reality training application}}
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -172,12 +172,17 @@ Unreal engine nativizing blueprints. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Blueprints/TechnicalGuide/NativizingBlueprints}}.
 \newblock [accessed 2019-04-04].
 
-\bibitem[ue-(2019{\natexlab{e}})]{ue-playerstart}
+\bibitem[ue-(2019{\natexlab{e}})]{ue-traces}
+Unreal engine traces with raycasting. 2019. WWW-document
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Physics/Tracing}}.
+\newblock [accessed 2019-05-23].
+
+\bibitem[ue-(2019{\natexlab{f}})]{ue-playerstart}
 Unreal engine player start. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Actors/PlayerStart}}.
 \newblock [accessed 2019-05-20].
 
-\bibitem[ue-(2019{\natexlab{f}})]{ue-lightsources}
+\bibitem[ue-(2019{\natexlab{g}})]{ue-lightsources}
 Unreal engine light sources. 2019. WWW-document
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/LightingAndShadows/LightTypes}}.
 \newblock [accessed 2019-05-21].
