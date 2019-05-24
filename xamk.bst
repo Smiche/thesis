@@ -286,14 +286,14 @@ FUNCTION {format.issn}
 FUNCTION {format.url}
 { url empty$
     { "" }
-    { "WWW-document \textcolor{blue}{\url{" url * "}}" * }
+    { "WWW document. Available at: \textcolor{blue}{\url{" url * "}}" * }
   if$
 }
 
 FUNCTION {format.urldate}
 { url empty$
     { "" }
-    { new.block "[accessed " urldate * "]" *  }
+    { new.block "[Accessed " urldate * "]" *  }
   if$
 }
 

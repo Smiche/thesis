@@ -28,6 +28,9 @@ Warning--empty journal in ue-actors
 Warning--empty journal in ue-blueprints
 Warning--empty journal in ue-nativizing-blueprints
 Warning--empty journal in ue-traces
+Warning--empty journal in ue-static-meshes
+Warning--empty journal in ue-skeletal-meshes
+Warning--empty journal in ue-materials
 Warning--empty journal in ue-playerstart
 Warning--empty journal in ue-lightsources
-(There were 27 warnings)
+(There were 30 warnings)

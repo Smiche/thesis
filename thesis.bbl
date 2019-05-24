@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -6,9 +6,10 @@
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
 \bibitem[ar-(2018)]{ar-vr-chart}
-Consumer spending on ar/vr worldwide 2016-2021. 2018. WWW-document
+Consumer spending on ar/vr worldwide 2016-2021. 2018. WWW document. Available
+  at:
   \textcolor{blue}{\url{https://www.statista.com/statistics/828467/world-ar-vr-consumer-spending-content-apps/}}.
-\newblock [accessed 2018-10-06].
+\newblock [Accessed 2018-10-06].
 
 \bibitem[Mullen \& Mullen(2011)]{prototyping-ar}
 Tony Mullen \& Tony Mullen.
@@ -17,9 +18,9 @@ Tony Mullen \& Tony Mullen.
 \newblock ISBN 9781118036631.
 
 \bibitem[ar-(2016)]{ar-application-whitehouse}
-Ar experience of the white house. 2016. WWW-document
+Ar experience of the white house. 2016. WWW document. Available at:
   \textcolor{blue}{\url{https://vrscout.com/news/augmented-reality-app-1-dollar-bill-tour-white-house/}}.
-\newblock [accessed 2018-10-06].
+\newblock [Accessed 2018-10-06].
 
 \bibitem[van Krevelen \& Poelman(2010)]{vrjournal}
 D.W.F. van Krevelen \& R.~Poelman.
@@ -52,52 +53,53 @@ Xiangyu Wang \& Phillip~S. Dunston.
 Ihsan Rabbi \& Sehat Ullah.
 \newblock A survey on augmented reality challenges and tracking.
 \newblock \emph{Acta Graphica}. 24\penalty0 (1-2):\penalty0 29--46. 2016.
-\newblock ISSN 1848-3828. WWW-document
+\newblock ISSN 1848-3828. WWW document. Available at:
   \textcolor{blue}{\url{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}}.
 
 \bibitem[htc(2018{\natexlab{a}})]{htc-vive-pro-review}
-Htc vive pro review. 2018. WWW-document
+Htc vive pro review. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}}.
-\newblock [accessed 2018-10-06].
+\newblock [Accessed 2018-10-06].
 
 \bibitem[hp-(2018)]{hp-vrbackpack}
-Hp z vr backpack overview. 2018. WWW-document
+Hp z vr backpack overview. 2018. WWW document. Available at:
   \textcolor{blue}{\url{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}}.
-\newblock [accessed 2018-05-21].
+\newblock [Accessed 2018-05-21].
 
 \bibitem[van Gimst(2018)]{nlr-vr}
 Ronald van Gimst. 2018. Creating a high-fidelity and low-cost simulation
-  environment. WWW-document
+  environment. WWW document. Available at:
   \textcolor{blue}{\url{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}}.
-\newblock [accessed 2018-06-24].
+\newblock [Accessed 2018-06-24].
 
 \bibitem[Gopinath \& Sawyer(1999)]{enterprise-simulation}
 C.~Gopinath \& John~E. Sawyer. 1999. Exploring the learning from an enterprise
-  simulation. WWW-document
+  simulation. WWW document. Available at:
   \textcolor{blue}{\url{https://www.researchgate.net/publication/201381843_Exploring_the_learning_from_an_enterprise_simulation}}.
-\newblock [accessed 2019-05-13].
+\newblock [Accessed 2019-05-13].
 
 \bibitem[sim(2019)]{simulation-training-history}
-A brief simulation training history. 2019. WWW-document
+A brief simulation training history. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://www.iti.com/blog/a-brief-history-of-simulation-training-}}.
-\newblock [accessed 2019-05-13].
+\newblock [Accessed 2019-05-13].
 
 \bibitem[Martinali(2018)]{medical-sim-training}
-Jacqueline Martinali. 2018. What is simulation training?. WWW-document
+Jacqueline Martinali. 2018. What is simulation training?. WWW document.
+  Available at:
   \textcolor{blue}{\url{https://www.noldus.com/blog/what-is-simulation-training}}.
-\newblock [accessed 2019-05-13].
+\newblock [Accessed 2019-05-13].
 
 \bibitem[Macedonia(2002)]{games-sim-mil}
 Michael Macedonia. 2002. Games, simulation, and the military education dilemma.
-  WWW-document
+  WWW document. Available at:
   \textcolor{blue}{\url{https://www.researchgate.net/publication/260386555_Games_Simulation_and_the_Military_Education_Dilemma}}.
-\newblock [accessed 2019-05-13].
+\newblock [Accessed 2019-05-13].
 
 \bibitem[env(2018)]{environics-chemprodm}
-Chemprodm chemical detector for mobile and vehicle applications. 2018.
-  WWW-document
+Chemprodm chemical detector for mobile and vehicle applications. 2018. WWW
+  document. Available at:
   \textcolor{blue}{\url{https://www.environics.fi/product/chemprodm/}}.
-\newblock [accessed 2018-10-26].
+\newblock [Accessed 2018-10-26].
 
 \bibitem[Carter(2014)]{crowd-behavior}
 Holly~Elisabeth Carter.
@@ -114,33 +116,34 @@ Chemical, biological, radiological \& nuclear (cbrn) defence market report
   2017-2027. 2017.
 
 \bibitem[hol(2018{\natexlab{a}})]{hololens-specs}
-Microsoft hololens device specifications. 2018. WWW-document
+Microsoft hololens device specifications. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}}.
-\newblock [accessed 2018-09-1].
+\newblock [Accessed 2018-09-1].
 
 \bibitem[hol(2018{\natexlab{b}})]{hololens-price}
-Buy microsoft hololens. 2018. WWW-document
+Buy microsoft hololens. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.microsoft.com/en-gb/hololens/buy}}.
-\newblock [accessed 2018-09-30].
+\newblock [Accessed 2018-09-30].
 
 \bibitem[htc(2018{\natexlab{b}})]{htc-vive-pro}
-Buy htc vive pro. 2018. WWW-document
+Buy htc vive pro. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.vive.com/eu/product/vive-pro/}}.
-\newblock [accessed 2018-09-30].
+\newblock [Accessed 2018-09-30].
 
 \bibitem[viv(2018)]{vive-vs-rift}
-Htc vive pro vs occulus rift. 2018. WWW-document
+Htc vive pro vs occulus rift. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}}.
-\newblock [accessed 2018-10-29].
+\newblock [Accessed 2018-10-29].
 
 \bibitem[vrg(2018)]{vrgluv}
-Vrgluv. 2018. WWW-document \textcolor{blue}{\url{https://vrgluv.com/}}.
-\newblock [accessed 2018-11-20].
+Vrgluv. 2018. WWW document. Available at:
+  \textcolor{blue}{\url{https://vrgluv.com/}}.
+\newblock [Accessed 2018-11-20].
 
 \bibitem[hi5(2018)]{hi5-vr-glove}
-Hi5 vr glove business edition. 2018. WWW-document
+Hi5 vr glove business edition. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://hi5vrglove.com/store/hi5glove}}.
-\newblock [accessed 2018-11-20].
+\newblock [Accessed 2018-11-20].
 
 \bibitem[Lewis \& Jacobson(2002)]{game-engines}
 Michael Lewis \& Jeffrey Jacobson.
@@ -153,38 +156,54 @@ Mary~Jo Dondlinger.
 \newblock 2007.
 
 \bibitem[ue-(2019{\natexlab{a}})]{ue-levels}
-Unreal engine levels. 2019. WWW-document
+Unreal engine levels. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Levels}}.
-\newblock [accessed 2019-04-01].
+\newblock [Accessed 2019-04-01].
 
 \bibitem[ue-(2019{\natexlab{b}})]{ue-actors}
-Unreal engine documentation. 2019. WWW-document
+Unreal engine documentation. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/Actors}}.
-\newblock [accessed 2019-04-03].
+\newblock [Accessed 2019-04-03].
 
 \bibitem[ue-(2019{\natexlab{c}})]{ue-blueprints}
-Unreal engine documentation introduction to blueprints. 2019. WWW-document
+Unreal engine documentation introduction to blueprints. 2019. WWW document.
+  Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Blueprints/GettingStarted}}.
-\newblock [accessed 2019-04-04].
+\newblock [Accessed 2019-04-04].
 
 \bibitem[ue-(2019{\natexlab{d}})]{ue-nativizing-blueprints}
-Unreal engine nativizing blueprints. 2019. WWW-document
+Unreal engine nativizing blueprints. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Blueprints/TechnicalGuide/NativizingBlueprints}}.
-\newblock [accessed 2019-04-04].
+\newblock [Accessed 2019-04-04].
 
 \bibitem[ue-(2019{\natexlab{e}})]{ue-traces}
-Unreal engine traces with raycasting. 2019. WWW-document
+Unreal engine traces with raycasting. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Physics/Tracing}}.
-\newblock [accessed 2019-05-23].
+\newblock [Accessed 2019-05-23].
 
-\bibitem[ue-(2019{\natexlab{f}})]{ue-playerstart}
-Unreal engine player start. 2019. WWW-document
+\bibitem[ue-(2019{\natexlab{f}})]{ue-static-meshes}
+Unreal engine static meshes. 2019. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Content/Types/StaticMeshes}}.
+\newblock [Accessed 2019-05-24].
+
+\bibitem[ue-(2019{\natexlab{g}})]{ue-skeletal-meshes}
+Unreal engine skeletal meshes. 2019. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Content/Types/StaticMeshes}}.
+\newblock [Accessed 2019-05-24].
+
+\bibitem[ue-(2019{\natexlab{h}})]{ue-materials}
+Unreal engine materials. 2019. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/Materials}}.
+\newblock [Accessed 2019-05-24].
+
+\bibitem[ue-(2019{\natexlab{i}})]{ue-playerstart}
+Unreal engine player start. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Actors/PlayerStart}}.
-\newblock [accessed 2019-05-20].
+\newblock [Accessed 2019-05-20].
 
-\bibitem[ue-(2019{\natexlab{g}})]{ue-lightsources}
-Unreal engine light sources. 2019. WWW-document
+\bibitem[ue-(2019{\natexlab{j}})]{ue-lightsources}
+Unreal engine light sources. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/LightingAndShadows/LightTypes}}.
-\newblock [accessed 2019-05-21].
+\newblock [Accessed 2019-05-21].
 
 \end{thebibliography}

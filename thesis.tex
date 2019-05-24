@@ -50,6 +50,15 @@
 \captionsetup{justification=raggedright,singlelinecheck=false}
 
 \usepackage[margin=1in,top=0.5in,includehead=true]{geometry}
+%TOC links
+\usepackage[hyperfootnotes=false]{hyperref}%
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
 
 \usepackage{cleveref}%setting figure referencing
 \crefname{figure}{(Figure}{(Figure}
@@ -138,7 +147,6 @@
 \newcommand{\citeyeartitlexamk}[1]{(\usebibentry{#1}{title} \citeyear{#1}.)} 
 \newcommand{\citeyeartitlexamkinline}[1]{(\usebibentry{#1}{title} \citeyear{#1})} 
 
-
 %\bibliographystyle{dcu}
 
 %move left
@@ -216,21 +224,22 @@
     \noindent
     \begin{tabularx}{\linewidth}{|XXXX|}
       \hline
-	   Author (authors) &  Degree &  & Time \\
+	   \textbf{Author (authors)} &  \textbf{Degree} &  & \textbf{Time} \\
 	   Aleksandar Ivanov &  \multicolumn{2}{l}{Bachelor of Information Technology} & May 2019 \\
 	   \hline
-	   Thesis title & & & \\
+	   \textbf{Thesis title} & & & \\
 	   \multicolumn{3}{|l}{Educational AR/VR Systems for Military Projects} & \pageref{LastPage} pages\\
 	  \hline
-	  Comissioned by & & & \\
+		\textbf{Comissioned by} & & & \\
+		Observis Oy & & & \\
 	  \hline
-	  Supervisor & & & \\
+	  \textbf{Supervisor} & & & \\
 	  Reijo Vuohelainen & & & \\
 	  \hline
-	  Abstract & & & \\
+	  \textbf{Abstract} & & & \\
 	  & & & \\
 	  \hline
-	  Keywords & & & \\
+	  \textbf{Keywords} & & & \\
 	  & & & \\
 	  \hline
     \end{tabularx}
@@ -247,7 +256,7 @@
 
 
 %make title bold from outside so TOC stays the same
-\chapter{\MakeUppercase{Introduction}}
+\chapter{\texorpdfstring{\MakeUppercase{Introduction}}{introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
 In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).
 \par 
@@ -262,7 +271,7 @@ Advantages and disadvantages of AR/VR need to be considered over more traditiona
 \end{figure}
 Literature review is used as a research method for the first part of the thesis. The different literature in the fields of AR,VR and CBRN is reviewed and summarized. The second parth of the thesis is a case study of the practical implementation of a training application. The results will be analyzed by debating the success of the final product and its potential use.
 \par
-\chapter{\MakeUppercase{Augmented Reality and Virtual Reality}}
+\chapter{\texorpdfstring{\MakeUppercase{Augmented Reality and Virtual Reality}}{aug-reality}}
 Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
 
 \begin{figure}[H]
@@ -371,7 +380,7 @@ In the military education field simulations are widely adopted. Strategy and tac
 \par
 With so many examples of good simulation training being effective and widely adopted it is possible to conclude that the SAS civil and military defense system can also benefit from such training.
 \\
-\chapter{\MakeUppercase{Project use case}}
+\chapter{\texorpdfstring{\MakeUppercase{Project use case}}{proj-use-case}}
 Observis Oy is developing a product for situational awareness in different environments called ObSAS. This product is a software system running on multiple devices with multiple purposes. The product consists of several software packages with different purposes and providing different features. Depending on the project the required packages are selected and used. One main package is the low level software that communicates with various sensors and devices, such as chemical detectors, radiation sensors, biological detectors. Another package is the server software which summarizes the data and handles automatic actions. User software package allows users to interact
 with all components of the system. The software packages can be integrated into varying environments and the final complexity of the product installation can also vary. Additionally required hardware and hardware installation support can be provided. Software support and maintenance can also be provided.
 \par
@@ -423,7 +432,7 @@ Price difference is very small between VR and AR if the most advanced frameworks
 \section{Selection of mixed reality framework}
 The main benefit of AR over VR in this project is the portability and ease of use it offers. In terms of what training can be implemented VR offers a lot more possibilities. Battery limitations are also reduced or avoided which enables long training sessions. Good multiplayer support and additional peripherals(such as gloves and controllers) are in favor of VR too. The portability of AR is not a crucial feature for this project and the usability it offers over VR are not sufficient enough to place AR as a more suitable platform in this project. A conclusion to this chapter is that a VR framework is a more suitable choice in the context of creating a training application for the ObSAS system.
 \par
-\chapter{\MakeUppercase{Project definition}}
+\chapter{\texorpdfstring{\MakeUppercase{Project definition}}{proj-def}}
 This chapter will describe the virtual application in more detail and outline the different technologies used in the implementation. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
 \par
 \section{Researching VR hardware and software}
@@ -527,8 +536,14 @@ Unreal Engine provides physics simulation to make experiences more realistic and
 Objects in the scene have physics and collision settings. These settings are enabled for individual objects rather than for the scene as a whole. The three possible collision response settings are blocking, overlapping or ignoring \Cref{fig:collision-types}. When blocking is enabled on two colliding actors a hit event will be generated. The two actors are unable to overlap eachother and will simply bounce away from eachother. If both colliding actors in stead use overlapping they will go through eachother. If overlap events are enabled for both, overlap events will be generated when the collision begins and ends. If colliding actors use ignore collision they will go through eachother and generate no events.
 \par
 Traces are straight rays that detect any interescted objects between two points. Intersection of objects generates a trace hit event which supplies a list of the intersected objects. Traces can be ran by channel in which case only objects that are responding to the same channel will be a part of the trace hit event. Additionally single hit and multi hit events can be generated depending on how many times the same object is intersected by the ray. The Trace ray can have a shape of a line, box or sphere. \citeyeartitlexamk{ue-traces}
+\section{Static and Skeletal Meshes}
+A Static Mesh is a geometry made up of polygons that is cached in video memory and rendered by the graphics card. Being cached in the video memory means that these geometries can be complex and also translated, scaled and rotated in real time. Static Meshes are usually 3D models created in external modelling software and imported to an UE4 project. But primitive meshes such as boxes, cylinders, spheres can also be made in UE4. Objects in the scene such as doors, sensors, batteries, lamps are examples of Static Meshes. \citeyeartitlexamk{ue-static-meshes}
 \par
-\chapter{\MakeUppercase{Project implementation}}
+Skeletal Meshes are identical to Static Meshes with the addition of a hierarchical set of interconnected bones, that can be used to animate the meshes' vertices. The Static Meshes, rigging and animations are typically created in external tools like 3DSMax, Maya, Blender \citeyeartitlexamkinline{ue-skeletal-meshes}. These types of meshes are used to create animated objects. In this project the Hi5 VR Gloves are displayed virtually with the use of Skeletal Meshes and animations. VIVE Controllers visualization is also achieved by animating Skeletal Meshes of hands.
+\subsection{Materials}
+Materials define what type the surface of a mesh appears to be. It can be seen as a "paint" applied to a mesh. Materials can define the colour, shininess, roughness, opacity, light emissiveness and many other surface properties. In technical terms a Material calculates how light interacts with a surface. Materials are constructed with a visual scripting tool named Material Editor that is similar to the Blueprint Editor. \citeyeartitlexamk{ue-materials}
+\par
+\chapter{\texorpdfstring{\MakeUppercase{Project implementation}}{proj-impl}}
 This chapter covers the practical implementation of the project application. Level layout and design is created and explained. Blueprints defining the game logic are also created and explained. Other various steps of the implementation process are listed and discussed.
 \section{Project setup}
 The project application will be developed in the Unreal Studio software. Unreal Studio comes with a new Project wizard and several templates for new projects. The template most suitable to this project is the Virtual Reality Blueprint template. It comes with optimized graphics settings for VR and example blueprints for common VR operations \Cref{fig:new-project}.
@@ -571,7 +586,7 @@ Interacting with the virtual environment is possible in three different ways. Fi
 \par
 VIVE controller interaction method is required as a backup to the Hi5 VR Gloves. Magnetic interference or radio frequency interference can make the gloves' tracking inaccurate, unreliable or even completely prevent it. This is not a huge problem during training as the environment can be controlled and time is not limited. Interference can be removed, gloves can be demagnetized and recalibrated. However if the application is used in public exhibitions interference can be a real problem.
 \subsection{Gloves interaction}
-Using gloves to interact with objects in the virtual environment can be achieved with simulated physics.
+Using gloves to interact with objects in the virtual environment can be achieved with simulated physics. The gloves actor in the scene is 
 \subsection{VIVE Controllers interaction}
 \section{Virtual hardware layout and operation}
 \subsection{Devices and sensors}
@@ -582,7 +597,7 @@ Using gloves to interact with objects in the virtual environment can be achieved
 \subsection{Tracking progess}
 \subsection{Visualizing events}
 \par
-\chapter{\MakeUppercase{Analyzing the mixed reality training application}}
+\chapter{\texorpdfstring{\MakeUppercase{Analyzing the mixed reality training application}}{analysis-mixedr}}
 
 \section{Future possibilities for development and improvement}
 
