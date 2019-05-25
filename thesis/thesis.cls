@@ -534,7 +534,7 @@
           \if@thema
              \ifx\@shortauthor\@empty
                 \addcontentsline{toc}{chapter}{%
-                \protect\numberline{\thechapter}#1}%
+                \protect\numberline{\thechapter}\uppercase{#1}}%
              \else
                 \addcontentsline{toc}{chapter}{%
                 \protect\numberline{\thechapter}%
@@ -542,7 +542,7 @@
              \fi
           \else
              \addcontentsline{toc}{chapter}{%
-             \protect\numberline{\thechapter}#1}%
+             \protect\numberline{\thechapter} \uppercase{#1}}%
           \fi
       \else
         \addcontentsline{toc}{chapter}{#1}
@@ -554,9 +554,10 @@
    \addtocontents{lof}{\protect\addvspace{10pt}}
    \addtocontents{lot}{\protect\addvspace{10pt}}
    \if@twocolumn
-      \@topnewpage[\@makechapterhead{#2}]
+      %\@topnewpage[
+        \@makechapterhead{\MakeUppercase{#2}}%]
     \else
-      \@makechapterhead{#2}
+      \@makechapterhead{\MakeUppercase{#2}}
       \@afterheading
     \fi}
 \newlength{\beforechaptervspace}

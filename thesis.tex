@@ -57,7 +57,8 @@
     citecolor=black,
     filecolor=black,
     linkcolor=black,
-    urlcolor=blue
+		urlcolor=blue,
+		linktoc=all
 }
 
 \usepackage{cleveref}%setting figure referencing
@@ -77,12 +78,16 @@
 % package for todonotes
 \usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
 
+% some colours
 \definecolor{olive}{rgb}{0.5, 0.5, 0.0}
 \newcommand{\info}[2][1=]{\todo[linecolor=olive,backgroundcolor=olive!25,bordercolor=olive,#1]{#2}}
 \newcommand{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 
+\renewcommand{\chaptername}{CHAPTER}
 
 \usepackage{tocloft}%changing table of contents to dots
+
+\renewcommand{\cftdotsep}{1} % smaller dot spacing
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for sections
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
@@ -138,16 +143,15 @@
 \newbibfield{author}
 \bibinput{references}
 
+%custom bibliography style and citation commands
 \bibliographystyle{xamk}
 %\renewcommand{\citep}[1]{(\citealp{#1}.)}
 %\newcommand{\citeyearxamk}[1]{(\citeyear{#1}.)}
 \newcommand{\citeyearxamk}[1]{(\citeauthor{#1} \citeyear{#1})}
 \renewcommand{\citep}[1]{(\citeauthor{#1} \citeyear{#1}.)}
 \renewcommand{\citeyearpar}[1]{(\citeauthor{#1} \citeyear{#1})}
-\newcommand{\citeyeartitlexamk}[1]{(\usebibentry{#1}{title} \citeyear{#1}.)} 
+\newcommand{\citeyeartitlexamk}[1]{(\usebibentry{#1}{title} \citeyear{#1}.)}
 \newcommand{\citeyeartitlexamkinline}[1]{(\usebibentry{#1}{title} \citeyear{#1})} 
-
-%\bibliographystyle{dcu}
 
 %move left
 \setlength{\bibhang}{0pt}
@@ -221,7 +225,9 @@
 
 %\blankpage
     \thispagestyle{empty}
-    \noindent
+		\noindent
+		\newlength{\lengtha}
+		\setlength{\lengtha}{.96\textwidth}
     \begin{tabularx}{\linewidth}{|XXXX|}
       \hline
 	   \textbf{Author (authors)} &  \textbf{Degree} &  & \textbf{Time} \\
@@ -236,8 +242,8 @@
 	  \textbf{Supervisor} & & & \\
 	  Reijo Vuohelainen & & & \\
 	  \hline
-	  \textbf{Abstract} & & & \\
-	  & & & \\
+		\textbf{Abstract} & & & \\
+		\multicolumn{4}{|p{\lengtha}|}{\raggedright \lipsum[1-2]} \\
 	  \hline
 	  \textbf{Keywords} & & & \\
 	  & & & \\
@@ -256,7 +262,7 @@
 
 
 %make title bold from outside so TOC stays the same
-\chapter{\texorpdfstring{\MakeUppercase{Introduction}}{introduction}}
+\chapter{\texorpdfstring{Introduction}{introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
 In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).
 \par 
@@ -271,7 +277,7 @@ Advantages and disadvantages of AR/VR need to be considered over more traditiona
 \end{figure}
 Literature review is used as a research method for the first part of the thesis. The different literature in the fields of AR,VR and CBRN is reviewed and summarized. The second parth of the thesis is a case study of the practical implementation of a training application. The results will be analyzed by debating the success of the final product and its potential use.
 \par
-\chapter{\texorpdfstring{\MakeUppercase{Augmented Reality and Virtual Reality}}{aug-reality}}
+\chapter{\texorpdfstring{Augmented Reality and Virtual Reality}{aug-reality}}
 Augmented reality and Virtual reality are technologies that offer a different view and experience to the physical world. They leverage similar kinds of technology and both aim to provide an enhanced and enriched experience to the user. Both technologies are a part of the general area of mixed reality \Cref{fig:reality-virtuality}. However they have different goals and are essentially different in terms of user experience.
 
 \begin{figure}[H]
@@ -380,7 +386,7 @@ In the military education field simulations are widely adopted. Strategy and tac
 \par
 With so many examples of good simulation training being effective and widely adopted it is possible to conclude that the SAS civil and military defense system can also benefit from such training.
 \\
-\chapter{\texorpdfstring{\MakeUppercase{Project use case}}{proj-use-case}}
+\chapter{\texorpdfstring{Project use case}{proj-use-case}}
 Observis Oy is developing a product for situational awareness in different environments called ObSAS. This product is a software system running on multiple devices with multiple purposes. The product consists of several software packages with different purposes and providing different features. Depending on the project the required packages are selected and used. One main package is the low level software that communicates with various sensors and devices, such as chemical detectors, radiation sensors, biological detectors. Another package is the server software which summarizes the data and handles automatic actions. User software package allows users to interact
 with all components of the system. The software packages can be integrated into varying environments and the final complexity of the product installation can also vary. Additionally required hardware and hardware installation support can be provided. Software support and maintenance can also be provided.
 \par
@@ -432,7 +438,7 @@ Price difference is very small between VR and AR if the most advanced frameworks
 \section{Selection of mixed reality framework}
 The main benefit of AR over VR in this project is the portability and ease of use it offers. In terms of what training can be implemented VR offers a lot more possibilities. Battery limitations are also reduced or avoided which enables long training sessions. Good multiplayer support and additional peripherals(such as gloves and controllers) are in favor of VR too. The portability of AR is not a crucial feature for this project and the usability it offers over VR are not sufficient enough to place AR as a more suitable platform in this project. A conclusion to this chapter is that a VR framework is a more suitable choice in the context of creating a training application for the ObSAS system.
 \par
-\chapter{\texorpdfstring{\MakeUppercase{Project definition}}{proj-def}}
+\chapter{\texorpdfstring{Project definition}{proj-def}}
 This chapter will describe the virtual application in more detail and outline the different technologies used in the implementation. Concepts such as 3D computer graphics, 3D modelling, game engine and tracking will be defined. Source code used in the development of the application will be provided and explained.
 \par
 \section{Researching VR hardware and software}
@@ -526,7 +532,7 @@ Blueprint is a visual scripting tool in Unreal Engine that offers the full range
 Blueprints are defined as object-oriented(OO) classes or objects in the engine which is a well known and used programming paradigm. Internally Blueprints are translated to C++ by a VM which comes with a performance penalty \citeyeartitlexamkinline{ue-nativizing-blueprints}. An alternative to Blueprints is using C++ to define the game logic, however in this project Blueprints are favored due to their ability to visually display logic better than code. There are also more examples and snippets online available for blueprints.
 \par
 Two common types of Blueprints are Level Blueprints and Blueprint Classes. Every level has a Level Blueprint which can manage things like level streaming, objective tracking(checkpoints), interacting with other blueprints in the level. Blueprint Classes on the other hand are used to create interactive assets such as doors, buttons, levers, destructible objects. Main benefit of these blueprints is their reusability. They can be placed in any level and their behavior will remain the same. Also modifying the base blueprint will update all instances of it in the level.
-\section{Physics simulation}
+\section{Physics simulation} \label{physics-sim-section}
 Unreal Engine provides physics simulation to make experiences more realistic and believable. The physics simulation is done through NVIDIA's PhysX 3.3 physics simulation engine. The main physics simulation tools used in this project are Collision simulations and Traces with Raycasts.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{collision-types}
@@ -543,7 +549,7 @@ Skeletal Meshes are identical to Static Meshes with the addition of a hierarchic
 \subsection{Materials}
 Materials define what type the surface of a mesh appears to be. It can be seen as a "paint" applied to a mesh. Materials can define the colour, shininess, roughness, opacity, light emissiveness and many other surface properties. In technical terms a Material calculates how light interacts with a surface. Materials are constructed with a visual scripting tool named Material Editor that is similar to the Blueprint Editor. \citeyeartitlexamk{ue-materials}
 \par
-\chapter{\texorpdfstring{\MakeUppercase{Project implementation}}{proj-impl}}
+\chapter{\texorpdfstring{Project implementation}{proj-impl}}
 This chapter covers the practical implementation of the project application. Level layout and design is created and explained. Blueprints defining the game logic are also created and explained. Other various steps of the implementation process are listed and discussed.
 \section{Project setup}
 The project application will be developed in the Unreal Studio software. Unreal Studio comes with a new Project wizard and several templates for new projects. The template most suitable to this project is the Virtual Reality Blueprint template. It comes with optimized graphics settings for VR and example blueprints for common VR operations \Cref{fig:new-project}.
@@ -584,9 +590,17 @@ The calibration process requires the user to perform two hand gestures for a per
 \section{Interacting with the virtual environment}
 Interacting with the virtual environment is possible in three different ways. Firstly using the camera pointer method described in the previous chapter. Secondly by using the Hi5 VR Glove. Lastly the VIVE controllers can be used to grab objects.
 \par
-VIVE controller interaction method is required as a backup to the Hi5 VR Gloves. Magnetic interference or radio frequency interference can make the gloves' tracking inaccurate, unreliable or even completely prevent it. This is not a huge problem during training as the environment can be controlled and time is not limited. Interference can be removed, gloves can be demagnetized and recalibrated. However if the application is used in public exhibitions interference can be a real problem.
+VIVE controller interaction method is required as a backup to the Hi5 VR Gloves. Magnetic interference or radio frequency interference can make the gloves' tracking inaccurate, unreliable or even completely prevent it. This is not a huge problem during training as the environment can be controlled and time is not limited. Furthermore interference can be removed and the gloves can be demagnetized and recalibrated. However if the application is used in public exhibitions interference can be a real problem.
 \subsection{Gloves interaction}
-Using gloves to interact with objects in the virtual environment can be achieved with simulated physics. The gloves actor in the scene is 
+Using gloves to interact with objects in the virtual environment can be achieved with simulated physics. The gloves are tracked and represented in the scene with a Hands Actor. The hands meshes in the Hands Actor are configured with a collision preset of Block All Dynamic. As explained in section \ref{physics-sim-section} this means that other meshes with the same collision preset will not be able to go through(overlap) the hands meshes. In stead a hit event will be generated when a collision occurs and the colliding actors will be pushed away with a force. The force depends on the velocity, mass and force modifier property of the colliding meshes.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{gloves-grab}
+	\caption{Holding object with gloves}
+	\label{fig:gloves-grab}
+\end{figure}
+Holding and moving objects becomes possible with these settings. The interaction is similar to real life hand interaction \Cref{fig:gloves-grab}. Hands and objects block eachother on the surface level and do not overlap. One main difference is the haptic feedback real life interaction provides. A person feels the surface of objects, but in VR it is only feasible to have visual feedback. Hi5 VR Gloves have vibration feedback, but this is not isolated to individual fingers, it rather affects the whole glove. This makes vibration feedback unusable for feeling surfaces.
+\par
+ Collision simulation is computationally expensive and also not deterministic. Objects with locked position such as buttons and levers can behave strangly when using collision physics \citeyearxamk{collaborative-vr}. Because of these reasons a more suitable approach is used to simulate these kind of object interactions. For buttons interaction a trace box surrounding the button is created. This trace box has no visual representation, so it cannot be seen by the user in the scene. The trace box uses overlapping collision and allows other meshes to pass through it, generating overlap events. When a hand mesh overlaps the trace box an overlap event with a distance parameter is generated. This parameter indicates how far the hand has entered into the trace box and is used to determine if a button is pressed. Rotary switches and levers use a similar approach but rather than using a distance parameter they use the hand mesh location and rotation.
 \subsection{VIVE Controllers interaction}
 \section{Virtual hardware layout and operation}
 \subsection{Devices and sensors}
@@ -597,7 +611,7 @@ Using gloves to interact with objects in the virtual environment can be achieved
 \subsection{Tracking progess}
 \subsection{Visualizing events}
 \par
-\chapter{\texorpdfstring{\MakeUppercase{Analyzing the mixed reality training application}}{analysis-mixedr}}
+\chapter{\texorpdfstring{Analyzing the mixed reality training application}{analysis-mixedr}}
 
 \section{Future possibilities for development and improvement}
 

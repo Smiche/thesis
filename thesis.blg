@@ -5,6 +5,8 @@ Warning--entry type for "crowd-behavior" isn't style-file defined
 --line 167 of file references.bib
 Warning--entry type for "cbrne-world" isn't style-file defined
 --line 181 of file references.bib
+Warning--entry type for "collaborative-vr" isn't style-file defined
+--line 325 of file references.bib
 Warning--empty journal in ar-vr-chart
 Warning--empty journal in ar-application-whitehouse
 Warning--empty journal in htc-vive-pro-review
@@ -33,4 +35,4 @@ Warning--empty journal in ue-skeletal-meshes
 Warning--empty journal in ue-materials
 Warning--empty journal in ue-playerstart
 Warning--empty journal in ue-lightsources
-(There were 30 warnings)
+(There were 31 warnings)
