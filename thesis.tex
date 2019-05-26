@@ -602,6 +602,19 @@ Holding and moving objects becomes possible with these settings. The interaction
 \par
  Collision simulation is computationally expensive and also not deterministic. Objects with locked position such as buttons and levers can behave strangly when using collision physics \citeyearxamk{collaborative-vr}. Because of these reasons a more suitable approach is used to simulate these kind of object interactions. For buttons interaction a trace box surrounding the button is created. This trace box has no visual representation, so it cannot be seen by the user in the scene. The trace box uses overlapping collision and allows other meshes to pass through it, generating overlap events. When a hand mesh overlaps the trace box an overlap event with a distance parameter is generated. This parameter indicates how far the hand has entered into the trace box and is used to determine if a button is pressed. Rotary switches and levers use a similar approach but rather than using a distance parameter they use the hand mesh location and rotation.
 \subsection{VIVE Controllers interaction}
+HTC VIVE Pro comes with a pair of wireless motion controllers. These controllers are tracked by the base station of VIVE and their primary use is for interaction with the VR world. The controllers have several buttons and a trackpad which provide more interfacing capabilities \Cref{fig:motion-controller}. Motion Controllers will be used as a backup to Hi5 VR Gloves during exhibitions and also during the development process thanks to the quicker setup for usage.
+\begin{figure}[H]
+	\includegraphics[height=230pt]{motion-controller}
+	\caption{HTC VIVE Pro Motion Controllers}
+	\label{fig:motion-controller}
+\end{figure}
+Unreal Engine provides a Motion Controller(MC) Component that offers support for commonly used VR MC brands. VIVE Motion Controllers are supported by this Component. Two instances of this Component are added to the Camera actor, as the location of the controllers is relative to the Camera location which itself is locked to the location of the VR headset. A static mesh of a mannequin hand is added as a child to each MC Component. One is for the right hand and the other for the left hand. Since only a mesh of the right hand is available this mesh needs to be mirrored in the Y-coordinate for the left hand. After these steps the hand meshes should be visible in the scene and their position follows the controllers' position.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{grab-blueprint}
+	\caption{Logic for Motion Controller grabbing}
+	\label{fig:grab-blueprint}
+\end{figure}
+Interacting with other objects in the scene is done by utilizing overlap events while pressing the Motion Controller trigger button \Cref{fig:motion-controller}. The trigger button press and release events are available in the Blueprint Editor. They're used to create grab and release functions that fire grab and release events on objects that are overlapping with MC meshes. The hands' mesh is animated when the trigger button is pressed. It changes from an open palm hand to closed palm hand, visualizing that grabbing has been initiated. An interface for objects that can be grabbed is created and implemented by every object that needs grabbing functionality. The overlapped actors are iterated after playing the grab animation and checked for implementation of the Grabbable Interface. Actors implementing the interface then have the GrabBegin function called and decide what grabbing behavior they have \Cref{fig:grab-blueprint}. If the object is something that can be carried its position and rotation will follow the MC until released. If the object is a rotary switch it will follow the MC rotation in one axis. If the object is a lever only movement in one axis will be used.
 \section{Virtual hardware layout and operation}
 \subsection{Devices and sensors}
 \subsection{Wiring devices}
