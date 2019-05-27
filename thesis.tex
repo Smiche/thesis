@@ -616,8 +616,29 @@ Unreal Engine provides a Motion Controller(MC) Component that offers support for
 \end{figure}
 Interacting with other objects in the scene is done by utilizing overlap events while pressing the Motion Controller trigger button \Cref{fig:motion-controller}. The trigger button press and release events are available in the Blueprint Editor. They're used to create grab and release functions that fire grab and release events on objects that are overlapping with MC meshes. The hands' mesh is animated when the trigger button is pressed. It changes from an open palm hand to closed palm hand, visualizing that grabbing has been initiated. An interface for objects that can be grabbed is created and implemented by every object that needs grabbing functionality. The overlapped actors are iterated after playing the grab animation and checked for implementation of the Grabbable Interface. Actors implementing the interface then have the GrabBegin function called and decide what grabbing behavior they have \Cref{fig:grab-blueprint}. If the object is something that can be carried its position and rotation will follow the MC until released. If the object is a rotary switch it will follow the MC rotation in one axis. If the object is a lever only movement in one axis will be used.
 \section{Virtual hardware layout and operation}
+Hardware layout needs to be planned to be both realistic and simplified for VR use. Creating an absolute clone of the real environment at this point is not only unfeasible due to the time constraint, but also distracting for the user as a majority of the hardware is not of importance during the CBRN training. Additionally having 3D models of all the real hardware in the scene can lead to performance penalties that would require more work on optimization or higher-end PC hardware to run.
 \subsection{Devices and sensors}
+The sensors available at this point of the development are ChemProFXi(chemical detection and classification) and IdentiFINDER S900(radiological detection and identification). In the future IBAC2 will be added to provide biological detection. Weather sensor in the real project is Vaisala WXT536, but a 3D model isn't needed for the current application because the trainee is not able to leave the vehicle. In stead measurement values are simulated with a random number generator.
+\par
+Additional devices are present in the virtual environment that are crucial to the operation of the ObSAS installation. Two 12V 95Ah batteries are installed in the vehicle as a power source of the system. A power and data distribution box is used to provide fuse protected power from the batteries to all devices. In the case of a device short circuiting the rest of the system will still receive adequate powering. The box also connects data inputs and outputs between the different devices. A laptop computer and a touchscreen are present for interfacing with the ObSAS Software. A lamp provides light to the interior of the vehicle.
+\par
+Some considerations have been taken for the realisticity of the device layout:
+\begin{itemize}
+  \item Batteries are close to the power box to avoid creating interference and voltage drop.
+  \item Devices are mounted flat to the walls using their mount points.
+  \item Batteries are placed on the floor and held with a bracket to avoid unintentional movement.
+  \item Air outlets on the ChemProFXi go to the outside of the vehicle. This avoids pushing contaminated air into the vehicle.
+  \item All devices have cabling to the power box for data and power.
+\end{itemize}
 \subsection{Wiring devices}
+Devices in the system require DC power to operate. Devices also communicate between eachother via Ethernet or RS232/485 protocols. Powering devices requires power cables and data exchange requires data cables. Two types of cable components can be used in the scene. Dynamic cable actors are used for objects the user can interact with. Static cable actors are used only for visual representation of cables, these actors cannot be modified during runtime.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{particle-rope}
+	\caption{Cable Component Simulation \citeyeartitlexamkinline{cable-component}}
+	\label{fig:particle-rope}
+\end{figure}
+\par
+Dynamic cable components are needed for interactive objects such as connectors with an attached wire. Unreal Engine provides a Cable Component Plugin that is suitable for this use. The Component has start end end attach points with fixed location. Between those points series of free moving particles are located. These points are separated by a distance constraint and use simulated physics to determine their location \Cref{fig:particle-rope}.
 \subsection{Air inlet and outlet tubing}
 \section{Creating a context for training}
 \subsection{Objective instructions}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -210,5 +210,10 @@ Unreal engine light sources. 2019. WWW document. Available at:
 Mikko McMenamin.
 \newblock Design and development of a collaborative virtual reality
   environment. 2018.
+
+\bibitem[cab(2019)]{cable-component}
+Unreal engine cable component. 2019. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Components/Rendering/CableComponent/index.html}}.
+\newblock [Accessed 2019-05-27].
 
 \end{thebibliography}
