@@ -293,8 +293,16 @@ FUNCTION {format.url}
 FUNCTION {format.urldate}
 { url empty$
     { "" }
-    { new.block "[Accessed " urldate * "]" *  }
+    { " [Accessed \changeformat{" urldate * "}]" *  }
   if$
+}
+
+%{ new.block "[Accessed \changeformat{" urldate * "}]" *  }
+
+FUNCTION {format.urldatestring}
+{ url empty$
+    {""}
+    { new.block ""}
 }
 
 FUNCTION {format.doi}
@@ -434,7 +442,7 @@ FUNCTION {format.date}
       " " * swap$ *
     }
   if$
-  %extra.label *
+  extra.label *
 }
 %extra.label *
 
@@ -758,11 +766,10 @@ FUNCTION {online}
     }
   if$
   author missing$
-    { "" output }
+    {}
     { format.title "title" output.check }
   if$
-  format.url output
-  format.urldate output
+  format.url format.urldate * output
   new.block
   note output
   fin.entry
@@ -952,6 +959,23 @@ FUNCTION {manual}
 }
 
 FUNCTION {mastersthesis}
+{ output.bibitem
+  format.authors "author" output.check
+  author format.key output
+  new.block
+  format.title "title" output.check
+  new.block
+  "Master's thesis" format.thesis.type output.nonnull
+  school "school" output.check
+  address output
+  format.date "year" output.check
+  format.url output
+  new.block
+  note output
+  fin.entry
+}
+
+FUNCTION {thesis}
 { output.bibitem
   format.authors "author" output.check
   author format.key output
@@ -1225,7 +1249,17 @@ FUNCTION {calc.short.authors}
         'editor.key.organization.label
         { type$ "manual" =
             'author.key.organization.label
-            'author.key.label
+            { type$ "online" =
+              author missing$
+              and
+                { organization missing$
+                    { "Missing organization and author! " cite$ * warning$}
+                    { organization }
+                  if$
+                }
+                { author.key.label }
+              if$
+            }
           if$
         }
       if$

@@ -1,12 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: xamk.bst
 Database file #1: references.bib
-Warning--entry type for "crowd-behavior" isn't style-file defined
---line 167 of file references.bib
-Warning--entry type for "cbrne-world" isn't style-file defined
---line 181 of file references.bib
-Warning--entry type for "collaborative-vr" isn't style-file defined
---line 325 of file references.bib
 Warning--empty journal in ar-vr-chart
 Warning--empty journal in ar-application-whitehouse
 Warning--empty journal in htc-vive-pro-review
@@ -17,6 +11,8 @@ Warning--empty journal in simulation-training-history
 Warning--empty journal in medical-sim-training
 Warning--empty journal in games-sim-mil
 Warning--empty journal in environics-chemprodm
+Warning--empty school in crowd-behavior
+Warning--empty journal in cbrne-world
 Warning--empty journal in cbrn-market-share
 Warning--empty journal in hololens-specs
 Warning--empty journal in hololens-price
@@ -35,5 +31,7 @@ Warning--empty journal in ue-skeletal-meshes
 Warning--empty journal in ue-materials
 Warning--empty journal in ue-playerstart
 Warning--empty journal in ue-lightsources
+Warning--empty school in collaborative-vr
 Warning--empty journal in cable-component
-(There were 32 warnings)
+Warning--empty journal in spline-component
+(There were 33 warnings)

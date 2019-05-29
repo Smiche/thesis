@@ -143,6 +143,15 @@
 \newbibfield{author}
 \bibinput{references}
 
+% date fixing for citations
+\def\changeformat#1{\xchangeformat#1\relax}
+\def\xchangeformat#1-#2-#3\relax{%
+#3 %
+\ifcase#2 \or
+January\or February\or March\or April\or May\or June\or July\or
+August\or September\or October\or November\or December\fi
+\ #1}
+
 %custom bibliography style and citation commands
 \bibliographystyle{xamk}
 %\renewcommand{\citep}[1]{(\citealp{#1}.)}
@@ -620,7 +629,7 @@ Hardware layout needs to be planned to be both realistic and simplified for VR u
 \subsection{Devices and sensors}
 The sensors available at this point of the development are ChemProFXi(chemical detection and classification) and IdentiFINDER S900(radiological detection and identification). In the future IBAC2 will be added to provide biological detection. Weather sensor in the real project is Vaisala WXT536, but a 3D model isn't needed for the current application because the trainee is not able to leave the vehicle. In stead measurement values are simulated with a random number generator.
 \par
-Additional devices are present in the virtual environment that are crucial to the operation of the ObSAS installation. Two 12V 95Ah batteries are installed in the vehicle as a power source of the system. A power and data distribution box is used to provide fuse protected power from the batteries to all devices. In the case of a device short circuiting the rest of the system will still receive adequate powering. The box also connects data inputs and outputs between the different devices. A laptop computer and a touchscreen are present for interfacing with the ObSAS Software. A lamp provides light to the interior of the vehicle.
+Additional devices are present in the virtual environment that are crucial to the operation of the ObSAS installation. Two 12V 95Ah batteries are installed in the vehicle as a power source of the system. A power and data distribution box is used to provide fuse protected power from the batteries to all devices. In the case of a device short circuiting the rest of the system will still receive adequate powering. The box also connects data inputs and outputs between the different devices. A laptop computer and a touchscreen are present for interfacing with the ObSAS Software. A lamp provides light to the interior of the vehicle. A military spec computer TRAX-10 is mounted to the wall. This computer records input from all devices and runs the ObSAS software.
 \par
 Some considerations have been taken for the realisticity of the device layout:
 \begin{itemize}
@@ -638,7 +647,16 @@ Devices in the system require DC power to operate. Devices also communicate betw
 	\label{fig:particle-rope}
 \end{figure}
 \par
-Dynamic cable components are needed for interactive objects such as connectors with an attached wire. Unreal Engine provides a Cable Component Plugin that is suitable for this use. The Component has start end end attach points with fixed location. Between those points series of free moving particles are located. These points are separated by a distance constraint and use simulated physics to determine their location \Cref{fig:particle-rope}.
+Dynamic cable components are needed for interactive objects such as connectors with an attached wire. Unreal Engine provides a Cable Component Plugin that is suitable for this use. The Component has start and end attach points with fixed location. Between those points series of free moving particles are located. These points are separated by a distance constraint and use simulated physics to determine their location \Cref{fig:particle-rope}. The cable simulation is done by attaching the start point to a connector and the end point to the distribution box. When the connector is held and moved around the world the cable will follow it with natural movement by bending and bouncing \Cref{fig:cable-grab}. Physics simulation is also used to block cable collision with other actors, without this the cable will go through actors in the scene.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{cable-grab}
+	\caption{Cable Component attached to objects}
+	\label{fig:cable-grab}
+\end{figure}
+\par
+Static cables in the scene do not move during runtime. These cables are used for connecting objects in the scene that also do not change location. One example for such a cable is the connection between the Power Distribution Box and TRAX-10 computer. Neither of those components are designed to be moved by the end user so the cable between them doesn't need to be movable in VR either.
+\par
+Blueprint Spline Component is a component for creating paths. The path is comprised of points and a spline connecting them. This component has two primary uses \citeyeartitlexamkinline{spline-component}. Moving an actor across the spline or repeating actors across the spline. In this project the ability of spline component to repeat actors along a path is utilized.
 \subsection{Air inlet and outlet tubing}
 \section{Creating a context for training}
 \subsection{Objective instructions}
