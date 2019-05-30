@@ -31,7 +31,7 @@
 \urlstyle{same}
 
 \usepackage[normalem]{ulem}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 
 \usepackage{etoolbox}
 \usepackage{setspace}
@@ -60,6 +60,11 @@
 		urlcolor=blue,
 		linktoc=all
 }
+\definecolor{green}{rgb}{1,0.5,0}
+
+\definecolor{red}{rgb}{1,0.5,0}
+
+\newcommand{\urlul}[1]{\url{\color{green}\setulcolor{red}\ul{#1}}}
 
 \usepackage{cleveref}%setting figure referencing
 \crefname{figure}{(Figure}{(Figure}
@@ -133,7 +138,10 @@
 
 
 \setcounter{section}{1}%start table of contents at 1
-
+\usepackage{xstring}
+\newcommand{\cleanul}[1]{%
+    \StrSubstitute{#1}{\_}{\textvisiblespace}%
+}%
 %-----------------------------------References------------------------------%
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage[]{natbib}
@@ -274,7 +282,7 @@ August\or September\or October\or November\or December\fi
 \chapter{\texorpdfstring{Introduction}{introduction}}
 Developments and improvements in computing technology have allowed for vastly improved immersion when consuming digital media. The most notable examples of such technologies are Augmented reality and Virtual reality. The immersion these technologies offer can be used to create educational systems that have more benefits than traditional digital education systems. \par
 In this thesis project I will be comparing the differences between AR(Augmented reality) and VR(Virtual reality) in the context of educational software. Different implementations and physical devices will be compared and analyzed. A device and a technology will be chosen to create a prototype educational application for Observis Oy related to the company's Situational Awareness System(SAS).
-\par 
+\par
 The SAS product has a steep learning curve which raises the need for a more efficient educational tool. A training application that leverages newer technologies is the chosen approach to improve the training process. The primary goal of the training application is to provide a better view on the future prospects of using mixed reality for training. A secondary goal is to offer a training platform for better understanding of the ObSAS software to trainees. Furthermore finding other suitable AR/VR use cases for the current Observis projects can also be a positive by-product of the research.
 \par
 Advantages and disadvantages of AR/VR need to be considered over more traditional digital educational tools. The future prospects of these technologies are also of interest to the company. One reason for that is the growth of VR and AR popularity and market share over the recent years as the technology has improved \Cref{fig:ar-vr-consumer-spending}.
@@ -655,8 +663,13 @@ Dynamic cable components are needed for interactive objects such as connectors w
 \end{figure}
 \par
 Static cables in the scene do not move during runtime. These cables are used for connecting objects in the scene that also do not change location. One example for such a cable is the connection between the Power Distribution Box and TRAX-10 computer. Neither of those components are designed to be moved by the end user so the cable between them doesn't need to be movable in VR either.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{spline-component}
+	\caption{Spline Actor construction script logic}
+	\label{fig:spline-component}
+\end{figure}
 \par
-Blueprint Spline Component is a component for creating paths. The path is comprised of points and a spline connecting them. This component has two primary uses \citeyeartitlexamkinline{spline-component}. Moving an actor across the spline or repeating actors across the spline. In this project the ability of spline component to repeat actors along a path is utilized.
+Blueprint Spline Component is a component for creating paths. The path is comprised of points and a spline connecting them. This component has two primary uses \citeyeartitlexamkinline{spline-component}. Moving an actor across the spline or repeating actors across the spline. In this project the ability of the spline component to repeat actors along a path is utilized. A new Actor Blueprint is created and a Spline Component is added to the root of it. Logic is added to the construction script function to add a spline mesh of a cylinder for each spline point. The start of the cylinder spline mesh is the current spline point and the end for the spline mesh is the next spline point. The construction script function is called whever the actor is added to the scene or modified \Cref{fig:spline-component}. 
 \subsection{Air inlet and outlet tubing}
 \section{Creating a context for training}
 \subsection{Objective instructions}

@@ -289,6 +289,9 @@ FUNCTION {format.url}
     { "WWW document. Available at: \textcolor{blue}{\url{" url * "}}" * }
   if$
 }
+%\href{http://google.com}{\setulcolor{red}\ul{Hallo}}
+%OLD ->
+% { "WWW document. Available at: \textcolor{blue}{\url{" url * "}}" * }
 
 FUNCTION {format.urldate}
 { url empty$
