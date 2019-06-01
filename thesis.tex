@@ -434,7 +434,7 @@ One particular device that requires maintenance is Environics ChemProDM. The dev
 \par
 Other devices included in ObSAS are Thermo SVG2 radiation sensor, Meteo IRDAM MAWS 5060 weather sensor, Infinicon Hapsite ER chemical analyzer. Basic knowledge of those devices is a great benefit when using the system, however it is not required of the users. The user can be familiarized with the devices during training. The knowledge attained can be helpful if on field repairs are required.
 \par
-\subsection{CBRNe defense}
+\section{CBRNe defense}
 CBRNe is an acronym for Chemical, Biological, Radiological, Nuclear and Explosives. CBRNe defense is the field of detecting, reducing the impact of or avoiding the threats of CBRNe agents. In recent years the threat of CBRNe attacks has increased due to technological development and increased willingness of terrorists to obtain and use such agents. \citep{crowd-behavior}
 \par
 A motivation for CBRNe defense is the amount of casualties taken by CBRNe threats all around the world all the time. Such incidents are covered bi-monthly in the CBRNeWORLD magazine and their numbers are not decreasing \citeyearpar{cbrne-world}. The industry in this field aims to provide solutions that prevent or reduce the impact of CBRN incidents and attacks. Market share of the field has been growing steadily and the forecast is of continuous growth for the future years to come according to Visiongain's market report \citeyeartitlexamkinline{cbrn-market-share}.
@@ -499,7 +499,7 @@ The training will take place inside a virtual environment. This virtual environm
 \par
 The next objective is to test radio-nuclear detection by using a sample of radioactive rock ore. Again if an alarm is prompted the same actions need to be repeated. Afterwards biological detection is tested with simulants. The last objective is to assure that the system has reached baseline operation again and then shut it down.
 \par
-With the list of objectives defined in the table below it is possible to create a list of the required 3D models \Cref{fig:objectives-table}. This list can be used to request modelling work, which will be done internally at Observis Oy. Obtaining 3D models of the detection devices proved to be difficult as companies are not willing to provide these without any ongoing projects related to the devices.
+With the list of objectives defined in Figure \ref{fig:objectives-table} it is possible to create a list of the required 3D models. This list can be used to request modelling work, which will be done internally at Observis Oy. Obtaining 3D models of the detection devices proved to be difficult as companies are not willing to provide these without any ongoing projects related to the devices.
 \par
 All the objectives take place in a relatively small area which means they can be a part of a single Level. Unreal Engine Levels are explained in the next section.
 \begin{figure}[H]
@@ -563,7 +563,7 @@ Traces are straight rays that detect any interescted objects between two points.
 A Static Mesh is a geometry made up of polygons that is cached in video memory and rendered by the graphics card. Being cached in the video memory means that these geometries can be complex and also translated, scaled and rotated in real time. Static Meshes are usually 3D models created in external modelling software and imported to an UE4 project. But primitive meshes such as boxes, cylinders, spheres can also be made in UE4. Objects in the scene such as doors, sensors, batteries, lamps are examples of Static Meshes. \citeyeartitlexamk{ue-static-meshes}
 \par
 Skeletal Meshes are identical to Static Meshes with the addition of a hierarchical set of interconnected bones, that can be used to animate the meshes' vertices. The Static Meshes, rigging and animations are typically created in external tools like 3DSMax, Maya, Blender \citeyeartitlexamkinline{ue-skeletal-meshes}. These types of meshes are used to create animated objects. In this project the Hi5 VR Gloves are displayed virtually with the use of Skeletal Meshes and animations. VIVE Controllers visualization is also achieved by animating Skeletal Meshes of hands.
-\subsection{Materials}
+\par
 Materials define what type the surface of a mesh appears to be. It can be seen as a "paint" applied to a mesh. Materials can define the colour, shininess, roughness, opacity, light emissiveness and many other surface properties. In technical terms a Material calculates how light interacts with a surface. Materials are constructed with a visual scripting tool named Material Editor that is similar to the Blueprint Editor. \citeyeartitlexamk{ue-materials}
 \par
 \chapter{\texorpdfstring{Project implementation}{proj-impl}}
@@ -669,11 +669,18 @@ Static cables in the scene do not move during runtime. These cables are used for
 	\label{fig:spline-component}
 \end{figure}
 \par
-Blueprint Spline Component is a component for creating paths. The path is comprised of points and a spline connecting them. This component has two primary uses \citeyeartitlexamkinline{spline-component}. Moving an actor across the spline or repeating actors across the spline. In this project the ability of the spline component to repeat actors along a path is utilized. A new Actor Blueprint is created and a Spline Component is added to the root of it. Logic is added to the construction script function to add a spline mesh of a cylinder for each spline point. The start of the cylinder spline mesh is the current spline point and the end for the spline mesh is the next spline point. The construction script function is called whever the actor is added to the scene or modified \Cref{fig:spline-component}. 
+Blueprint Spline Component is a component for creating paths. The path is comprised of points and a spline connecting them. This component has two primary uses \citeyeartitlexamkinline{spline-component}. Moving an actor across the spline or repeating actors across the spline. In this project the ability of the spline component to repeat actors along a path is utilized. A new Actor Blueprint is created and a Spline Component is added to the root of it. Logic is added to the construction script function to add a spline mesh of a cylinder for each spline point. The start of the cylinder spline mesh is the current spline point and the end for the spline mesh is the next spline point. The construction script function is called whever the actor is added to the scene or modified \Cref{fig:spline-component}. The end result is a Static Cable Actor that can have segments added and modified from the UE4 Editor. This actor is used for the static cabling in the scene and is replicated for every individual cable.
 \subsection{Air inlet and outlet tubing}
+ChemProFXi chemical detector has an air inlet port through which air to be analyzed comes in and an outlet port for the analyzed air to leave the device from. These ports need to be connected to the air outside of the vehicle. This is done by using PTFE tubing which is chemically inert and will not interact with gasses. The PTFE tubing needs to be simulated in the virtual environment. This is done with the use of the Static Cable Actor from the previous section. A different mesh in the shape of an open cylinder is used and its surface material is changed to resemble PTFE tubing. The outlet is routed to the outside of the vehicle and the inlet is left inside the vehicle for testing purposes.
 \section{Creating a context for training}
-\subsection{Objective instructions}
+The virtual scene contains the required devices and interaction capabilities. However further meaning needs to be added to the application for training purposes. This is done by creating objectives for the user to complete. The goal of the objectives is to get the user familiarised with the equipment and prepared for common scenarios encountered in real world use.
+\par
+Objectives need to be completed in series. The user is given visual objective instructions either with text or by highlighting scene objects of importance. Upon following the instructions the objective is complete and another one will be presented to the user. Logic for displaying instructions and logic for tracking if an objective is completed need to be tightly coupled together to ensure consistency.
 \subsection{Tracking progess}
+Tracking progress is the proccess of recording the state of objective completion. The application starts with a default first objective assigned. When certain interactions between objects in the scene occur the objective is changed and objectives interested in that change are notified via an event. The best place for objective tracking is in the Level Blueprint since it has access to all other objects in the scene.
+\par
+Objective tracking begins by creating a variable in the Level Blueprint that holds the current objective. The type of this variable is an Objectives Enum. This Enum type contains all the possible ojective values.
+\subsection{Objective instructions}
 \subsection{Visualizing events}
 \par
 \chapter{\texorpdfstring{Analyzing the mixed reality training application}{analysis-mixedr}}
