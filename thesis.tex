@@ -677,10 +677,20 @@ The virtual scene contains the required devices and interaction capabilities. Ho
 \par
 Objectives need to be completed in series. The user is given visual objective instructions either with text or by highlighting scene objects of importance. Upon following the instructions the objective is complete and another one will be presented to the user. Logic for displaying instructions and logic for tracking if an objective is completed need to be tightly coupled together to ensure consistency.
 \subsection{Tracking progess}
-Tracking progress is the proccess of recording the state of objective completion. The application starts with a default first objective assigned. When certain interactions between objects in the scene occur the objective is changed and objectives interested in that change are notified via an event. The best place for objective tracking is in the Level Blueprint since it has access to all other objects in the scene.
+Tracking progress is the proccess of recording the state of objective completion. The application starts with a default first objective assigned. When certain interactions between objects in the scene occur the objective is changed and objectives interested in that change are notified via an event. The best place for objective tracking is in the Player State Blueprint since it is designed for holding player state and has access to all other objects in the scene.
 \par
-Objective tracking begins by creating a variable in the Level Blueprint that holds the current objective. The type of this variable is an Objectives Enum. This Enum type contains all the possible ojective values.
+Objective tracking begins by creating a new Blueprint from the PlayerState base Blueprint. The PlayerState Blueprint is designed to store the state of each player in a multi-player or single-player environment. A new instance of this Blueprint is created for every player and only the server or the player itself can modify values of the instance. Other players are able to read values from it, but not modify them.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{player-state}
+	\caption{PlayerState Blueprint logic diagram for objective tracking}
+	\label{fig:player-state}
+\end{figure}
+\par
+To track the progress a new variable is added to the new PlayerState Blueprint that holds the current objective. The type of this variable is an Objectives Enum. This Enum type contains all the possible ojective key names. Two functions are then added to the blueprint, one for getting the current objective enum and another for changing the current objective enum value. Actors in the scene that participate in the objectives are able to get a reference of the PlayerState and call the SetCurObjective function which changes the value of the current objective. Additionally this function emits an event which is used by actors to update their own state whenever an objective changes \Cref{fig:player-state}.
+\par
+With the current implementation whenever the application is restarted all progress will be reset because it is kept in the memory. To be able to persist the progress tracking over application restarts the SaveGame Blueprint is used. This blueprint is used to create save slots and store variables in them. These slots persist over restarts and can be loaded with each application start. The value stored is the current objective enum, therefore the application resumes to the last objective the user was on before exiting. \citeyeartitlexamk{save-game}
 \subsection{Objective instructions}
+
 \subsection{Visualizing events}
 \par
 \chapter{\texorpdfstring{Analyzing the mixed reality training application}{analysis-mixedr}}

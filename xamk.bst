@@ -769,6 +769,10 @@ FUNCTION {online}
     }
   if$
   author missing$
+    { publisher output }
+    { }
+  if$
+  author missing$
     {}
     { format.title "title" output.check }
   if$
