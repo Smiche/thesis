@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  2 JUN 2019 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  3 JUN 2019 22:00
 entering extended mode
 **"g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
@@ -1087,12 +1087,12 @@ LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 15.19995pt on input line 217.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
 (Font)              scaled to size 22.79993pt on input line 221.
-<xamklogo.png, id=206, 249.9885pt x 150.453pt>
+<xamklogo.png, id=210, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
 Package pdftex.def Info: xamklogo.png  used on input line 236.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
-<background.png, id=207, 597.432pt x 845.0772pt>
+<background.png, id=211, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
 Package pdftex.def Info: background.png  used on input line 239.
@@ -1158,7 +1158,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 282.
 
 Package newfloat Info: Setting Plan B file extension to `lof'... on input line 282.
-<ar-vr-consumer-spending.png, id=322, 1003.75pt x 745.78625pt>
+<ar-vr-consumer-spending.png, id=328, 1003.75pt x 745.78625pt>
 File: ar-vr-consumer-spending.png Graphic file (type png)
 <use ar-vr-consumer-spending.png>
 Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 291.
@@ -1173,29 +1173,29 @@ CHAPTER 2
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 297.
 
-<Virtuality_Continuum_2.jpg, id=330, 614.295pt x 118.4425pt>
+<Virtuality_Continuum_2.jpg, id=336, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
 Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 301.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
-<ar-application.jpg, id=334, 813.0375pt x 418.56375pt>
+<ar-application.jpg, id=340, 813.0375pt x 418.56375pt>
 File: ar-application.jpg Graphic file (type jpg)
 <use ar-application.jpg>
 Package pdftex.def Info: ar-application.jpg  used on input line 309.
 (pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
 [5 <./ar-vr-consumer-spending.png> <./Virtuality_Continuum_2.jpg>] [6 <./ar-application.jpg>]
-<ar-framework.png, id=361, 505.5136pt x 165.99516pt>
+<ar-framework.png, id=367, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
 Package pdftex.def Info: ar-framework.png  used on input line 336.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
  [7]
-<ar-challenges.png, id=375, 890.9536pt x 239.01797pt>
+<ar-challenges.png, id=381, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
 Package pdftex.def Info: ar-challenges.png  used on input line 343.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
-<htc-vive-pro-headset.jpg, id=380, 803.0pt x 536.0025pt>
+<htc-vive-pro-headset.jpg, id=386, 803.0pt x 536.0025pt>
 File: htc-vive-pro-headset.jpg Graphic file (type jpg)
 <use htc-vive-pro-headset.jpg>
 Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 363.
@@ -1207,7 +1207,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 406.
 
 [12] [13] [14]
-<chemprodm.jpg, id=436, 777.90625pt x 501.875pt>
+<chemprodm.jpg, id=442, 777.90625pt x 501.875pt>
 File: chemprodm.jpg Graphic file (type jpg)
 <use chemprodm.jpg>
 Package pdftex.def Info: chemprodm.jpg  used on input line 430.
@@ -1219,131 +1219,131 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 458.
 
 [18]
-<vr-glove2.png, id=478, 957.5775pt x 608.2725pt>
+<vr-glove2.png, id=484, 957.5775pt x 608.2725pt>
 File: vr-glove2.png Graphic file (type png)
 <use vr-glove2.png>
 Package pdftex.def Info: vr-glove2.png  used on input line 481.
 (pdftex.def)             Requested size: 330.58377pt x 210.0pt.
  [19] [20 <./vr-glove2.png>] [21] [22]
-<level-ue4-editor.jpg, id=513, 1156.32pt x 625.1355pt>
+<level-ue4-editor.jpg, id=519, 1156.32pt x 625.1355pt>
 File: level-ue4-editor.jpg Graphic file (type jpg)
 <use level-ue4-editor.jpg>
 Package pdftex.def Info: level-ue4-editor.jpg  used on input line 530.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
  [23 <./level-ue4-editor.jpg>]
-<ue-blueprint-tool.png, id=523, 1156.32pt x 625.1355pt>
+<ue-blueprint-tool.png, id=529, 1156.32pt x 625.1355pt>
 File: ue-blueprint-tool.png Graphic file (type png)
 <use ue-blueprint-tool.png>
 Package pdftex.def Info: ue-blueprint-tool.png  used on input line 544.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
  [24] [25 <./ue-blueprint-tool.png>]
-<collision-types.png, id=539, 1907.125pt x 451.6875pt>
+<collision-types.png, id=545, 1907.125pt x 451.6875pt>
 File: collision-types.png Graphic file (type png)
 <use collision-types.png>
 Package pdftex.def Info: collision-types.png  used on input line 555.
 (pdftex.def)             Requested size: 426.79135pt x 101.08081pt.
- [26 <./collision-types.png>]
+ [26 <./collision-types.png>] [27]
 CHAPTER 5
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 569.
+(hyperref)                removing `\uppercase' on input line 573.
 
-[27]
-<new-project.png, id=559, 831.43959pt x 568.45708pt>
+<new-project.png, id=566, 831.43959pt x 568.45708pt>
 File: new-project.png Graphic file (type png)
 <use new-project.png>
-Package pdftex.def Info: new-project.png  used on input line 574.
+Package pdftex.def Info: new-project.png  used on input line 578.
 (pdftex.def)             Requested size: 365.65694pt x 250.0pt.
- [28 <./new-project.png>]
-<vehicle-interior.jpg, id=568, 1445.4pt x 764.10469pt>
+[28] [29 <./new-project.png>]
+<vehicle-interior.jpg, id=580, 1445.4pt x 764.10469pt>
 File: vehicle-interior.jpg Graphic file (type jpg)
 <use vehicle-interior.jpg>
-Package pdftex.def Info: vehicle-interior.jpg  used on input line 584.
+Package pdftex.def Info: vehicle-interior.jpg  used on input line 588.
 (pdftex.def)             Requested size: 426.79135pt x 225.61879pt.
- [29 <./vehicle-interior.jpg>]
-<calibration-menu.png, id=576, 784.43062pt x 451.6875pt>
+ [30 <./vehicle-interior.jpg>]
+<calibration-menu.png, id=590, 784.43062pt x 451.6875pt>
 File: calibration-menu.png Graphic file (type png)
 <use calibration-menu.png>
-Package pdftex.def Info: calibration-menu.png  used on input line 595.
+Package pdftex.def Info: calibration-menu.png  used on input line 599.
 (pdftex.def)             Requested size: 426.79135pt x 245.75471pt.
- [30]
-<menu-selection.png, id=585, 598.48593pt x 303.38344pt>
+<menu-selection.png, id=593, 598.48593pt x 303.38344pt>
 File: menu-selection.png Graphic file (type png)
 <use menu-selection.png>
-Package pdftex.def Info: menu-selection.png  used on input line 602.
+Package pdftex.def Info: menu-selection.png  used on input line 606.
 (pdftex.def)             Requested size: 426.79135pt x 216.35274pt.
  [31 <./calibration-menu.png>] [32 <./menu-selection.png>]
-<gloves-grab.png, id=599, 1505.625pt x 652.4375pt>
+<gloves-grab.png, id=607, 1505.625pt x 652.4375pt>
 File: gloves-grab.png Graphic file (type png)
 <use gloves-grab.png>
-Package pdftex.def Info: gloves-grab.png  used on input line 614.
+Package pdftex.def Info: gloves-grab.png  used on input line 618.
 (pdftex.def)             Requested size: 426.79135pt x 184.94112pt.
- [33 <./gloves-grab.png>]
-<motion-controller.png, id=609, 376.40625pt x 307.1475pt>
+ [33]
+<motion-controller.png, id=616, 376.40625pt x 307.1475pt>
 File: motion-controller.png Graphic file (type png)
 <use motion-controller.png>
-Package pdftex.def Info: motion-controller.png  used on input line 624.
+Package pdftex.def Info: motion-controller.png  used on input line 628.
 (pdftex.def)             Requested size: 281.86748pt x 230.0pt.
-<grab-blueprint.png, id=610, 1096.84781pt x 456.20438pt>
+ [34 <./gloves-grab.png>]
+<grab-blueprint.png, id=623, 1096.84781pt x 456.20438pt>
 File: grab-blueprint.png Graphic file (type png)
 <use grab-blueprint.png>
-Package pdftex.def Info: grab-blueprint.png  used on input line 630.
+Package pdftex.def Info: grab-blueprint.png  used on input line 634.
 (pdftex.def)             Requested size: 426.79135pt x 177.50827pt.
- [34 <./motion-controller.png>] [35 <./grab-blueprint.png>] [36]
-<particle-rope.jpg, id=631, 903.375pt x 330.48468pt>
+ [35 <./motion-controller.png>] [36 <./grab-blueprint.png>]
+<particle-rope.jpg, id=639, 903.375pt x 330.48468pt>
 File: particle-rope.jpg Graphic file (type jpg)
 <use particle-rope.jpg>
-Package pdftex.def Info: particle-rope.jpg  used on input line 653.
+Package pdftex.def Info: particle-rope.jpg  used on input line 657.
 (pdftex.def)             Requested size: 426.79135pt x 156.13466pt.
-<cable-grab.png, id=635, 1927.2pt x 1071.00125pt>
+ [37]
+<cable-grab.png, id=648, 1927.2pt x 1071.00125pt>
 File: cable-grab.png Graphic file (type png)
 <use cable-grab.png>
-Package pdftex.def Info: cable-grab.png  used on input line 660.
+Package pdftex.def Info: cable-grab.png  used on input line 664.
 (pdftex.def)             Requested size: 426.79135pt x 237.17351pt.
- [37 <./particle-rope.jpg>]
-<spline-component.png, id=643, 943.85959pt x 529.64542pt>
+ [38 <./particle-rope.jpg>]
+<spline-component.png, id=656, 943.85959pt x 529.64542pt>
 File: spline-component.png Graphic file (type png)
 <use spline-component.png>
-Package pdftex.def Info: spline-component.png  used on input line 667.
+Package pdftex.def Info: spline-component.png  used on input line 671.
 (pdftex.def)             Requested size: 426.79135pt x 239.49391pt.
- [38 <./cable-grab.png>] [39 <./spline-component.png>]
-<player-state.png, id=659, 880.7304pt x 405.1938pt>
+ [39 <./cable-grab.png> <./spline-component.png>] [40]
+<player-state.png, id=671, 880.7304pt x 405.1938pt>
 File: player-state.png Graphic file (type png)
 <use player-state.png>
-Package pdftex.def Info: player-state.png  used on input line 684.
+Package pdftex.def Info: player-state.png  used on input line 688.
 (pdftex.def)             Requested size: 426.79135pt x 196.35182pt.
- [40]
+ [41 <./player-state.png>]
 CHAPTER 6
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 696.
+(hyperref)                removing `\uppercase' on input line 700.
 
-[41 <./player-state.png>] [42] (thesis.bbl
+[42] (thesis.bbl
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 11.39996pt on input line 16.
  [43] [44]) 
 AED: lastpage setting LastPage
 [45]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 707.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 707.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 707.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 707.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EEAA70F7EEA8DEE90449BC93A647D99F;3072.
+(rerunfilecheck)             Checksum: 2071A7A35A70D1B196EC82CC0DD7DDB4;3137.
  ) 
 Here is how much of TeX's memory you used:
- 23191 strings out of 493303
- 426107 string characters out of 3138856
- 598849 words of memory out of 3000000
- 26105 multiletter control sequences out of 15000+200000
+ 23200 strings out of 493303
+ 426235 string characters out of 3138856
+ 598950 words of memory out of 3000000
+ 26112 multiletter control sequences out of 15000+200000
  56838 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,92p,1418b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\smich\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (46 pages, 10411579 bytes).
+Output written on thesis.pdf (46 pages, 10413997 bytes).
 PDF statistics:
- 836 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 581 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 846 PDF objects out of 1000 (max. 8388607)
+ 158 named destinations out of 1000 (max. 500000)
+ 589 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -205,14 +205,20 @@ Unreal engine materials. 2019{\natexlab{h}}. Epic Games. WWW document.
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/Materials}}
   [Accessed \changeformat{2019-05-24}].
 
-\bibitem[Epic Games(2019{\natexlab{i}})]{ue-playerstart}
-Unreal engine player start. 2019{\natexlab{i}}. Epic Games. WWW document.
+\bibitem[Epic Games(2019{\natexlab{i}})]{ue-umg}
+Unreal motion graphics ui designer. 2019{\natexlab{i}}. Epic Games. WWW
+  document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/UMG/index.html}}
+  [Accessed \changeformat{2019-06-02}].
+
+\bibitem[Epic Games(2019{\natexlab{j}})]{ue-playerstart}
+Unreal engine player start. 2019{\natexlab{j}}. Epic Games. WWW document.
   Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Actors/PlayerStart}}
   [Accessed \changeformat{2019-05-20}].
 
-\bibitem[Epic Games(2019{\natexlab{j}})]{ue-lightsources}
-Unreal engine light sources. 2019{\natexlab{j}}. Epic Games. WWW document.
+\bibitem[Epic Games(2019{\natexlab{k}})]{ue-lightsources}
+Unreal engine light sources. 2019{\natexlab{k}}. Epic Games. WWW document.
   Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/LightingAndShadows/LightTypes}}
   [Accessed \changeformat{2019-05-21}].
@@ -223,20 +229,20 @@ Mikko McMenamin.
   environment.
 \newblock Master's thesis. 2018.
 
-\bibitem[Epic Games(2019{\natexlab{k}})]{cable-component}
-Unreal engine cable component. 2019{\natexlab{k}}. Epic Games. WWW document.
+\bibitem[Epic Games(2019{\natexlab{l}})]{cable-component}
+Unreal engine cable component. 2019{\natexlab{l}}. Epic Games. WWW document.
   Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Components/Rendering/CableComponent/index.html}}
   [Accessed \changeformat{2019-05-27}].
 
-\bibitem[Epic Games(2019{\natexlab{l}})]{spline-component}
-Unreal engine blueprint spline component overview. 2019{\natexlab{l}}. Epic
+\bibitem[Epic Games(2019{\natexlab{m}})]{spline-component}
+Unreal engine blueprint spline component overview. 2019{\natexlab{m}}. Epic
   Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/BlueprintSplines/Overview/index.html}}
   [Accessed \changeformat{2019-05-27}].
 
-\bibitem[Epic Games(2019{\natexlab{m}})]{save-game}
-Unreal engine save game blueprint. 2019{\natexlab{m}}. Epic Games. WWW
+\bibitem[Epic Games(2019{\natexlab{n}})]{save-game}
+Unreal engine save game blueprint. 2019{\natexlab{n}}. Epic Games. WWW
   document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Gameplay/SaveGame/Blueprints/index.html}}
   [Accessed \changeformat{2019-06-02}].

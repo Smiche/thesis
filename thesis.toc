@@ -24,19 +24,20 @@
 \contentsline {subsection}{\numberline {4.4.2}Blueprints}{25}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Physics simulation}{26}{section.4.5}
 \contentsline {section}{\numberline {4.6}Static and Skeletal Meshes}{27}{section.4.6}
+\contentsline {section}{\numberline {4.7}Widget Components}{28}{section.4.7}
 \contentsline {chapter}{\numberline {5} \uppercase {Project implementation}}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}Project setup}{28}{section.5.1}
+\contentsline {section}{\numberline {5.1}Project setup}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}Level design}{29}{section.5.2}
-\contentsline {section}{\numberline {5.3}Glove calibration and tracking}{30}{section.5.3}
-\contentsline {section}{\numberline {5.4}Interacting with the virtual environment}{32}{section.5.4}
+\contentsline {section}{\numberline {5.3}Glove calibration and tracking}{31}{section.5.3}
+\contentsline {section}{\numberline {5.4}Interacting with the virtual environment}{33}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Gloves interaction}{33}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}VIVE Controllers interaction}{34}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}VIVE Controllers interaction}{35}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Virtual hardware layout and operation}{36}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Devices and sensors}{36}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Wiring devices}{37}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Air inlet and outlet tubing}{39}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.1}Devices and sensors}{37}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Wiring devices}{38}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Air inlet and outlet tubing}{40}{subsection.5.5.3}
 \contentsline {section}{\numberline {5.6}Creating a context for training}{40}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Tracking progess}{40}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.1}Tracking progess}{41}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Objective instructions}{42}{subsection.5.6.2}
 \contentsline {subsection}{\numberline {5.6.3}Visualizing events}{42}{subsection.5.6.3}
 \contentsline {chapter}{\numberline {6} \uppercase {Analyzing the mixed reality training application}}{42}{chapter.6}
