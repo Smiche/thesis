@@ -720,16 +720,15 @@ FUNCTION {article}
 { output.bibitem
   format.authors "author" output.check
   author format.key output
-  new.block
+  format.date "year" output.check
   format.title "title" output.check
-  new.block
+  %new.block
   crossref missing$
     { journal emphasize "journal" output.check
       eid empty$
         { format.vol.num.pages output }
         { format.vol.num.eid output }
       if$
-      format.date "year" output.check
     }
     { format.article.crossref output.nonnull
       eid empty$
@@ -738,8 +737,8 @@ FUNCTION {article}
       if$
     }
   if$
-  format.issn output
-  format.doi output
+  %format.issn output
+  %format.doi output
   format.url output
   new.block
   note output
@@ -797,8 +796,8 @@ FUNCTION {book}
       if$
     }
   if$
-  new.block
-  format.btitle "title" output.check
+  format.date "year" output.check
+  format.title "title" output.check
   crossref missing$
     { format.bvolume output
       new.block
@@ -812,9 +811,8 @@ FUNCTION {book}
     }
   if$
   format.edition output
-  format.date "year" output.check
-  format.isbn output
-  format.doi output
+  %format.isbn output
+  %format.doi output
   format.url output
   new.block
   note output

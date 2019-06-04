@@ -12,10 +12,8 @@ Consumer spending on ar/vr worldwide 2016-2021. 2018. WWW document. Available
   [Accessed \changeformat{2018-10-06}].
 
 \bibitem[Mullen \& Mullen(2011)]{prototyping-ar}
-Tony Mullen \& Tony Mullen.
-\newblock \emph{Prototyping Augmented Reality}.
-\newblock Wiley. 2011.
-\newblock ISBN 9781118036631.
+Tony Mullen \& Tony Mullen. 2011. Prototyping augmented reality.
+\newblock Wiley.
 
 \bibitem[VRScout Inc.(2016)]{ar-application-whitehouse}
 Ar experience of the white house. 2016. WWW document. Available at:
@@ -23,37 +21,27 @@ Ar experience of the white house. 2016. WWW document. Available at:
   [Accessed \changeformat{2018-10-06}].
 
 \bibitem[van Krevelen \& Poelman(2010)]{vrjournal}
-D.W.F. van Krevelen \& R.~Poelman.
-\newblock A survey of augmented reality technologies, applications and
-  limitations.
-\newblock \emph{The International Journal of Virtual Reality}. pages 1--6.
-  2010.
-\newblock
-  \doi{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.8190&rep=rep1&type=pdf}.
+D.W.F. van Krevelen \& R.~Poelman. 2010. A survey of augmented reality
+  technologies, applications and limitations. \emph{The International Journal
+  of Virtual Reality}. pages 1--6.
 
 \bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, \& Stone]{horizon-report}
-L.~Johnson, A.~Levine, R.~Smith, \& S.~Stone.
-\newblock \emph{The Horizon Report}.
-\newblock Educause Learning Initiative. 2010.
-\newblock ISBN 978-0-9825334-3-7.
+L.~Johnson, A.~Levine, R.~Smith, \& S.~Stone. 2010. The horizon report.
+\newblock Educause Learning Initiative.
 
 \bibitem[Kipper et~al.(2013)Kipper, Rampolla, \& Kipper]{augmented-reality}
-Gregory Kipper, Joseph Rampolla, \& Greg Kipper.
-\newblock \emph{Augmented Reality}.
-\newblock Syngress. 2013.
-\newblock ISBN 1-59749-733-9,1-59749-734-7,1-283-81064-6.
+Gregory Kipper, Joseph Rampolla, \& Greg Kipper. 2013. Augmented reality.
+\newblock Syngress.
 
 \bibitem[Wang \& Dunston(2007)]{ar-design}
-Xiangyu Wang \& Phillip~S. Dunston.
-\newblock Design, strategies, and issues towards an augmented reality-based
-  construction training platform.
-\newblock \emph{ITcon Vol. 12}. pages 1--8. 2007.
+Xiangyu Wang \& Phillip~S. Dunston. 2007. Design, strategies, and issues
+  towards an augmented reality-based construction training platform.
+  \emph{ITcon Vol. 12}. pages 1--8.
 
 \bibitem[Rabbi \& Ullah(2016)]{Acta-Graphica}
-Ihsan Rabbi \& Sehat Ullah.
-\newblock A survey on augmented reality challenges and tracking.
-\newblock \emph{Acta Graphica}. 24\penalty0 (1-2):\penalty0 29--46. 2016.
-\newblock ISSN 1848-3828. WWW document. Available at:
+Ihsan Rabbi \& Sehat Ullah. 2016. A survey on augmented reality challenges and
+  tracking. \emph{Acta Graphica}. 24\penalty0 (1-2):\penalty0 29--46. WWW
+  document. Available at:
   \textcolor{blue}{\url{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}}.
 
 \bibitem[Digital Trends(2018)]{htc-vive-pro-review}
@@ -109,9 +97,7 @@ Holly~Elisabeth Carter.
 \newblock Master's thesis. 2014.
 
 \bibitem[UK(2019)]{cbrne-world}
-Falcon~Communications UK.
-\newblock Cbrne world.
-\newblock 2019.
+Falcon~Communications UK. 2019. Cbrne world.
 
 \bibitem[Visiongain ltd.(2017)]{cbrn-market-share}
 Chemical, biological, radiological \& nuclear (cbrn) defence market report
@@ -149,14 +135,12 @@ Hi5 vr glove business edition. 2018. WWW document. Available at:
   \changeformat{2018-11-20}].
 
 \bibitem[Lewis \& Jacobson(2002)]{game-engines}
-Michael Lewis \& Jeffrey Jacobson.
-\newblock Game engines in scientific research.
-\newblock \emph{Communications of the ACM Vol. 42}. pages 1--5. 2002.
+Michael Lewis \& Jeffrey Jacobson. 2002. Game engines in scientific research.
+  \emph{Communications of the ACM Vol. 42}. pages 1--5.
 
 \bibitem[Dondlinger(2007)]{goal-oriented-games}
-Mary~Jo Dondlinger.
-\newblock Educational video game design: A review of the literature.
-\newblock 2007.
+Mary~Jo Dondlinger. 2007. Educational video game design: A review of the
+  literature.
 
 \bibitem[Epic Games(2019{\natexlab{a}})]{ue-levels}
 Unreal engine levels. 2019{\natexlab{a}}. Epic Games. WWW document. Available

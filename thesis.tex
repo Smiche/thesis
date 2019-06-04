@@ -260,7 +260,8 @@ August\or September\or October\or November\or December\fi
 	  Reijo Vuohelainen & & & \\
 	  \hline
 		\textbf{Abstract} & & & \\
-		\multicolumn{4}{|p{\lengtha}|}{\raggedright \lipsum[1-2]} \\
+		\multicolumn{4}{|p{\lengtha}|}{\raggedright \setstretch{1.0}\lipsum[1-2] \par Paragraph 3.
+		\par Paragraph 4.} \\
 	  \hline
 	  \textbf{Keywords} & & & \\
 	  & & & \\
@@ -694,7 +695,9 @@ To track the progress a new variable is added to the new PlayerState Blueprint t
 \par
 With the current implementation whenever the application is restarted all progress will be reset because it is kept in the memory. To be able to persist the progress tracking over application restarts the SaveGame Blueprint is used. This blueprint is used to create save slots and store variables in them. These slots persist over restarts and can be loaded with each application start. The value stored is the current objective enum, therefore the application resumes to the last objective the user was on before exiting. \citeyeartitlexamk{save-game}
 \subsection{Objective instructions}
-
+Instructions about the different objectives need to be provided to the application users. Without such instructions users can become unaware of what is required of them to do. These instructions should contain the steps required to complete the current objective. Additionally basic information about the system that is relative to the current objective can be given. This section covers the different methods used to provide instructions and information to the user.
+\par
+The primary media types for instructions are text and images. These media types are two dimensional which makes Widgets a good candidate for the delivery of instructions.
 \subsection{Visualizing events}
 \par
 \chapter{\texorpdfstring{Analyzing the mixed reality training application}{analysis-mixedr}}
