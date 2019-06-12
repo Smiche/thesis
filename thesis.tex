@@ -696,14 +696,30 @@ To track the progress a new variable is added to the new PlayerState Blueprint t
 With the current implementation whenever the application is restarted all progress will be reset because it is kept in the memory. To be able to persist the progress tracking over application restarts the SaveGame Blueprint is used. This blueprint is used to create save slots and store variables in them. These slots persist over restarts and can be loaded with each application start. The value stored is the current objective enum, therefore the application resumes to the last objective the user was on before exiting. \citeyeartitlexamk{save-game}
 \subsection{Objective instructions}
 Instructions about the different objectives need to be provided to the application users. Without such instructions users can become unaware of what is required of them to do. These instructions should contain the steps required to complete the current objective. Additionally basic information about the system that is relative to the current objective can be given. This section covers the different methods used to provide instructions and information to the user.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{user-widget}
+	\caption{UserWidget containing text and an Image element}
+	\label{fig:user-widget}
+\end{figure}
 \par
-The primary media types for instructions are text and images. These media types are two dimensional which makes Widgets a good candidate for the delivery of instructions.
-\subsection{Visualizing events}
+The primary media types for instructions are text and images. These media types are two dimensional which makes Widgets a good candidate for the delivery of instructions. A virtual widescreen display will be utilised to show these instructions. Firstly a UserWidget is created for every instruction. Each UserWidget contains text and image elements that guide the user and explain what actions need to be taken. These widgets will not be modified on runtime and will not contain logic. Secondly a new WidgetComponent is created and named ScreenComponent. It contains a white Image element which is used for the text background. Furthermore all the UserWidgets created earlier are added to a WidgetSwitcher component, which itself is added to the ScreenComponent. The WidgetSwitcher component is a simple component which is used to control what is shown from the list of its children components. Lastly the ScreenWidget is listening to objective change events and commands the WidgetSwitcher which instruction widget should be shown. After performing this setup the 2D behavior of the ScreenWidget is complete.
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{screen-component}
+	\caption{ScreenComponent added to the scene}
+	\label{fig:screen-component}
+\end{figure}
 \par
-\chapter{\texorpdfstring{Analyzing the mixed reality training application}{analysis-mixedr}}
-
-\section{Future possibilities for development and improvement}
-
+The ScreenWidget component needs to be added to the scene in order to be visible to the user. This is done by creating a new Actor Component which contains a 3D model of a touch screen and a WidgetComponent wrapping the ScreenWidget. The WidgetComponent is aligned with the surface of the 3D screen model which makes it appear as if the screen is projecting the instructions. Finally the Actor Component is added to the scene in a place where it can be seen by the user \Cref{fig:screen-component}.
+\subsection{Visual and auditory cues for events}
+User interaction with the virtual environment can lead to events occuring. Visual or auditory cues are needed to signal the user that such events are taking place. These cues can be considered as a feedback to the user when the environment has been changed in an impactful way. A simple example of such feedback is when a device is turned on and shortly after the device status LED starts flashing and it also starts emitting operational noise. This type of feedback is not directly related to the motor input from the user, but more so to the change of state in the environment.
+\par
+Events on devices can be generated either by a change of the device's own state change or by a change of the global state. An example of a device state change is when a device is turned on. An example of a global state change is when a device alarms, resulting in alarm sound and visualization coming from the toughbook laptop.
+\par
+Visualizing of events is accomplished by changing the visual appearance of the scene by adding, removing or modifying scene actors. One visualization tool used for real life sensor devices is LEDs that indicate status of the device. This is replicated in UE by using a PointLight as an LED light source and setting its visibility on or off depending on the virtual device status. This method is quite intuitive for the user as it is similar to real life visualization. Another visualization method used in this project is the display of text and images with Widget Components. This method was further discussed in the previous section.
+\par
+Sound effects can offer better immersion by simulating sounds that are present in the real ObSAS environment. Additional information can be also provided to trainees with the use of sound. Playing sounds in Unreal Engine begins by importing a Waveform Audio File(WAV) of the sound effect as an asset. This asset can be then added to the scene with the use of a Sound Cue Component. This type of component is also used to modify audio playback by changing aspects such as playback speed, frequency, volume, pitch and others. 
+\par
+\chapter{\texorpdfstring{Results and conclusion}{results-conclusion}}
 
 \newpage
 
