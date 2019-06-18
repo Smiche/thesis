@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  12 JUN 2019 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.27)  18 JUN 2019 19:56
 entering extended mode
 **"g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
 ("g:/My Drive/University 2018-2019/thesis_alex/thesis.tex"
@@ -976,26 +976,26 @@ Package: usebib 2012/03/17 v1.0 Reusing bib files
 ) (references.bib) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 207.
-LaTeX Font Info:    ... okay on input line 207.
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 207.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 211.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
 File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
 )
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 207.
+(Font)              scaled to size 11.39996pt on input line 211.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count140
@@ -1021,11 +1021,11 @@ Package grfext Info: Graphics extension search list:
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 207.
+(lastpage)             ! on input line 211.
 \AtBeginShipoutBox=\box45
-Package ragged2e Info: ABD: executing \RaggedRight on input line 207.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 211.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 207.
+LaTeX Info: Redefining \selectfont on input line 211.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1064,7 +1064,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 207.
+Package hyperref Info: Link coloring ON on input line 211.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -1072,30 +1072,30 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 207.
-LaTeX Info: Redefining \pageref on input line 207.
-LaTeX Info: Redefining \nameref on input line 207.
+LaTeX Info: Redefining \ref on input line 211.
+LaTeX Info: Redefining \pageref on input line 211.
+LaTeX Info: Redefining \nameref on input line 211.
  (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
  ABD: EveryShipout initializing macros
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 207.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 211.
 
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 15.19995pt on input line 217.
+(Font)              scaled to size 15.19995pt on input line 221.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 22.79993pt on input line 221.
-<xamklogo.png, id=206, 249.9885pt x 150.453pt>
+(Font)              scaled to size 22.79993pt on input line 225.
+<xamklogo.png, id=210, 249.9885pt x 150.453pt>
 File: xamklogo.png Graphic file (type png)
 <use xamklogo.png>
-Package pdftex.def Info: xamklogo.png  used on input line 236.
+Package pdftex.def Info: xamklogo.png  used on input line 240.
 (pdftex.def)             Requested size: 249.98787pt x 150.45264pt.
-<background.png, id=207, 597.432pt x 845.0772pt>
+<background.png, id=211, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 239.
+Package pdftex.def Info: background.png  used on input line 243.
 (pdftex.def)             Requested size: 597.41231pt x 845.04933pt.
 [1
 
@@ -1103,17 +1103,17 @@ Package pdftex.def Info: background.png  used on input line 239.
 {C:/Users/smich/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./background.png> <./xamklogo.png>]
 \lengtha=\skip125
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd") ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd")
-Overfull \hbox (6.33835pt too wide) in paragraph at lines 245--270
+Overfull \hbox (6.33835pt too wide) in paragraph at lines 249--274
   []  
  []
 
 [1]
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 273.
+(Font)              scaled to size 23.63593pt on input line 277.
 LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ua1/b/n' tried instead on input line 273.
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 277.
 LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 273.
+(Font)              scaled to size 23.63593pt on input line 277.
  (thesis.toc [2])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
@@ -1155,180 +1155,180 @@ LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
 CHAPTER 1
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 283.
+(hyperref)                removing `\uppercase' on input line 287.
 
-Package newfloat Info: Setting Plan B file extension to `lof'... on input line 283.
-<ar-vr-consumer-spending.png, id=322, 1003.75pt x 745.78625pt>
+Package newfloat Info: Setting Plan B file extension to `lof'... on input line 287.
+<ar-vr-consumer-spending.png, id=328, 1003.75pt x 745.78625pt>
 File: ar-vr-consumer-spending.png Graphic file (type png)
 <use ar-vr-consumer-spending.png>
-Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 292.
+Package pdftex.def Info: ar-vr-consumer-spending.png  used on input line 296.
 (pdftex.def)             Requested size: 282.62563pt x 210.0pt.
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 293.
+(Font)              scaled to size 10.40245pt on input line 297.
 [4
 
 ]
 CHAPTER 2
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 298.
+(hyperref)                removing `\uppercase' on input line 302.
 
-<Virtuality_Continuum_2.jpg, id=330, 614.295pt x 118.4425pt>
+<Virtuality_Continuum_2.jpg, id=336, 614.295pt x 118.4425pt>
 File: Virtuality_Continuum_2.jpg Graphic file (type jpg)
 <use Virtuality_Continuum_2.jpg>
-Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 302.
+Package pdftex.def Info: Virtuality_Continuum_2.jpg  used on input line 306.
 (pdftex.def)             Requested size: 426.79135pt x 82.29108pt.
-<ar-application.jpg, id=334, 813.0375pt x 418.56375pt>
+<ar-application.jpg, id=340, 813.0375pt x 418.56375pt>
 File: ar-application.jpg Graphic file (type jpg)
 <use ar-application.jpg>
-Package pdftex.def Info: ar-application.jpg  used on input line 310.
+Package pdftex.def Info: ar-application.jpg  used on input line 314.
 (pdftex.def)             Requested size: 426.79135pt x 219.71732pt.
 [5 <./ar-vr-consumer-spending.png> <./Virtuality_Continuum_2.jpg>] [6 <./ar-application.jpg>]
-<ar-framework.png, id=361, 505.5136pt x 165.99516pt>
+<ar-framework.png, id=367, 505.5136pt x 165.99516pt>
 File: ar-framework.png Graphic file (type png)
 <use ar-framework.png>
-Package pdftex.def Info: ar-framework.png  used on input line 337.
+Package pdftex.def Info: ar-framework.png  used on input line 341.
 (pdftex.def)             Requested size: 426.79135pt x 140.14671pt.
  [7]
-<ar-challenges.png, id=375, 890.9536pt x 239.01797pt>
+<ar-challenges.png, id=381, 890.9536pt x 239.01797pt>
 File: ar-challenges.png Graphic file (type png)
 <use ar-challenges.png>
-Package pdftex.def Info: ar-challenges.png  used on input line 344.
+Package pdftex.def Info: ar-challenges.png  used on input line 348.
 (pdftex.def)             Requested size: 426.79135pt x 114.49754pt.
-<htc-vive-pro-headset.jpg, id=380, 803.0pt x 536.0025pt>
+<htc-vive-pro-headset.jpg, id=386, 803.0pt x 536.0025pt>
 File: htc-vive-pro-headset.jpg Graphic file (type jpg)
 <use htc-vive-pro-headset.jpg>
-Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 364.
+Package pdftex.def Info: htc-vive-pro-headset.jpg  used on input line 368.
 (pdftex.def)             Requested size: 426.79135pt x 284.88966pt.
  [8 <./ar-framework.png> <./ar-challenges.png>] [9 <./htc-vive-pro-headset.jpg>] [10] [11]
 CHAPTER 3
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 407.
+(hyperref)                removing `\uppercase' on input line 411.
 
 [12] [13] [14]
-<chemprodm.jpg, id=436, 777.90625pt x 501.875pt>
+<chemprodm.jpg, id=442, 777.90625pt x 501.875pt>
 File: chemprodm.jpg Graphic file (type jpg)
 <use chemprodm.jpg>
-Package pdftex.def Info: chemprodm.jpg  used on input line 431.
+Package pdftex.def Info: chemprodm.jpg  used on input line 435.
 (pdftex.def)             Requested size: 426.79135pt x 275.35818pt.
  [15 <./chemprodm.jpg>] [16] [17]
 CHAPTER 4
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 459.
+(hyperref)                removing `\uppercase' on input line 463.
 
 [18]
-<vr-glove2.png, id=478, 957.5775pt x 608.2725pt>
+<vr-glove2.png, id=485, 957.5775pt x 608.2725pt>
 File: vr-glove2.png Graphic file (type png)
 <use vr-glove2.png>
-Package pdftex.def Info: vr-glove2.png  used on input line 482.
+Package pdftex.def Info: vr-glove2.png  used on input line 486.
 (pdftex.def)             Requested size: 330.58377pt x 210.0pt.
  [19] [20 <./vr-glove2.png>] [21] [22]
-<level-ue4-editor.jpg, id=513, 1156.32pt x 625.1355pt>
+<level-ue4-editor.jpg, id=520, 1156.32pt x 625.1355pt>
 File: level-ue4-editor.jpg Graphic file (type jpg)
 <use level-ue4-editor.jpg>
-Package pdftex.def Info: level-ue4-editor.jpg  used on input line 531.
+Package pdftex.def Info: level-ue4-editor.jpg  used on input line 535.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
  [23 <./level-ue4-editor.jpg>]
-<ue-blueprint-tool.png, id=523, 1156.32pt x 625.1355pt>
+<ue-blueprint-tool.png, id=530, 1156.32pt x 625.1355pt>
 File: ue-blueprint-tool.png Graphic file (type png)
 <use ue-blueprint-tool.png>
-Package pdftex.def Info: ue-blueprint-tool.png  used on input line 545.
+Package pdftex.def Info: ue-blueprint-tool.png  used on input line 549.
 (pdftex.def)             Requested size: 426.79135pt x 230.73372pt.
  [24] [25 <./ue-blueprint-tool.png>]
-<collision-types.png, id=539, 1907.125pt x 451.6875pt>
+<collision-types.png, id=546, 1907.125pt x 451.6875pt>
 File: collision-types.png Graphic file (type png)
 <use collision-types.png>
-Package pdftex.def Info: collision-types.png  used on input line 556.
+Package pdftex.def Info: collision-types.png  used on input line 560.
 (pdftex.def)             Requested size: 426.79135pt x 101.08081pt.
  [26 <./collision-types.png>] [27]
 CHAPTER 5
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 574.
+(hyperref)                removing `\uppercase' on input line 578.
 
-<new-project.png, id=560, 831.43959pt x 568.45708pt>
+<new-project.png, id=567, 831.43959pt x 568.45708pt>
 File: new-project.png Graphic file (type png)
 <use new-project.png>
-Package pdftex.def Info: new-project.png  used on input line 579.
+Package pdftex.def Info: new-project.png  used on input line 583.
 (pdftex.def)             Requested size: 365.65694pt x 250.0pt.
 [28] [29 <./new-project.png>]
-<vehicle-interior.jpg, id=574, 1445.4pt x 764.10469pt>
+<vehicle-interior.jpg, id=581, 1445.4pt x 764.10469pt>
 File: vehicle-interior.jpg Graphic file (type jpg)
 <use vehicle-interior.jpg>
-Package pdftex.def Info: vehicle-interior.jpg  used on input line 589.
+Package pdftex.def Info: vehicle-interior.jpg  used on input line 593.
 (pdftex.def)             Requested size: 426.79135pt x 225.61879pt.
  [30 <./vehicle-interior.jpg>]
-<calibration-menu.png, id=584, 784.43062pt x 451.6875pt>
+<calibration-menu.png, id=591, 784.43062pt x 451.6875pt>
 File: calibration-menu.png Graphic file (type png)
 <use calibration-menu.png>
-Package pdftex.def Info: calibration-menu.png  used on input line 600.
+Package pdftex.def Info: calibration-menu.png  used on input line 604.
 (pdftex.def)             Requested size: 426.79135pt x 245.75471pt.
-<menu-selection.png, id=587, 598.48593pt x 303.38344pt>
+<menu-selection.png, id=594, 598.48593pt x 303.38344pt>
 File: menu-selection.png Graphic file (type png)
 <use menu-selection.png>
-Package pdftex.def Info: menu-selection.png  used on input line 607.
+Package pdftex.def Info: menu-selection.png  used on input line 611.
 (pdftex.def)             Requested size: 426.79135pt x 216.35274pt.
  [31 <./calibration-menu.png>] [32 <./menu-selection.png>]
-<gloves-grab.png, id=601, 1505.625pt x 652.4375pt>
+<gloves-grab.png, id=608, 1505.625pt x 652.4375pt>
 File: gloves-grab.png Graphic file (type png)
 <use gloves-grab.png>
-Package pdftex.def Info: gloves-grab.png  used on input line 619.
+Package pdftex.def Info: gloves-grab.png  used on input line 623.
 (pdftex.def)             Requested size: 426.79135pt x 184.94112pt.
  [33]
-<motion-controller.png, id=610, 376.40625pt x 307.1475pt>
+<motion-controller.png, id=617, 376.40625pt x 307.1475pt>
 File: motion-controller.png Graphic file (type png)
 <use motion-controller.png>
-Package pdftex.def Info: motion-controller.png  used on input line 629.
+Package pdftex.def Info: motion-controller.png  used on input line 633.
 (pdftex.def)             Requested size: 281.86748pt x 230.0pt.
  [34 <./gloves-grab.png>]
-<grab-blueprint.png, id=617, 1096.84781pt x 456.20438pt>
+<grab-blueprint.png, id=624, 1096.84781pt x 456.20438pt>
 File: grab-blueprint.png Graphic file (type png)
 <use grab-blueprint.png>
-Package pdftex.def Info: grab-blueprint.png  used on input line 635.
+Package pdftex.def Info: grab-blueprint.png  used on input line 639.
 (pdftex.def)             Requested size: 426.79135pt x 177.50827pt.
  [35 <./motion-controller.png>] [36 <./grab-blueprint.png>]
-<particle-rope.jpg, id=633, 903.375pt x 330.48468pt>
+<particle-rope.jpg, id=640, 903.375pt x 330.48468pt>
 File: particle-rope.jpg Graphic file (type jpg)
 <use particle-rope.jpg>
-Package pdftex.def Info: particle-rope.jpg  used on input line 658.
+Package pdftex.def Info: particle-rope.jpg  used on input line 662.
 (pdftex.def)             Requested size: 426.79135pt x 156.13466pt.
  [37]
-<cable-grab.png, id=642, 1927.2pt x 1071.00125pt>
+<cable-grab.png, id=649, 1927.2pt x 1071.00125pt>
 File: cable-grab.png Graphic file (type png)
 <use cable-grab.png>
-Package pdftex.def Info: cable-grab.png  used on input line 665.
+Package pdftex.def Info: cable-grab.png  used on input line 669.
 (pdftex.def)             Requested size: 426.79135pt x 237.17351pt.
  [38 <./particle-rope.jpg>]
-<spline-component.png, id=650, 943.85959pt x 529.64542pt>
+<spline-component.png, id=657, 943.85959pt x 529.64542pt>
 File: spline-component.png Graphic file (type png)
 <use spline-component.png>
-Package pdftex.def Info: spline-component.png  used on input line 672.
+Package pdftex.def Info: spline-component.png  used on input line 676.
 (pdftex.def)             Requested size: 426.79135pt x 239.49391pt.
  [39 <./cable-grab.png> <./spline-component.png>] [40]
-<player-state.png, id=665, 880.7304pt x 405.1938pt>
+<player-state.png, id=672, 880.7304pt x 405.1938pt>
 File: player-state.png Graphic file (type png)
 <use player-state.png>
-Package pdftex.def Info: player-state.png  used on input line 689.
+Package pdftex.def Info: player-state.png  used on input line 693.
 (pdftex.def)             Requested size: 426.79135pt x 196.35182pt.
  [41 <./player-state.png>]
-<user-widget.png, id=674, 832.61063pt x 488.57532pt>
+<user-widget.png, id=681, 832.61063pt x 488.57532pt>
 File: user-widget.png Graphic file (type png)
 <use user-widget.png>
-Package pdftex.def Info: user-widget.png  used on input line 700.
+Package pdftex.def Info: user-widget.png  used on input line 704.
 (pdftex.def)             Requested size: 426.79135pt x 250.44493pt.
  [42]
-<screen-component.png, id=681, 1927.2pt x 1071.00125pt>
+<screen-component.png, id=688, 1927.2pt x 1071.00125pt>
 File: screen-component.png Graphic file (type png)
 <use screen-component.png>
-Package pdftex.def Info: screen-component.png  used on input line 707.
+Package pdftex.def Info: screen-component.png  used on input line 711.
 (pdftex.def)             Requested size: 426.79135pt x 237.17351pt.
  [43 <./user-widget.png>] [44 <./screen-component.png>]
 CHAPTER 6
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 722.
+(hyperref)                removing `\uppercase' on input line 728.
 
 [45] (thesis.bbl
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
@@ -1336,26 +1336,26 @@ LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
  [46] [47]) 
 AED: lastpage setting LastPage
 [48]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 730.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 730.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 736.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 736.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 730.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 730.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 736.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 736.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2736CBD71C72709A37E7061970D76C52;3057.
+(rerunfilecheck)             Checksum: D3A8CB20D3DA658FA786FCA2F180E7DE;3146.
  ) 
 Here is how much of TeX's memory you used:
- 23217 strings out of 493303
- 426567 string characters out of 3138856
- 598950 words of memory out of 3000000
- 26123 multiletter control sequences out of 15000+200000
+ 23221 strings out of 493303
+ 426607 string characters out of 3138856
+ 598975 words of memory out of 3000000
+ 26126 multiletter control sequences out of 15000+200000
  56838 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,92p,1418b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,92p,1418b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on thesis.pdf (49 pages, 12263593 bytes).
+Output written on thesis.pdf (49 pages, 12264846 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 162 named destinations out of 1000 (max. 500000)
- 591 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 834 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 599 words of extra memory for PDF output out of 10000 (max. 10000000)
 

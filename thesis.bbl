@@ -12,7 +12,7 @@ Consumer spending on ar/vr worldwide 2016-2021. 2018. WWW document. Available
   [Accessed \changeformat{2018-10-06}].
 
 \bibitem[Mullen \& Mullen(2011)]{prototyping-ar}
-Tony Mullen \& Tony Mullen. 2011. Prototyping augmented reality.
+Mullen, T. \& Mullen, T.. 2011. Prototyping augmented reality.
 \newblock Wiley.
 
 \bibitem[VRScout Inc.(2016)]{ar-application-whitehouse}
@@ -21,25 +21,25 @@ Ar experience of the white house. 2016. WWW document. Available at:
   [Accessed \changeformat{2018-10-06}].
 
 \bibitem[van Krevelen \& Poelman(2010)]{vrjournal}
-D.W.F. van Krevelen \& R.~Poelman. 2010. A survey of augmented reality
+van Krevelen, D. \& Poelman, R. 2010. A survey of augmented reality
   technologies, applications and limitations. \emph{The International Journal
   of Virtual Reality}. pages 1--6.
 
 \bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, \& Stone]{horizon-report}
-L.~Johnson, A.~Levine, R.~Smith, \& S.~Stone. 2010. The horizon report.
+Johnson, L., Levine, A., Smith, R., \& Stone, S.. 2010. The horizon report.
 \newblock Educause Learning Initiative.
 
 \bibitem[Kipper et~al.(2013)Kipper, Rampolla, \& Kipper]{augmented-reality}
-Gregory Kipper, Joseph Rampolla, \& Greg Kipper. 2013. Augmented reality.
+Kipper, G., Rampolla, J., \& Kipper, G.. 2013. Augmented reality.
 \newblock Syngress.
 
 \bibitem[Wang \& Dunston(2007)]{ar-design}
-Xiangyu Wang \& Phillip~S. Dunston. 2007. Design, strategies, and issues
-  towards an augmented reality-based construction training platform.
-  \emph{ITcon Vol. 12}. pages 1--8.
+Wang, X. \& Dunston, P.~S. 2007. Design, strategies, and issues towards an
+  augmented reality-based construction training platform. \emph{ITcon Vol. 12}.
+  pages 1--8.
 
 \bibitem[Rabbi \& Ullah(2016)]{Acta-Graphica}
-Ihsan Rabbi \& Sehat Ullah. 2016. A survey on augmented reality challenges and
+Rabbi, I. \& Ullah, S. 2016. A survey on augmented reality challenges and
   tracking. \emph{Acta Graphica}. 24\penalty0 (1-2):\penalty0 29--46. WWW
   document. Available at:
   \textcolor{blue}{\url{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}}.
@@ -55,13 +55,13 @@ Hp z vr backpack overview. 2018. WWW document. Available at:
   [Accessed \changeformat{2018-05-21}].
 
 \bibitem[van Gimst(2018)]{nlr-vr}
-Ronald van Gimst. 2018. Creating a high-fidelity and low-cost simulation
+van Gimst, R.. 2018. Creating a high-fidelity and low-cost simulation
   environment. WWW document. Available at:
   \textcolor{blue}{\url{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}}
   [Accessed \changeformat{2018-06-24}].
 
 \bibitem[Gopinath \& Sawyer(1999)]{enterprise-simulation}
-C.~Gopinath \& John~E. Sawyer. 1999. Exploring the learning from an enterprise
+Gopinath, C. \& Sawyer, J.~E.. 1999. Exploring the learning from an enterprise
   simulation. WWW document. Available at:
   \textcolor{blue}{\url{https://www.researchgate.net/publication/201381843\_Exploring\_the\_learning\_from\_an\_enterprise\_simulation}}
   [Accessed \changeformat{2019-05-13}].
@@ -72,14 +72,13 @@ A brief simulation training history. 2019. WWW document. Available at:
   [Accessed \changeformat{2019-05-13}].
 
 \bibitem[Martinali(2018)]{medical-sim-training}
-Jacqueline Martinali. 2018. What is simulation training?. WWW document.
-  Available at:
+Martinali, J.. 2018. What is simulation training?. WWW document. Available at:
   \textcolor{blue}{\url{https://www.noldus.com/blog/what-is-simulation-training}}
   [Accessed \changeformat{2019-05-13}].
 
 \bibitem[Macedonia(2002)]{games-sim-mil}
-Michael Macedonia. 2002. Games, simulation, and the military education dilemma.
-  WWW document. Available at:
+Macedonia, M.. 2002. Games, simulation, and the military education dilemma. WWW
+  document. Available at:
   \textcolor{blue}{\url{https://www.researchgate.net/publication/260386555\_Games\_Simulation\_and\_the\_Military\_Education\_Dilemma}}
   [Accessed \changeformat{2019-05-13}].
 
@@ -90,14 +89,14 @@ Chemprodm chemical detector for mobile and vehicle applications. 2018. WWW
   [Accessed \changeformat{2018-10-26}].
 
 \bibitem[Carter(2014)]{crowd-behavior}
-Holly~Elisabeth Carter.
+Carter, H.~E.
 \newblock Crowd behaviour in chemical, biological, radiological and nuclear
   (cbrn) emergencies : behavioural and psychological responses to incidents
   involving emergency decontamination.
 \newblock Master's thesis. 2014.
 
-\bibitem[UK(2019)]{cbrne-world}
-Falcon~Communications UK. 2019. Cbrne world.
+\bibitem[Falcon Communications UK(2019)]{cbrne-world}
+Cbrne world. 2019. Falcon Communications UK.
 
 \bibitem[Visiongain ltd.(2017)]{cbrn-market-share}
 Chemical, biological, radiological \& nuclear (cbrn) defence market report
@@ -135,11 +134,11 @@ Hi5 vr glove business edition. 2018. WWW document. Available at:
   \changeformat{2018-11-20}].
 
 \bibitem[Lewis \& Jacobson(2002)]{game-engines}
-Michael Lewis \& Jeffrey Jacobson. 2002. Game engines in scientific research.
+Lewis, M. \& Jacobson, J. 2002. Game engines in scientific research.
   \emph{Communications of the ACM Vol. 42}. pages 1--5.
 
 \bibitem[Dondlinger(2007)]{goal-oriented-games}
-Mary~Jo Dondlinger. 2007. Educational video game design: A review of the
+Dondlinger, M.~J. 2007. Educational video game design: A review of the
   literature.
 
 \bibitem[Epic Games(2019{\natexlab{a}})]{ue-levels}
@@ -208,7 +207,7 @@ Unreal engine light sources. 2019{\natexlab{k}}. Epic Games. WWW document.
   [Accessed \changeformat{2019-05-21}].
 
 \bibitem[McMenamin(2018)]{collaborative-vr}
-Mikko McMenamin.
+McMenamin, M.
 \newblock Design and development of a collaborative virtual reality
   environment.
 \newblock Master's thesis. 2018.

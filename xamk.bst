@@ -220,7 +220,8 @@ FUNCTION {format.names}
   s num.names$ 'numnames :=
   numnames 'namesleft :=
     { namesleft #0 > }
-    { s nameptr "{ff~}{vv~}{ll}{, jj}" format.name$ 't :=
+    { s nameptr "{vv~}{ll}{, f.}{, jj}" format.name$ 't :=
+    %{ s nameptr "{ff~}{vv~}{ll}{, jj}" format.name$ 't :=
       nameptr #1 >
         { namesleft #1 >
             { ", " * t * }
@@ -718,9 +719,9 @@ FUNCTION {format.incoll.inproc.crossref}
 
 FUNCTION {article}
 { output.bibitem
-  format.authors "author" output.check
-  author format.key output
-  format.date "year" output.check
+  format.authors " " * format.date * output
+  %author format.key output
+  %format.date "year" output.check
   format.title "title" output.check
   %new.block
   crossref missing$
