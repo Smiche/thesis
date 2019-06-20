@@ -1,51 +1,58 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Industrial Training International(2019)]{simulation-training-history}
+\bibitem[A brief simulation training
+  history(2019)]{simulation-training-history}
 A brief simulation training history. 2019. WWW document. Available at:
   \textcolor{blue}{\url{https://www.iti.com/blog/a-brief-history-of-simulation-training-}}
   [Accessed \changeformat{2019-05-13}].
 
-\bibitem[VRScout Inc.(2016)]{ar-application-whitehouse}
+\bibitem[Ar experience of the white house(2016)]{ar-application-whitehouse}
 Ar experience of the white house. 2016. WWW document. Available at:
   \textcolor{blue}{\url{https://vrscout.com/news/augmented-reality-app-1-dollar-bill-tour-white-house/}}
   [Accessed \changeformat{2018-10-06}].
 
-\bibitem[HTC Corporation(2018)]{htc-vive-pro}
+\bibitem[About the vive controllers(2019)]{vive-controllers-photo}
+About the vive controllers. 2019. HTC Corporation. WWW document. Available at:
+  \textcolor{blue}{\url{https://www.vive.com/us/support/vive/category_howto/about-the-controllers.html}}
+  [Accessed \changeformat{2019-06-20}].
+
+\bibitem[Buy htc vive pro(2018)]{htc-vive-pro}
 Buy htc vive pro. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.vive.com/eu/product/vive-pro/}} [Accessed
   \changeformat{2018-09-30}].
 
-\bibitem[Microsoft(2018{\natexlab{b}})]{hololens-price}
-Buy microsoft hololens. 2018{\natexlab{b}}. WWW document. Available at:
+\bibitem[Buy microsoft hololens(2018)]{hololens-price}
+Buy microsoft hololens. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.microsoft.com/en-gb/hololens/buy}}
   [Accessed \changeformat{2018-09-30}].
 
-\bibitem[Falcon Communications UK(2019)]{cbrne-world}
+\bibitem[Cbrne world(2019)]{cbrne-world}
 Cbrne world. 2019. Falcon Communications UK.
 
 \bibitem[Carter(2014)]{crowd-behavior}
-Carter, H.~E.
-\newblock Crowd behaviour in chemical, biological, radiological and nuclear
-  (cbrn) emergencies : behavioural and psychological responses to incidents
-  involving emergency decontamination.
-\newblock Master's thesis. 2014.
+Carter, H.~E. 2014. Crowd behaviour in chemical, biological, radiological and
+  nuclear (cbrn) emergencies : behavioural and psychological responses to
+  incidents involving emergency decontamination.
+\newblock Master's thesis.
 
-\bibitem[Environics Oy(2018)]{environics-chemprodm}
+\bibitem[Chemprodm chemical detector for mobile and vehicle
+  applications(2018)]{environics-chemprodm}
 Chemprodm chemical detector for mobile and vehicle applications. 2018. WWW
   document. Available at:
   \textcolor{blue}{\url{https://www.environics.fi/product/chemprodm/}}
   [Accessed \changeformat{2018-10-26}].
 
-\bibitem[Visiongain ltd.(2017)]{cbrn-market-share}
+\bibitem[Chemical, biological, radiological \& nuclear (cbrn) defence market
+  report 2017-2027(2017)]{cbrn-market-share}
 Chemical, biological, radiological \& nuclear (cbrn) defence market report
   2017-2027. 2017. Visiongain ltd.
 
-\bibitem[IHS Markit, Statista(2018)]{ar-vr-chart}
+\bibitem[Consumer spending on ar/vr worldwide 2016-2021(2018)]{ar-vr-chart}
 Consumer spending on ar/vr worldwide 2016-2021. 2018. WWW document. Available
   at:
   \textcolor{blue}{\url{https://www.statista.com/statistics/828467/world-ar-vr-consumer-spending-content-apps/}}
@@ -56,37 +63,42 @@ Dondlinger, M.~J. 2007. Educational video game design: A review of the
   literature.
 
 \bibitem[Gopinath \& Sawyer(1999)]{enterprise-simulation}
-Gopinath, C. \& Sawyer, J.~E.. 1999. Exploring the learning from an enterprise
+Gopinath, C. \& Sawyer, J.~E. 1999. Exploring the learning from an enterprise
   simulation. WWW document. Available at:
   \textcolor{blue}{\url{https://www.researchgate.net/publication/201381843\_Exploring\_the\_learning\_from\_an\_enterprise\_simulation}}
   [Accessed \changeformat{2019-05-13}].
 
-\bibitem[Noitom International Inc.(2018)]{hi5-vr-glove}
+\bibitem[Hi5 vr glove user guide(2018)]{hi5-vr-glove-docs}
+Hi5 vr glove user guide. 2018. WWW document. Available at:
+  \textcolor{blue}{\url{https://hi5vrglove.com/instructions}} [Accessed
+  \changeformat{2019-06-20}].
+
+\bibitem[Hi5 vr glove business edition(2018)]{hi5-vr-glove}
 Hi5 vr glove business edition. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://hi5vrglove.com/store/hi5glove}} [Accessed
   \changeformat{2018-11-20}].
 
-\bibitem[Hewlett Packard(2018)]{hp-vrbackpack}
+\bibitem[Hp z vr backpack overview(2018)]{hp-vrbackpack}
 Hp z vr backpack overview. 2018. WWW document. Available at:
   \textcolor{blue}{\url{http://www8.hp.com/us/en/campaigns/vrbackpack/overview.html}}
   [Accessed \changeformat{2018-05-21}].
 
-\bibitem[Digital Trends(2018)]{htc-vive-pro-review}
+\bibitem[Htc vive pro review(2018)]{htc-vive-pro-review}
 Htc vive pro review. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.digitaltrends.com/vr-headset-reviews/htc-vive-pro-review/}}
   [Accessed \changeformat{2018-10-06}].
 
-\bibitem[WindowsCentral(2018)]{vive-vs-rift}
+\bibitem[Htc vive pro vs occulus rift(2018)]{vive-vs-rift}
 Htc vive pro vs occulus rift. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}}
   [Accessed \changeformat{2018-10-29}].
 
 \bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, \& Stone]{horizon-report}
-Johnson, L., Levine, A., Smith, R., \& Stone, S.. 2010. The horizon report.
+Johnson, L., Levine, A., Smith, R., \& Stone, S. 2010. The horizon report.
 \newblock Educause Learning Initiative.
 
 \bibitem[Kipper et~al.(2013)Kipper, Rampolla, \& Kipper]{augmented-reality}
-Kipper, G., Rampolla, J., \& Kipper, G.. 2013. Augmented reality.
+Kipper, G., Rampolla, J., \& Kipper, G. 2013. Augmented reality.
 \newblock Syngress.
 
 \bibitem[Lewis \& Jacobson(2002)]{game-engines}
@@ -94,31 +106,35 @@ Lewis, M. \& Jacobson, J. 2002. Game engines in scientific research.
   \emph{Communications of the ACM Vol. 42}. pages 1--5.
 
 \bibitem[Macedonia(2002)]{games-sim-mil}
-Macedonia, M.. 2002. Games, simulation, and the military education dilemma. WWW
+Macedonia, M. 2002. Games, simulation, and the military education dilemma. WWW
   document. Available at:
   \textcolor{blue}{\url{https://www.researchgate.net/publication/260386555\_Games\_Simulation\_and\_the\_Military\_Education\_Dilemma}}
   [Accessed \changeformat{2019-05-13}].
 
 \bibitem[Martinali(2018)]{medical-sim-training}
-Martinali, J.. 2018. What is simulation training?. WWW document. Available at:
+Martinali, J. 2018. What is simulation training?. WWW document. Available at:
   \textcolor{blue}{\url{https://www.noldus.com/blog/what-is-simulation-training}}
   [Accessed \changeformat{2019-05-13}].
 
 \bibitem[McMenamin(2018)]{collaborative-vr}
-McMenamin, M.
-\newblock Design and development of a collaborative virtual reality
+McMenamin, M. 2018. Design and development of a collaborative virtual reality
   environment.
-\newblock Master's thesis. 2018.
+\newblock Master's thesis.
 
-\bibitem[Microsoft(2018{\natexlab{a}})]{hololens-specs}
-Microsoft hololens device specifications. 2018{\natexlab{a}}. WWW document.
-  Available at:
+\bibitem[Microsoft hololens device specifications(2018)]{hololens-specs}
+Microsoft hololens device specifications. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.abcomrents.com/wp-content/uploads/2018/01/HoloLensSpecSheet.pdf}}
   [Accessed \changeformat{2018-09-1}].
 
 \bibitem[Mullen \& Mullen(2011)]{prototyping-ar}
-Mullen, T. \& Mullen, T.. 2011. Prototyping augmented reality.
+Mullen, T. \& Mullen, T. 2011. Prototyping augmented reality.
 \newblock Wiley.
+
+\bibitem[Obsas cbrn system technical description(2019)]{obsas-docs}
+Obsas cbrn system technical description. 2019. Observis Oy.
+
+\bibitem[Obsas training material ver 3.0(2019)]{obsas-training-docs}
+Obsas training material ver 3.0. 2019. Observis Oy.
 
 \bibitem[Rabbi \& Ullah(2016)]{Acta-Graphica}
 Rabbi, I. \& Ullah, S. 2016. A survey on augmented reality challenges and
@@ -126,90 +142,85 @@ Rabbi, I. \& Ullah, S. 2016. A survey on augmented reality challenges and
   document. Available at:
   \textcolor{blue}{\url{http://www.actagraphica.hr/index.php/actagraphica/article/view/44}}.
 
-\bibitem[Epic Games(2019{\natexlab{m}})]{spline-component}
-Unreal engine blueprint spline component overview. 2019{\natexlab{m}}. Epic
-  Games. WWW document. Available at:
+\bibitem[Unreal engine blueprint spline component
+  overview(2019)]{spline-component}
+Unreal engine blueprint spline component overview. 2019. Epic Games. WWW
+  document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/BlueprintSplines/Overview/index.html}}
   [Accessed \changeformat{2019-05-27}].
 
-\bibitem[Epic Games(2019{\natexlab{l}})]{cable-component}
-Unreal engine cable component. 2019{\natexlab{l}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine cable component(2019)]{cable-component}
+Unreal engine cable component. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Components/Rendering/CableComponent/index.html}}
   [Accessed \changeformat{2019-05-27}].
 
-\bibitem[Epic Games(2019{\natexlab{b}})]{ue-actors}
-Unreal engine documentation. 2019{\natexlab{b}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine documentation(2019)]{ue-actors}
+Unreal engine documentation. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Programming/UnrealArchitecture/Actors}}
   [Accessed \changeformat{2019-04-03}].
 
-\bibitem[Epic Games(2019{\natexlab{c}})]{ue-blueprints}
-Unreal engine documentation introduction to blueprints. 2019{\natexlab{c}}.
-  Epic Games. WWW document. Available at:
+\bibitem[Unreal engine documentation introduction to
+  blueprints(2019)]{ue-blueprints}
+Unreal engine documentation introduction to blueprints. 2019. Epic Games. WWW
+  document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Blueprints/GettingStarted}}
   [Accessed \changeformat{2019-04-04}].
 
-\bibitem[Epic Games(2019{\natexlab{a}})]{ue-levels}
-Unreal engine levels. 2019{\natexlab{a}}. Epic Games. WWW document. Available
-  at: \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Levels}}
+\bibitem[Unreal engine levels(2019)]{ue-levels}
+Unreal engine levels. 2019. Epic Games. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Levels}}
   [Accessed \changeformat{2019-04-01}].
 
-\bibitem[Epic Games(2019{\natexlab{k}})]{ue-lightsources}
-Unreal engine light sources. 2019{\natexlab{k}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine light sources(2019)]{ue-lightsources}
+Unreal engine light sources. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/LightingAndShadows/LightTypes}}
   [Accessed \changeformat{2019-05-21}].
 
-\bibitem[Epic Games(2019{\natexlab{h}})]{ue-materials}
-Unreal engine materials. 2019{\natexlab{h}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine materials(2019)]{ue-materials}
+Unreal engine materials. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Rendering/Materials}}
   [Accessed \changeformat{2019-05-24}].
 
-\bibitem[Epic Games(2019{\natexlab{d}})]{ue-nativizing-blueprints}
-Unreal engine nativizing blueprints. 2019{\natexlab{d}}. Epic Games. WWW
-  document. Available at:
+\bibitem[Unreal engine nativizing blueprints(2019)]{ue-nativizing-blueprints}
+Unreal engine nativizing blueprints. 2019. Epic Games. WWW document. Available
+  at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Blueprints/TechnicalGuide/NativizingBlueprints}}
   [Accessed \changeformat{2019-04-04}].
 
-\bibitem[Epic Games(2019{\natexlab{j}})]{ue-playerstart}
-Unreal engine player start. 2019{\natexlab{j}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine player start(2019)]{ue-playerstart}
+Unreal engine player start. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Actors/PlayerStart}}
   [Accessed \changeformat{2019-05-20}].
 
-\bibitem[Epic Games(2019{\natexlab{n}})]{save-game}
-Unreal engine save game blueprint. 2019{\natexlab{n}}. Epic Games. WWW
-  document. Available at:
+\bibitem[Unreal engine save game blueprint(2019)]{save-game}
+Unreal engine save game blueprint. 2019. Epic Games. WWW document. Available
+  at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Gameplay/SaveGame/Blueprints/index.html}}
   [Accessed \changeformat{2019-06-02}].
 
-\bibitem[Epic Games(2019{\natexlab{g}})]{ue-skeletal-meshes}
-Unreal engine skeletal meshes. 2019{\natexlab{g}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine skeletal meshes(2019)]{ue-skeletal-meshes}
+Unreal engine skeletal meshes. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Content/Types/StaticMeshes}}
   [Accessed \changeformat{2019-05-24}].
 
-\bibitem[Epic Games(2019{\natexlab{f}})]{ue-static-meshes}
-Unreal engine static meshes. 2019{\natexlab{f}}. Epic Games. WWW document.
-  Available at:
+\bibitem[Unreal engine static meshes(2019)]{ue-static-meshes}
+Unreal engine static meshes. 2019. Epic Games. WWW document. Available at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-us/Engine/Content/Types/StaticMeshes}}
   [Accessed \changeformat{2019-05-24}].
 
-\bibitem[Epic Games(2019{\natexlab{e}})]{ue-traces}
-Unreal engine traces with raycasting. 2019{\natexlab{e}}. Epic Games. WWW
-  document. Available at:
+\bibitem[Unreal engine traces with raycasting(2019)]{ue-traces}
+Unreal engine traces with raycasting. 2019. Epic Games. WWW document. Available
+  at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Physics/Tracing}}
   [Accessed \changeformat{2019-05-23}].
 
-\bibitem[Epic Games(2019{\natexlab{i}})]{ue-umg}
-Unreal motion graphics ui designer. 2019{\natexlab{i}}. Epic Games. WWW
-  document. Available at:
+\bibitem[Unreal motion graphics ui designer(2019)]{ue-umg}
+Unreal motion graphics ui designer. 2019. Epic Games. WWW document. Available
+  at:
   \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/UMG/index.html}}
   [Accessed \changeformat{2019-06-02}].
 
-\bibitem[vrgluv(2018)]{vrgluv}
+\bibitem[Vrgluv(2018)]{vrgluv}
 Vrgluv. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://vrgluv.com/}} [Accessed
   \changeformat{2018-11-20}].
@@ -220,7 +231,7 @@ Wang, X. \& Dunston, P.~S. 2007. Design, strategies, and issues towards an
   pages 1--8.
 
 \bibitem[van Gimst(2018)]{nlr-vr}
-van Gimst, R.. 2018. Creating a high-fidelity and low-cost simulation
+van Gimst, R. 2018. Creating a high-fidelity and low-cost simulation
   environment. WWW document. Available at:
   \textcolor{blue}{\url{http://www.nlr.org/article/creating-a-high-fidelity-and-low-cost-helicopter-simulation-environment/}}
   [Accessed \changeformat{2018-06-24}].

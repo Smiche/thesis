@@ -1,8 +1,55 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: xamk.bst
 Database file #1: references.bib
+Consumer spending on ar/vr worldwide 2016-2021(2018
+Mullen \& Mullen(2011
+Ar experience of the white house(2016
+van Krevelen \& Poelman(2010
+Johnson et~al.(2010
+Kipper et~al.(2013
+Wang \& Dunston(2007
+Rabbi \& Ullah(2016
+Htc vive pro review(2018
+Hp z vr backpack overview(2018
+van Gimst(2018
+Gopinath \& Sawyer(1999
+A brief simulation training history(2019
+Martinali(2018
+Macedonia(2002
+Obsas cbrn system technical description(2019
+Obsas training material ver 3.0(2019
+Chemprodm chemical detector for mobile and vehicle applications(2018
+Carter(2014
+Cbrne world(2019
+Chemical, biological, radiological \& nuclear (cbrn) defence market report 2017-2027(2017
+Microsoft hololens device specifications(2018
+Buy microsoft hololens(2018
+Buy htc vive pro(2018
+Htc vive pro vs occulus rift(2018
+Vrgluv(2018
+Hi5 vr glove business edition(2018
+Lewis \& Jacobson(2002
+Dondlinger(2007
+Unreal engine levels(2019
+Unreal engine documentation(2019
+Unreal engine documentation introduction to blueprints(2019
+Unreal engine nativizing blueprints(2019
+Unreal engine traces with raycasting(2019
+Unreal engine static meshes(2019
+Unreal engine skeletal meshes(2019
+Unreal engine materials(2019
+Unreal motion graphics ui designer(2019
+Unreal engine player start(2019
+Unreal engine light sources(2019
+Hi5 vr glove user guide(2018
+McMenamin(2018
+About the vive controllers(2019
+Unreal engine cable component(2019
+Unreal engine blueprint spline component overview(2019
+Unreal engine save game blueprint(2019
 Warning--empty journal in simulation-training-history
 Warning--empty journal in ar-application-whitehouse
+Warning--empty journal in vive-controllers-photo
 Warning--empty journal in htc-vive-pro
 Warning--empty journal in hololens-price
 Warning--empty journal in cbrne-world
@@ -12,6 +59,7 @@ Warning--empty journal in cbrn-market-share
 Warning--empty journal in ar-vr-chart
 Warning--empty journal in goal-oriented-games
 Warning--empty journal in enterprise-simulation
+Warning--empty journal in hi5-vr-glove-docs
 Warning--empty journal in hi5-vr-glove
 Warning--empty journal in hp-vrbackpack
 Warning--empty journal in htc-vive-pro-review
@@ -20,6 +68,8 @@ Warning--empty journal in games-sim-mil
 Warning--empty journal in medical-sim-training
 Warning--empty school in collaborative-vr
 Warning--empty journal in hololens-specs
+Warning--empty journal in obsas-docs
+Warning--empty journal in obsas-training-docs
 Warning--empty journal in spline-component
 Warning--empty journal in cable-component
 Warning--empty journal in ue-actors
@@ -36,4 +86,4 @@ Warning--empty journal in ue-traces
 Warning--empty journal in ue-umg
 Warning--empty journal in vrgluv
 Warning--empty journal in nlr-vr
-(There were 35 warnings)
+(There were 39 warnings)

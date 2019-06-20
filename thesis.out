@@ -2,7 +2,7 @@
 \BOOKMARK [0][-]{chapter.2}{ aug-reality}{}% 2
 \BOOKMARK [1][-]{section.2.1}{Augmented reality}{chapter.2}% 3
 \BOOKMARK [2][-]{subsection.2.1.1}{AR for training and education}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{AR Challenges}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{AR challenges}{section.2.1}% 5
 \BOOKMARK [1][-]{section.2.2}{Virtual reality}{chapter.2}% 6
 \BOOKMARK [2][-]{subsection.2.2.1}{VR challenges}{section.2.2}% 7
 \BOOKMARK [2][-]{subsection.2.2.2}{VR for education and training}{section.2.2}% 8
@@ -18,12 +18,12 @@
 \BOOKMARK [0][-]{chapter.4}{ proj-def}{}% 18
 \BOOKMARK [1][-]{section.4.1}{Researching VR hardware and software}{chapter.4}% 19
 \BOOKMARK [1][-]{section.4.2}{Game engines}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.3}{Application Objectives}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.4}{Unreal Engine Level}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{Application objectives}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.4}{Unreal Engine level}{chapter.4}% 22
 \BOOKMARK [2][-]{subsection.4.4.1}{Actors}{section.4.4}% 23
 \BOOKMARK [2][-]{subsection.4.4.2}{Blueprints}{section.4.4}% 24
 \BOOKMARK [1][-]{section.4.5}{Physics simulation}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.6}{Static and Skeletal Meshes}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.6}{Static and Skeletal meshes}{chapter.4}% 26
 \BOOKMARK [1][-]{section.4.7}{Widget Components}{chapter.4}% 27
 \BOOKMARK [0][-]{chapter.5}{ proj-impl}{}% 28
 \BOOKMARK [1][-]{section.5.1}{Project setup}{chapter.5}% 29
@@ -31,7 +31,7 @@
 \BOOKMARK [1][-]{section.5.3}{Glove calibration and tracking}{chapter.5}% 31
 \BOOKMARK [1][-]{section.5.4}{Interacting with the virtual environment}{chapter.5}% 32
 \BOOKMARK [2][-]{subsection.5.4.1}{Gloves interaction}{section.5.4}% 33
-\BOOKMARK [2][-]{subsection.5.4.2}{VIVE Controllers interaction}{section.5.4}% 34
+\BOOKMARK [2][-]{subsection.5.4.2}{VIVE controllers interaction}{section.5.4}% 34
 \BOOKMARK [1][-]{section.5.5}{Virtual hardware layout and operation}{chapter.5}% 35
 \BOOKMARK [2][-]{subsection.5.5.1}{Devices and sensors}{section.5.5}% 36
 \BOOKMARK [2][-]{subsection.5.5.2}{Wiring devices}{section.5.5}% 37

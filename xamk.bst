@@ -750,8 +750,7 @@ FUNCTION {online}
 { output.bibitem
   author missing$
     { format.title output }
-    { format.authors "author" output.check
-      author format.key output }
+    { format.authors " " * write$ } %author format.key top$ %figure out key later/at some other point
   if$
   crossref missing$
     { journal emphasize "journal" output.check
@@ -784,20 +783,57 @@ FUNCTION {online}
 %  format.issn output
 %  format.doi output
 
+FUNCTION {document}
+{ output.bibitem
+  author missing$
+    { format.title output }
+    { format.authors " " * write$ } %author format.key top$ %figure out key later/at some other point
+  if$
+  crossref missing$
+    { journal emphasize "journal" output.check
+      eid empty$
+        { format.vol.num.pages output }
+        { format.vol.num.eid output }
+      if$
+      format.date "year" output.check
+    }
+    { format.article.crossref output.nonnull
+      eid empty$
+        { format.pages output }
+        { format.eid output }
+      if$
+    }
+  if$
+  author missing$
+    { publisher output }
+    { }
+  if$
+  author missing$
+    {}
+    { format.title "title" output.check }
+  if$
+  %format.url format.urldate * output
+  new.block
+  note output
+  fin.entry
+}
+
 FUNCTION {book}
 { output.bibitem
   author empty$
     { format.editors "author and editor" output.check
       editor format.key output
+      format.date "year" output.check
     }
-    { format.authors output.nonnull
-      crossref missing$
-        { "author and editor" editor either.or.check }
-        'skip$
-      if$
+    { format.authors " " *
+      format.date "year" output.check *
+
+      %crossref missing$
+      %  { "author and editor" editor either.or.check }
+      %  'skip$
+      %if$
     }
   if$
-  format.date "year" output.check
   format.title "title" output.check
   crossref missing$
     { format.bvolume output
@@ -983,15 +1019,14 @@ FUNCTION {mastersthesis}
 
 FUNCTION {thesis}
 { output.bibitem
-  format.authors "author" output.check
+  format.authors " " * write$ %"author" output.check
+  format.date "year" output.check
   author format.key output
-  new.block
   format.title "title" output.check
   new.block
   "Master's thesis" format.thesis.type output.nonnull
   school "school" output.check
   address output
-  format.date "year" output.check
   format.url output
   new.block
   note output
@@ -1258,12 +1293,21 @@ FUNCTION {calc.short.authors}
             { type$ "online" =
               author missing$
               and
-                { organization missing$
-                    { "Missing organization and author! " cite$ * warning$}
-                    { organization }
+                %{ organization missing$
+                %    { "Missing organization and author! " cite$ * warning$}
+                %    { organization }
+                %  if$
+                %}
+                { format.title }
+                {
+                  type$ "document" =
+                  author missing$
+                  and
+                    { format.title }
+                    { author.key.label }
                   if$
                 }
-                { author.key.label }
+                %{ author.key.label }
               if$
             }
           if$
@@ -1292,6 +1336,7 @@ FUNCTION {calc.label}
   if$
   *
   'label :=
+  label top$
 }
 
 INTEGERS { seq.num }

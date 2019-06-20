@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {2} \uppercase {Augmented reality and virtual reality}}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Augmented reality}{6}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}AR for training and education}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}AR Challenges}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}AR challenges}{7}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Virtual reality}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}VR challenges}{10}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}VR for education and training}{10}{subsection.2.2.2}
@@ -18,12 +18,12 @@
 \contentsline {chapter}{\numberline {4} \uppercase {Project definition}}{18}{chapter.4}
 \contentsline {section}{\numberline {4.1}Researching VR hardware and software}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}Game engines}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Application Objectives}{21}{section.4.3}
-\contentsline {section}{\numberline {4.4}Unreal Engine Level}{23}{section.4.4}
+\contentsline {section}{\numberline {4.3}Application objectives}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}Unreal Engine level}{23}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Actors}{24}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Blueprints}{25}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5}Physics simulation}{26}{section.4.5}
-\contentsline {section}{\numberline {4.6}Static and Skeletal Meshes}{27}{section.4.6}
+\contentsline {section}{\numberline {4.6}Static and Skeletal meshes}{27}{section.4.6}
 \contentsline {section}{\numberline {4.7}Widget Components}{28}{section.4.7}
 \contentsline {chapter}{\numberline {5} \uppercase {Project implementation}}{28}{chapter.5}
 \contentsline {section}{\numberline {5.1}Project setup}{29}{section.5.1}
@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {5.3}Glove calibration and tracking}{31}{section.5.3}
 \contentsline {section}{\numberline {5.4}Interacting with the virtual environment}{33}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Gloves interaction}{33}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}VIVE Controllers interaction}{35}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}VIVE controllers interaction}{35}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Virtual hardware layout and operation}{36}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Devices and sensors}{37}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Wiring devices}{38}{subsection.5.5.2}
@@ -41,5 +41,5 @@
 \contentsline {subsection}{\numberline {5.6.2}Objective instructions}{42}{subsection.5.6.2}
 \contentsline {subsection}{\numberline {5.6.3}Visual and auditory cues for events}{44}{subsection.5.6.3}
 \contentsline {section}{\numberline {5.7}Building and distributing the application}{45}{section.5.7}
-\contentsline {chapter}{\numberline {6} \uppercase {Results and conclusion}}{45}{chapter.6}
-\contentsline {chapter}{REFERENCES}{46}{chapter*.27}
+\contentsline {chapter}{\numberline {6} \uppercase {Results and conclusion}}{46}{chapter.6}
+\contentsline {chapter}{REFERENCES}{47}{chapter*.27}
