@@ -47,9 +47,13 @@ About the vive controllers(2019
 Unreal engine cable component(2019
 Unreal engine blueprint spline component overview(2019
 Unreal engine save game blueprint(2019
+Build configuration reference(2019
+Hardware and software specifications(2019
+Packaging projects(2019
 Warning--empty journal in simulation-training-history
 Warning--empty journal in ar-application-whitehouse
 Warning--empty journal in vive-controllers-photo
+Warning--empty journal in project-build
 Warning--empty journal in htc-vive-pro
 Warning--empty journal in hololens-price
 Warning--empty journal in cbrne-world
@@ -64,12 +68,14 @@ Warning--empty journal in hi5-vr-glove
 Warning--empty journal in hp-vrbackpack
 Warning--empty journal in htc-vive-pro-review
 Warning--empty journal in vive-vs-rift
+Warning--empty journal in hard-soft-specs
 Warning--empty journal in games-sim-mil
 Warning--empty journal in medical-sim-training
 Warning--empty school in collaborative-vr
 Warning--empty journal in hololens-specs
 Warning--empty journal in obsas-docs
 Warning--empty journal in obsas-training-docs
+Warning--empty journal in package-proj
 Warning--empty journal in spline-component
 Warning--empty journal in cable-component
 Warning--empty journal in ue-actors
@@ -86,4 +92,4 @@ Warning--empty journal in ue-traces
 Warning--empty journal in ue-umg
 Warning--empty journal in vrgluv
 Warning--empty journal in nlr-vr
-(There were 39 warnings)
+(There were 42 warnings)

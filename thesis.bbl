@@ -1,4 +1,4 @@
-\begin{thebibliography}{46}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,6 +20,11 @@ Ar experience of the white house. 2016. WWW document. Available at:
 About the vive controllers. 2019. HTC Corporation. WWW document. Available at:
   \textcolor{blue}{\url{https://www.vive.com/us/support/vive/category_howto/about-the-controllers.html}}
   [Accessed \changeformat{2019-06-20}].
+
+\bibitem[Build configuration reference(2019)]{project-build}
+Build configuration reference. 2019. Epic Games. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Programming/Development/BuildConfigurations/index.html}}
+  [Accessed \changeformat{2019-06-22}].
 
 \bibitem[Buy htc vive pro(2018)]{htc-vive-pro}
 Buy htc vive pro. 2018. WWW document. Available at:
@@ -93,6 +98,12 @@ Htc vive pro vs occulus rift. 2018. WWW document. Available at:
   \textcolor{blue}{\url{https://www.windowscentral.com/htc-vive-pro-vs-oculus-rift}}
   [Accessed \changeformat{2018-10-29}].
 
+\bibitem[Hardware and software specifications(2019)]{hard-soft-specs}
+Hardware and software specifications. 2019. Epic Games. WWW document. Available
+  at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/GettingStarted/RecommendedSpecifications/index.html}}
+  [Accessed \changeformat{2019-06-23}].
+
 \bibitem[Johnson et~al.(2010)Johnson, Levine, Smith, \& Stone]{horizon-report}
 Johnson, L., Levine, A., Smith, R., \& Stone, S. 2010. The horizon report.
 \newblock Educause Learning Initiative.
@@ -135,6 +146,11 @@ Obsas cbrn system technical description. 2019. Observis Oy.
 
 \bibitem[Obsas training material ver 3.0(2019)]{obsas-training-docs}
 Obsas training material ver 3.0. 2019. Observis Oy.
+
+\bibitem[Packaging projects(2019)]{package-proj}
+Packaging projects. 2019. Epic Games. WWW document. Available at:
+  \textcolor{blue}{\url{https://docs.unrealengine.com/en-US/Engine/Basics/Projects/Packaging/index.html}}
+  [Accessed \changeformat{2019-06-23}].
 
 \bibitem[Rabbi \& Ullah(2016)]{Acta-Graphica}
 Rabbi, I. \& Ullah, S. 2016. A survey on augmented reality challenges and
