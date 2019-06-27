@@ -592,7 +592,7 @@ Level design begins with the layout and orientation of the different meshes. The
 The player starting point is placed in the interior of a conversion van \Cref{fig:vehicle-interior}. If the starting point Actor is colliding with objects in the scene an icon "BADsize" will appear. This means that the starting point is invalid and the engine will try to find the nearest valid starting point. During the development process the camera location in the editor can be used as a strating point which speeds up testing. \citeyeartitlexamk{ue-playerstart}
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{vehicle-interior}
-	\caption{Starting Level Vehicle Interior}
+	\caption{Starting Level Vehicle Interior \citeyearpar{obsas-assets}}
 	\label{fig:vehicle-interior}
 \end{figure}
 \par
@@ -626,7 +626,7 @@ Using gloves to interact with objects in the virtual environment can be achieved
 Holding and moving objects becomes possible with these settings. The interaction is similar to real life hand interaction \Cref{fig:gloves-grab}. Hands and objects block each other on the surface level and do not overlap. One main difference is the haptic feedback real life interaction provides. A person feels the surface of objects, but in VR it is only feasible to have visual feedback. Hi5 VR Gloves have vibration feedback, but this is not isolated to individual fingers, it rather affects the whole glove. This makes vibration feedback unusable for feeling surfaces.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{gloves-grab}
-	\caption{Holding object with gloves}
+	\caption{Holding object with gloves \citeyearpar{obsas-assets}}
 	\label{fig:gloves-grab}
 \end{figure}
 \par
@@ -675,7 +675,7 @@ Dynamic cable components are needed for interactive objects such as connectors w
 Static cables in the scene do not move during runtime. These cables are used for connecting objects in the scene that also do not change location. One example for such a cable is the connection between the Power Distribution Box and TRAX-10 computer. Neither of these components is designed to be moved by the end user so the cable between them doesn't need to be movable in VR either.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{cable-grab}
-	\caption{Cable Component attached to objects}
+	\caption{Cable Component attached to objects \citeyearpar{obsas-assets}}
 	\label{fig:cable-grab}
 \end{figure}
 Blueprint Spline Component is a component for creating paths. The path is comprised of points and a spline connecting them. This component has two primary uses \citeyeartitlexamkinline{spline-component}. The first use is to move an actor across the spline or repeat actors across the spline. In this project the ability of the spline component to repeat actors along a path is utilized. A new Actor Blueprint is created and a Spline Component is added to its root. Logic is added to the construction script function to add a spline mesh of a cylinder for each spline point. The start of the cylinder spline mesh is the current spline point and the end for the spline mesh is the next spline point. The construction script function is called whever the actor is added to the scene or modified \Cref{fig:spline-component}. 
@@ -715,7 +715,7 @@ Instructions about the different objectives need to be provided to the applicati
 The primary media types for instructions are text and images. These media types are two dimensional which makes Widgets a good candidate for the delivery of instructions. A virtual widescreen display will be utilised to show these instructions. Firstly, a UserWidget is created for every instruction. Each UserWidget contains text and image elements that guide the user and explain what actions need to be taken. These widgets will not be modified on runtime and will not contain logic. Secondly a new WidgetComponent is created and named ScreenComponent. It contains a white Image element which is used for the text background. Furthermore all the UserWidgets created earlier are added to a WidgetSwitcher component, which itself is added to the ScreenComponent. The WidgetSwitcher component is a simple component which is used to control what is shown from the list of its child components. Lastly the ScreenWidget is listening to objective change events and commands the WidgetSwitcher what instruction widget should be shown. After performing this setup the 2D behavior of the ScreenWidget is complete.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{screen-component}
-	\caption{ScreenComponent added to the scene}
+	\caption{ScreenComponent added to the scene \citeyearpar{obsas-assets}}
 	\label{fig:screen-component}
 \end{figure}
 \par
@@ -728,7 +728,7 @@ Events on devices can be generated either by a change of the device's own state 
 Visualizing of events is accomplished by changing the visual appearance of the scene, by adding, removing or modifying scene actors. One visualization tool used for real life sensor devices is LEDs that indicate status of the device. This is replicated in UE by using a PointLight as an LED light source and setting its visibility on or off, depending on the virtual device status \Cref{fig:visualizing-status}. This method is quite intuitive for the user as it is similar to real life visualization. Another visualization method used in this project is the display of text and images with Widget Components. This method was further discussed in Section \ref{objective-instructions-section}.
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{visualizing-status}
-	\caption{Power status LEDs}
+	\caption{Power status LEDs \citeyearpar{obsas-assets}}
 	\label{fig:visualizing-status}
 \end{figure}
 \par
@@ -740,7 +740,17 @@ Running the project from Unreal Studio during development is the preferred appro
 \par
 The better approach an application in a production environment is to use a distribution package. This package is self-contained, which means it carries all the necessary assets and executables to run by itself. The package is also in the specific format required by the target platform it will run on, whether that would be Android, Windows or Mac. Building the package is done with the Unreal Studio Package Project wizard. Options are available for target platform, level loading methods, package compression, signing, encryption and others. After selecting the required options the wizard will go through all project build steps and create the distributable package of the application. When applied to the ObSAS training application the end result is an application package that can be copied to other computers and executed. \citeyeartitlexamk{package-proj}
 \par
-\chapter{\texorpdfstring{Results and conclusion}{results-conclusion}}
+\chapter{\texorpdfstring{Results and discussion}{results-discussion}}
+This thesis project resulted in the creation of a training VR application for the ObSAS software. The goals of this application were to create a better training environment and provide a virtual demo of the ObSAS product for the Observis Oy sales department. The application places users inside a virtual vehicle with various sensors and devices, and guides the user through basic operations.
+\par
+The possibilities provided by the various mixed reality platforms were analyzed and compared in the context of a training application. Goals of the CBRN field were discussed and their importance to the project was explained. Various terms and concepts related to mixed reality and game engines were explained in detail. Development was done with Unreal Engine and it was documented in this thesis.
+\par
+The thesis project reached its original goals. The main form of validation throughout the development process was obtaining feedback from Observis Oy employees. The resulting application will likely be used as a showcase of ObSAS at the 13th CBRNe Protection Symposium in Malmö.
+\par
+The developed training application currently does not resemble closely any real ObSAS project, but is a great general starting point. It will be used as a template in the future, that will be modified to match the environment of real cases. The development process documentation should ease future development cycles.
+\par
+A lot of diffuculties were encountered while setting up the hardware, first due to malfunctioning cable and gpu and later on due to interference. Once these were resolved development with Unreal Engine was rather pleasant. Very few bugs and crashes were encountered and documentation was plentiful. Hi5 VR Gloves on the other hand had a sparsly documented API, plugin and examples which made it difficult to create a minimal working example. In the end a satisfactory result was achieved, but further calibration and fine tuning is required to make the experience better. Radio interference also needs to be tested in a congested area.
+\par
 
 \newpage
 
