@@ -1,2 +1,89 @@
 {
-}
+    "workbench.colorTheme": "Solarized Dark",
+    "hexdump.littleEndian": false,
+    "files.autoSave": "on",
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.bracketSpacing": true,
+    "explorer.autoReveal": false,
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 16,
+    "powermode.enabled": false,
+    "editor.lineHighlightBackground": "#1E1E1EAA",
+    "workbench.editor.enablePreview": false,
+    "prettier.jsxBracketSameLine": true,
+    "latex-workshop.latex.toolchain": [
+      {
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "command": "bibtex",
+        "args": ["%DOCFILE%"]
+      },
+      {
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      },
+      {
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ]
+      }
+    ],
+    "git.autofetch": true,
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "pdflatex -> bibtex -> pdflatex*2",
+        "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+      },
+      {
+        "name": "latexmk",
+        "tools": ["latexmk"]
+      },
+      {
+        "name": "bibtext",
+        "tools": ["bibtex"]
+      }
+    ],
+    "window.zoomLevel": 0,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+      "*.sld": "xml"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "svn.enableProposedApi": "none",
+    "diffEditor.renderSideBySide": false,
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.rendererType": "dom"
+  }
+  
